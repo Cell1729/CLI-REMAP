@@ -65,6 +65,30 @@ class KeycodeSelectModal(ModalScreen):
                 except ValueError:
                     pass
 
+class KeyboardSelectModal(ModalScreen):
+    """保存されているキーボード設定を選択するためのモーダル"""
+    def __init__(self, configs: list[dict[str, any]]):
+        super().__init__()
+        self.configs = configs
+
+    def compose(self) -> ComposeResult:
+        with Vertical(id="keyboard-select-container"):
+            yield Label("Select Keyboard Layout", id="modal-title")
+            with ListView(id="config-list"):
+                for cfg in self.configs:
+                    yield ListItem(Label(cfg['name']), id=f"cfg_{cfg['path'].stem}")
+            with Horizontal(id="modal-footer"):
+                yield Button("Cancel", id="cancel-btn", variant="error")
+
+    def on_list_view_selected(self, event: ListView.Selected) -> None:
+        idx = self.query_one("#config-list").index
+        if idx is not None:
+            self.dismiss(self.configs[idx])
+
+    def on_button_pressed(self, event: Button.Pressed) -> None:
+        if event.button.id == "cancel-btn":
+            self.dismiss(None)
+
 class KeyButton(Button):
     """個別のキーを表すウィジェット"""
     def __init__(self, key_info, **kwargs):
@@ -166,24 +190,35 @@ class KeyboardRemapApp(App):
         width: 20%;
         height: 3;
     }
+    #keyboard-select-container {
+        width: 60%;
+        height: 50%;
+        border: thick $primary;
+        background: $surface;
+    }
+    #config-list {
+        height: 1fr;
+    }
     """
 
     BINDINGS = [
         ("q", "quit", "Quit"),
         ("d", "toggle_dark", "Toggle dark mode"),
         ("s", "sync", "Sync Keymap"),
+        ("l", "load_config", "Load JSON"),
     ]
 
-    def __init__(self, config: KeyboardConfig, backend: KeyboardBackend, keycodes: list):
+    def __init__(self, config: KeyboardConfig | None, backend: KeyboardBackend, keycodes: list):
         super().__init__()
-        self.config = config
+        self.kb_config = config
         self.backend = backend
         self.keycodes = keycodes
         self.current_layer = 0
         self.keycode_map = {int(kc['code'], 16): kc['name'] for kc in keycodes}
 
     def on_mount(self) -> None:
-        self.action_sync()
+        if self.kb_config:
+            self.action_sync()
 
     def action_sync(self) -> None:
         """実機からキーマップを読み取ってボタンを更新"""
@@ -191,6 +226,10 @@ class KeyboardRemapApp(App):
             self.notify("No device connected", severity="error")
             return
         
+        if not self.kb_config:
+            self.notify("No keyboard layout loaded", severity="warning")
+            return
+
         self.notify(f"Syncing layer {self.current_layer}...")
         for btn in self.query(KeyButton):
             try:
@@ -199,6 +238,33 @@ class KeyboardRemapApp(App):
                 btn.label = name
             except Exception as e:
                 btn.label = "ERR"
+
+    def action_load_config(self) -> None:
+        """キーボード設定ファイルを手動で選択して読み込む"""
+        kb_dir = Path("data/keyboards")
+        configs = []
+        for json_file in kb_dir.glob("*.json"):
+            try:
+                with open(json_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    configs.append({
+                        "name": data.get("name", json_file.name),
+                        "path": json_file,
+                        "data": data
+                    })
+            except:
+                continue
+        
+        def handle_selected(selected: dict | None):
+            if selected:
+                try:
+                    self.kb_config = KeyboardConfig(**selected['data'])
+                    self.notify(f"Loaded {selected['name']}")
+                    self.recompose()
+                except Exception as e:
+                    self.notify(f"Error loading config: {e}", severity="error")
+
+        self.push_screen(KeyboardSelectModal(configs), handle_selected)
 
     def compose(self) -> ComposeResult:
         yield Header()
@@ -217,10 +283,13 @@ class KeyboardRemapApp(App):
                             yield ListItem(Label(f"Layer {i}"))
                 
                 with Vertical(id="layout-area"):
-                    for row in self.config.layouts.keymap:
-                        with Horizontal(classes="row"):
-                            for key_info in row:
-                                yield KeyButton(key_info)
+                    if self.kb_config:
+                        for row in self.kb_config.layouts.keymap:
+                            with Horizontal(classes="row"):
+                                for key_info in row:
+                                    yield KeyButton(key_info)
+                    else:
+                        yield Label("No Keyboard Layout Loaded. Press 'L' to load JSON.", id="no-config-label")
             
             with Container(id="info-panel"):
                 yield Label("Key Info:", id="key-title")
@@ -246,17 +315,35 @@ class KeyboardRemapApp(App):
 
     def on_list_view_selected(self, event: ListView.Selected) -> None:
         idx = self.query_one("#layer-list").index
-        if idx != self.current_layer:
+        if idx is not None and idx != self.current_layer:
             self.current_layer = idx
             self.action_sync()
 
+def find_matching_config(vid: int, pid: int) -> KeyboardConfig | None:
+    kb_dir = Path("data/keyboards")
+    for json_file in kb_dir.glob("*.json"):
+        try:
+            with open(json_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                cfg = KeyboardConfig(**data)
+                if cfg.vid == vid and cfg.pid == pid:
+                    return cfg
+        except:
+            continue
+    return None
+
 if __name__ == "__main__":
-    with open("data/keyboards/sample_pad.json", "r") as f:
-        config = KeyboardConfig(**json.load(f))
-    with open("data/keycodes.json", "r") as f:
+    with open("data/keycodes.json", "r", encoding="utf-8") as f:
         keycodes = json.load(f)
-    backend = KeyboardBackend()
-    backend.find_and_connect()
     
+    backend = KeyboardBackend()
+    connected = backend.find_and_connect()
+    
+    config = None
+    if connected:
+        vid = backend.device.vendor_id
+        pid = backend.device.product_id
+        config = find_matching_config(vid, pid)
+
     app = KeyboardRemapApp(config, backend, keycodes)
     app.run()
