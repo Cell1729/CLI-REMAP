@@ -1,6 +1,7 @@
 # Antigravityが生成するファイル
 implementation_plan.md
 task.md
+walkthrough.md
 
 # 仮想環境
 .venv

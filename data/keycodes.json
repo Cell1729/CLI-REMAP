@@ -1,6687 +1,1707 @@
 [
-  {
-    "name": "BL_BRTG",
-    "code": "0x7806",
-    "category": "Lighting"
-  },
-  {
-    "name": "BL_DEC",
-    "code": "0x7803",
-    "category": "Lighting"
-  },
-  {
-    "name": "BL_INC",
-    "code": "0x7804",
-    "category": "Lighting"
-  },
-  {
-    "name": "BL_OFF",
-    "code": "0x7801",
-    "category": "Lighting"
-  },
-  {
-    "name": "BL_ON",
-    "code": "0x7800",
-    "category": "Lighting"
-  },
-  {
-    "name": "BL_STEP",
-    "code": "0x7805",
-    "category": "Lighting"
-  },
-  {
-    "name": "BL_TOGG",
-    "code": "0x7802",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_HUD",
-    "code": "0x7824",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_HUI",
-    "code": "0x7823",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_MOD",
-    "code": "0x7821",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_M_B",
-    "code": "0x782c",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_M_G",
-    "code": "0x7832",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_M_K",
-    "code": "0x7830",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_M_P",
-    "code": "0x782b",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_M_R",
-    "code": "0x782d",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_M_SN",
-    "code": "0x782f",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_M_SW",
-    "code": "0x782e",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_M_T",
-    "code": "0x7833",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_M_X",
-    "code": "0x7831",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_RMOD",
-    "code": "0x7822",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_SAD",
-    "code": "0x7826",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_SAI",
-    "code": "0x7825",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_SPD",
-    "code": "0x782a",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_SPI",
-    "code": "0x7829",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_TOG",
-    "code": "0x7820",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_VAD",
-    "code": "0x7828",
-    "category": "Lighting"
-  },
-  {
-    "name": "RGB_VAI",
-    "code": "0x7827",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_HUED",
-    "code": "0x7846",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_HUEU",
-    "code": "0x7845",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_NEXT",
-    "code": "0x7843",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_OFF",
-    "code": "0x7841",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_ON",
-    "code": "0x7840",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_PREV",
-    "code": "0x7844",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_SATD",
-    "code": "0x7848",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_SATU",
-    "code": "0x7847",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_SPDD",
-    "code": "0x784c",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_SPDU",
-    "code": "0x784b",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_TOGG",
-    "code": "0x7842",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_VALD",
-    "code": "0x784a",
-    "category": "Lighting"
-  },
-  {
-    "name": "RM_VALU",
-    "code": "0x7849",
-    "category": "Lighting"
-  },
-  {
-    "name": "DYN_MACRO_PLAY1",
-    "code": "0x7c56",
-    "category": "MACRO"
-  },
-  {
-    "name": "DYN_MACRO_PLAY2",
-    "code": "0x7c57",
-    "category": "MACRO"
-  },
-  {
-    "name": "M0",
-    "code": "0x7700",
-    "category": "MACRO"
-  },
-  {
-    "name": "M1",
-    "code": "0x7701",
-    "category": "MACRO"
-  },
-  {
-    "name": "M10",
-    "code": "0x770a",
-    "category": "MACRO"
-  },
-  {
-    "name": "M100",
-    "code": "0x7764",
-    "category": "MACRO"
-  },
-  {
-    "name": "M101",
-    "code": "0x7765",
-    "category": "MACRO"
-  },
-  {
-    "name": "M102",
-    "code": "0x7766",
-    "category": "MACRO"
-  },
-  {
-    "name": "M103",
-    "code": "0x7767",
-    "category": "MACRO"
-  },
-  {
-    "name": "M104",
-    "code": "0x7768",
-    "category": "MACRO"
-  },
-  {
-    "name": "M105",
-    "code": "0x7769",
-    "category": "MACRO"
-  },
-  {
-    "name": "M106",
-    "code": "0x776a",
-    "category": "MACRO"
-  },
-  {
-    "name": "M107",
-    "code": "0x776b",
-    "category": "MACRO"
-  },
-  {
-    "name": "M108",
-    "code": "0x776c",
-    "category": "MACRO"
-  },
-  {
-    "name": "M109",
-    "code": "0x776d",
-    "category": "MACRO"
-  },
-  {
-    "name": "M11",
-    "code": "0x770b",
-    "category": "MACRO"
-  },
-  {
-    "name": "M110",
-    "code": "0x776e",
-    "category": "MACRO"
-  },
-  {
-    "name": "M111",
-    "code": "0x776f",
-    "category": "MACRO"
-  },
-  {
-    "name": "M112",
-    "code": "0x7770",
-    "category": "MACRO"
-  },
-  {
-    "name": "M113",
-    "code": "0x7771",
-    "category": "MACRO"
-  },
-  {
-    "name": "M114",
-    "code": "0x7772",
-    "category": "MACRO"
-  },
-  {
-    "name": "M115",
-    "code": "0x7773",
-    "category": "MACRO"
-  },
-  {
-    "name": "M116",
-    "code": "0x7774",
-    "category": "MACRO"
-  },
-  {
-    "name": "M117",
-    "code": "0x7775",
-    "category": "MACRO"
-  },
-  {
-    "name": "M118",
-    "code": "0x7776",
-    "category": "MACRO"
-  },
-  {
-    "name": "M119",
-    "code": "0x7777",
-    "category": "MACRO"
-  },
-  {
-    "name": "M12",
-    "code": "0x770c",
-    "category": "MACRO"
-  },
-  {
-    "name": "M120",
-    "code": "0x7778",
-    "category": "MACRO"
-  },
-  {
-    "name": "M121",
-    "code": "0x7779",
-    "category": "MACRO"
-  },
-  {
-    "name": "M122",
-    "code": "0x777a",
-    "category": "MACRO"
-  },
-  {
-    "name": "M123",
-    "code": "0x777b",
-    "category": "MACRO"
-  },
-  {
-    "name": "M124",
-    "code": "0x777c",
-    "category": "MACRO"
-  },
-  {
-    "name": "M125",
-    "code": "0x777d",
-    "category": "MACRO"
-  },
-  {
-    "name": "M126",
-    "code": "0x777e",
-    "category": "MACRO"
-  },
-  {
-    "name": "M127",
-    "code": "0x777f",
-    "category": "MACRO"
-  },
-  {
-    "name": "M128",
-    "code": "0x7780",
-    "category": "MACRO"
-  },
-  {
-    "name": "M129",
-    "code": "0x7781",
-    "category": "MACRO"
-  },
-  {
-    "name": "M13",
-    "code": "0x770d",
-    "category": "MACRO"
-  },
-  {
-    "name": "M130",
-    "code": "0x7782",
-    "category": "MACRO"
-  },
-  {
-    "name": "M131",
-    "code": "0x7783",
-    "category": "MACRO"
-  },
-  {
-    "name": "M132",
-    "code": "0x7784",
-    "category": "MACRO"
-  },
-  {
-    "name": "M133",
-    "code": "0x7785",
-    "category": "MACRO"
-  },
-  {
-    "name": "M134",
-    "code": "0x7786",
-    "category": "MACRO"
-  },
-  {
-    "name": "M135",
-    "code": "0x7787",
-    "category": "MACRO"
-  },
-  {
-    "name": "M136",
-    "code": "0x7788",
-    "category": "MACRO"
-  },
-  {
-    "name": "M137",
-    "code": "0x7789",
-    "category": "MACRO"
-  },
-  {
-    "name": "M138",
-    "code": "0x778a",
-    "category": "MACRO"
-  },
-  {
-    "name": "M139",
-    "code": "0x778b",
-    "category": "MACRO"
-  },
-  {
-    "name": "M14",
-    "code": "0x770e",
-    "category": "MACRO"
-  },
-  {
-    "name": "M140",
-    "code": "0x778c",
-    "category": "MACRO"
-  },
-  {
-    "name": "M141",
-    "code": "0x778d",
-    "category": "MACRO"
-  },
-  {
-    "name": "M142",
-    "code": "0x778e",
-    "category": "MACRO"
-  },
-  {
-    "name": "M143",
-    "code": "0x778f",
-    "category": "MACRO"
-  },
-  {
-    "name": "M144",
-    "code": "0x7790",
-    "category": "MACRO"
-  },
-  {
-    "name": "M145",
-    "code": "0x7791",
-    "category": "MACRO"
-  },
-  {
-    "name": "M146",
-    "code": "0x7792",
-    "category": "MACRO"
-  },
-  {
-    "name": "M147",
-    "code": "0x7793",
-    "category": "MACRO"
-  },
-  {
-    "name": "M148",
-    "code": "0x7794",
-    "category": "MACRO"
-  },
-  {
-    "name": "M149",
-    "code": "0x7795",
-    "category": "MACRO"
-  },
-  {
-    "name": "M15",
-    "code": "0x770f",
-    "category": "MACRO"
-  },
-  {
-    "name": "M150",
-    "code": "0x7796",
-    "category": "MACRO"
-  },
-  {
-    "name": "M151",
-    "code": "0x7797",
-    "category": "MACRO"
-  },
-  {
-    "name": "M152",
-    "code": "0x7798",
-    "category": "MACRO"
-  },
-  {
-    "name": "M153",
-    "code": "0x7799",
-    "category": "MACRO"
-  },
-  {
-    "name": "M154",
-    "code": "0x779a",
-    "category": "MACRO"
-  },
-  {
-    "name": "M155",
-    "code": "0x779b",
-    "category": "MACRO"
-  },
-  {
-    "name": "M156",
-    "code": "0x779c",
-    "category": "MACRO"
-  },
-  {
-    "name": "M157",
-    "code": "0x779d",
-    "category": "MACRO"
-  },
-  {
-    "name": "M158",
-    "code": "0x779e",
-    "category": "MACRO"
-  },
-  {
-    "name": "M159",
-    "code": "0x779f",
-    "category": "MACRO"
-  },
-  {
-    "name": "M16",
-    "code": "0x7710",
-    "category": "MACRO"
-  },
-  {
-    "name": "M160",
-    "code": "0x77a0",
-    "category": "MACRO"
-  },
-  {
-    "name": "M161",
-    "code": "0x77a1",
-    "category": "MACRO"
-  },
-  {
-    "name": "M162",
-    "code": "0x77a2",
-    "category": "MACRO"
-  },
-  {
-    "name": "M163",
-    "code": "0x77a3",
-    "category": "MACRO"
-  },
-  {
-    "name": "M164",
-    "code": "0x77a4",
-    "category": "MACRO"
-  },
-  {
-    "name": "M165",
-    "code": "0x77a5",
-    "category": "MACRO"
-  },
-  {
-    "name": "M166",
-    "code": "0x77a6",
-    "category": "MACRO"
-  },
-  {
-    "name": "M167",
-    "code": "0x77a7",
-    "category": "MACRO"
-  },
-  {
-    "name": "M168",
-    "code": "0x77a8",
-    "category": "MACRO"
-  },
-  {
-    "name": "M169",
-    "code": "0x77a9",
-    "category": "MACRO"
-  },
-  {
-    "name": "M17",
-    "code": "0x7711",
-    "category": "MACRO"
-  },
-  {
-    "name": "M170",
-    "code": "0x77aa",
-    "category": "MACRO"
-  },
-  {
-    "name": "M171",
-    "code": "0x77ab",
-    "category": "MACRO"
-  },
-  {
-    "name": "M172",
-    "code": "0x77ac",
-    "category": "MACRO"
-  },
-  {
-    "name": "M173",
-    "code": "0x77ad",
-    "category": "MACRO"
-  },
-  {
-    "name": "M174",
-    "code": "0x77ae",
-    "category": "MACRO"
-  },
-  {
-    "name": "M175",
-    "code": "0x77af",
-    "category": "MACRO"
-  },
-  {
-    "name": "M176",
-    "code": "0x77b0",
-    "category": "MACRO"
-  },
-  {
-    "name": "M177",
-    "code": "0x77b1",
-    "category": "MACRO"
-  },
-  {
-    "name": "M178",
-    "code": "0x77b2",
-    "category": "MACRO"
-  },
-  {
-    "name": "M179",
-    "code": "0x77b3",
-    "category": "MACRO"
-  },
-  {
-    "name": "M18",
-    "code": "0x7712",
-    "category": "MACRO"
-  },
-  {
-    "name": "M180",
-    "code": "0x77b4",
-    "category": "MACRO"
-  },
-  {
-    "name": "M181",
-    "code": "0x77b5",
-    "category": "MACRO"
-  },
-  {
-    "name": "M182",
-    "code": "0x77b6",
-    "category": "MACRO"
-  },
-  {
-    "name": "M183",
-    "code": "0x77b7",
-    "category": "MACRO"
-  },
-  {
-    "name": "M184",
-    "code": "0x77b8",
-    "category": "MACRO"
-  },
-  {
-    "name": "M185",
-    "code": "0x77b9",
-    "category": "MACRO"
-  },
-  {
-    "name": "M186",
-    "code": "0x77ba",
-    "category": "MACRO"
-  },
-  {
-    "name": "M187",
-    "code": "0x77bb",
-    "category": "MACRO"
-  },
-  {
-    "name": "M188",
-    "code": "0x77bc",
-    "category": "MACRO"
-  },
-  {
-    "name": "M189",
-    "code": "0x77bd",
-    "category": "MACRO"
-  },
-  {
-    "name": "M19",
-    "code": "0x7713",
-    "category": "MACRO"
-  },
-  {
-    "name": "M190",
-    "code": "0x77be",
-    "category": "MACRO"
-  },
-  {
-    "name": "M191",
-    "code": "0x77bf",
-    "category": "MACRO"
-  },
-  {
-    "name": "M192",
-    "code": "0x77c0",
-    "category": "MACRO"
-  },
-  {
-    "name": "M193",
-    "code": "0x77c1",
-    "category": "MACRO"
-  },
-  {
-    "name": "M194",
-    "code": "0x77c2",
-    "category": "MACRO"
-  },
-  {
-    "name": "M195",
-    "code": "0x77c3",
-    "category": "MACRO"
-  },
-  {
-    "name": "M196",
-    "code": "0x77c4",
-    "category": "MACRO"
-  },
-  {
-    "name": "M197",
-    "code": "0x77c5",
-    "category": "MACRO"
-  },
-  {
-    "name": "M198",
-    "code": "0x77c6",
-    "category": "MACRO"
-  },
-  {
-    "name": "M199",
-    "code": "0x77c7",
-    "category": "MACRO"
-  },
-  {
-    "name": "M2",
-    "code": "0x7702",
-    "category": "MACRO"
-  },
-  {
-    "name": "M20",
-    "code": "0x7714",
-    "category": "MACRO"
-  },
-  {
-    "name": "M200",
-    "code": "0x77c8",
-    "category": "MACRO"
-  },
-  {
-    "name": "M201",
-    "code": "0x77c9",
-    "category": "MACRO"
-  },
-  {
-    "name": "M202",
-    "code": "0x77ca",
-    "category": "MACRO"
-  },
-  {
-    "name": "M203",
-    "code": "0x77cb",
-    "category": "MACRO"
-  },
-  {
-    "name": "M204",
-    "code": "0x77cc",
-    "category": "MACRO"
-  },
-  {
-    "name": "M205",
-    "code": "0x77cd",
-    "category": "MACRO"
-  },
-  {
-    "name": "M206",
-    "code": "0x77ce",
-    "category": "MACRO"
-  },
-  {
-    "name": "M207",
-    "code": "0x77cf",
-    "category": "MACRO"
-  },
-  {
-    "name": "M208",
-    "code": "0x77d0",
-    "category": "MACRO"
-  },
-  {
-    "name": "M209",
-    "code": "0x77d1",
-    "category": "MACRO"
-  },
-  {
-    "name": "M21",
-    "code": "0x7715",
-    "category": "MACRO"
-  },
-  {
-    "name": "M210",
-    "code": "0x77d2",
-    "category": "MACRO"
-  },
-  {
-    "name": "M211",
-    "code": "0x77d3",
-    "category": "MACRO"
-  },
-  {
-    "name": "M212",
-    "code": "0x77d4",
-    "category": "MACRO"
-  },
-  {
-    "name": "M213",
-    "code": "0x77d5",
-    "category": "MACRO"
-  },
-  {
-    "name": "M214",
-    "code": "0x77d6",
-    "category": "MACRO"
-  },
-  {
-    "name": "M215",
-    "code": "0x77d7",
-    "category": "MACRO"
-  },
-  {
-    "name": "M216",
-    "code": "0x77d8",
-    "category": "MACRO"
-  },
-  {
-    "name": "M217",
-    "code": "0x77d9",
-    "category": "MACRO"
-  },
-  {
-    "name": "M218",
-    "code": "0x77da",
-    "category": "MACRO"
-  },
-  {
-    "name": "M219",
-    "code": "0x77db",
-    "category": "MACRO"
-  },
-  {
-    "name": "M22",
-    "code": "0x7716",
-    "category": "MACRO"
-  },
-  {
-    "name": "M220",
-    "code": "0x77dc",
-    "category": "MACRO"
-  },
-  {
-    "name": "M221",
-    "code": "0x77dd",
-    "category": "MACRO"
-  },
-  {
-    "name": "M222",
-    "code": "0x77de",
-    "category": "MACRO"
-  },
-  {
-    "name": "M223",
-    "code": "0x77df",
-    "category": "MACRO"
-  },
-  {
-    "name": "M224",
-    "code": "0x77e0",
-    "category": "MACRO"
-  },
-  {
-    "name": "M225",
-    "code": "0x77e1",
-    "category": "MACRO"
-  },
-  {
-    "name": "M226",
-    "code": "0x77e2",
-    "category": "MACRO"
-  },
-  {
-    "name": "M227",
-    "code": "0x77e3",
-    "category": "MACRO"
-  },
-  {
-    "name": "M228",
-    "code": "0x77e4",
-    "category": "MACRO"
-  },
-  {
-    "name": "M229",
-    "code": "0x77e5",
-    "category": "MACRO"
-  },
-  {
-    "name": "M23",
-    "code": "0x7717",
-    "category": "MACRO"
-  },
-  {
-    "name": "M230",
-    "code": "0x77e6",
-    "category": "MACRO"
-  },
-  {
-    "name": "M231",
-    "code": "0x77e7",
-    "category": "MACRO"
-  },
-  {
-    "name": "M232",
-    "code": "0x77e8",
-    "category": "MACRO"
-  },
-  {
-    "name": "M233",
-    "code": "0x77e9",
-    "category": "MACRO"
-  },
-  {
-    "name": "M234",
-    "code": "0x77ea",
-    "category": "MACRO"
-  },
-  {
-    "name": "M235",
-    "code": "0x77eb",
-    "category": "MACRO"
-  },
-  {
-    "name": "M236",
-    "code": "0x77ec",
-    "category": "MACRO"
-  },
-  {
-    "name": "M237",
-    "code": "0x77ed",
-    "category": "MACRO"
-  },
-  {
-    "name": "M238",
-    "code": "0x77ee",
-    "category": "MACRO"
-  },
-  {
-    "name": "M239",
-    "code": "0x77ef",
-    "category": "MACRO"
-  },
-  {
-    "name": "M24",
-    "code": "0x7718",
-    "category": "MACRO"
-  },
-  {
-    "name": "M240",
-    "code": "0x77f0",
-    "category": "MACRO"
-  },
-  {
-    "name": "M241",
-    "code": "0x77f1",
-    "category": "MACRO"
-  },
-  {
-    "name": "M242",
-    "code": "0x77f2",
-    "category": "MACRO"
-  },
-  {
-    "name": "M243",
-    "code": "0x77f3",
-    "category": "MACRO"
-  },
-  {
-    "name": "M244",
-    "code": "0x77f4",
-    "category": "MACRO"
-  },
-  {
-    "name": "M245",
-    "code": "0x77f5",
-    "category": "MACRO"
-  },
-  {
-    "name": "M246",
-    "code": "0x77f6",
-    "category": "MACRO"
-  },
-  {
-    "name": "M247",
-    "code": "0x77f7",
-    "category": "MACRO"
-  },
-  {
-    "name": "M248",
-    "code": "0x77f8",
-    "category": "MACRO"
-  },
-  {
-    "name": "M249",
-    "code": "0x77f9",
-    "category": "MACRO"
-  },
-  {
-    "name": "M25",
-    "code": "0x7719",
-    "category": "MACRO"
-  },
-  {
-    "name": "M250",
-    "code": "0x77fa",
-    "category": "MACRO"
-  },
-  {
-    "name": "M251",
-    "code": "0x77fb",
-    "category": "MACRO"
-  },
-  {
-    "name": "M252",
-    "code": "0x77fc",
-    "category": "MACRO"
-  },
-  {
-    "name": "M253",
-    "code": "0x77fd",
-    "category": "MACRO"
-  },
-  {
-    "name": "M254",
-    "code": "0x77fe",
-    "category": "MACRO"
-  },
-  {
-    "name": "M255",
-    "code": "0x77ff",
-    "category": "MACRO"
-  },
-  {
-    "name": "M26",
-    "code": "0x771a",
-    "category": "MACRO"
-  },
-  {
-    "name": "M27",
-    "code": "0x771b",
-    "category": "MACRO"
-  },
-  {
-    "name": "M28",
-    "code": "0x771c",
-    "category": "MACRO"
-  },
-  {
-    "name": "M29",
-    "code": "0x771d",
-    "category": "MACRO"
-  },
-  {
-    "name": "M3",
-    "code": "0x7703",
-    "category": "MACRO"
-  },
-  {
-    "name": "M30",
-    "code": "0x771e",
-    "category": "MACRO"
-  },
-  {
-    "name": "M31",
-    "code": "0x771f",
-    "category": "MACRO"
-  },
-  {
-    "name": "M32",
-    "code": "0x7720",
-    "category": "MACRO"
-  },
-  {
-    "name": "M33",
-    "code": "0x7721",
-    "category": "MACRO"
-  },
-  {
-    "name": "M34",
-    "code": "0x7722",
-    "category": "MACRO"
-  },
-  {
-    "name": "M35",
-    "code": "0x7723",
-    "category": "MACRO"
-  },
-  {
-    "name": "M36",
-    "code": "0x7724",
-    "category": "MACRO"
-  },
-  {
-    "name": "M37",
-    "code": "0x7725",
-    "category": "MACRO"
-  },
-  {
-    "name": "M38",
-    "code": "0x7726",
-    "category": "MACRO"
-  },
-  {
-    "name": "M39",
-    "code": "0x7727",
-    "category": "MACRO"
-  },
-  {
-    "name": "M4",
-    "code": "0x7704",
-    "category": "MACRO"
-  },
-  {
-    "name": "M40",
-    "code": "0x7728",
-    "category": "MACRO"
-  },
-  {
-    "name": "M41",
-    "code": "0x7729",
-    "category": "MACRO"
-  },
-  {
-    "name": "M42",
-    "code": "0x772a",
-    "category": "MACRO"
-  },
-  {
-    "name": "M43",
-    "code": "0x772b",
-    "category": "MACRO"
-  },
-  {
-    "name": "M44",
-    "code": "0x772c",
-    "category": "MACRO"
-  },
-  {
-    "name": "M45",
-    "code": "0x772d",
-    "category": "MACRO"
-  },
-  {
-    "name": "M46",
-    "code": "0x772e",
-    "category": "MACRO"
-  },
-  {
-    "name": "M47",
-    "code": "0x772f",
-    "category": "MACRO"
-  },
-  {
-    "name": "M48",
-    "code": "0x7730",
-    "category": "MACRO"
-  },
-  {
-    "name": "M49",
-    "code": "0x7731",
-    "category": "MACRO"
-  },
-  {
-    "name": "M5",
-    "code": "0x7705",
-    "category": "MACRO"
-  },
-  {
-    "name": "M50",
-    "code": "0x7732",
-    "category": "MACRO"
-  },
-  {
-    "name": "M51",
-    "code": "0x7733",
-    "category": "MACRO"
-  },
-  {
-    "name": "M52",
-    "code": "0x7734",
-    "category": "MACRO"
-  },
-  {
-    "name": "M53",
-    "code": "0x7735",
-    "category": "MACRO"
-  },
-  {
-    "name": "M54",
-    "code": "0x7736",
-    "category": "MACRO"
-  },
-  {
-    "name": "M55",
-    "code": "0x7737",
-    "category": "MACRO"
-  },
-  {
-    "name": "M56",
-    "code": "0x7738",
-    "category": "MACRO"
-  },
-  {
-    "name": "M57",
-    "code": "0x7739",
-    "category": "MACRO"
-  },
-  {
-    "name": "M58",
-    "code": "0x773a",
-    "category": "MACRO"
-  },
-  {
-    "name": "M59",
-    "code": "0x773b",
-    "category": "MACRO"
-  },
-  {
-    "name": "M6",
-    "code": "0x7706",
-    "category": "MACRO"
-  },
-  {
-    "name": "M60",
-    "code": "0x773c",
-    "category": "MACRO"
-  },
-  {
-    "name": "M61",
-    "code": "0x773d",
-    "category": "MACRO"
-  },
-  {
-    "name": "M62",
-    "code": "0x773e",
-    "category": "MACRO"
-  },
-  {
-    "name": "M63",
-    "code": "0x773f",
-    "category": "MACRO"
-  },
-  {
-    "name": "M64",
-    "code": "0x7740",
-    "category": "MACRO"
-  },
-  {
-    "name": "M65",
-    "code": "0x7741",
-    "category": "MACRO"
-  },
-  {
-    "name": "M66",
-    "code": "0x7742",
-    "category": "MACRO"
-  },
-  {
-    "name": "M67",
-    "code": "0x7743",
-    "category": "MACRO"
-  },
-  {
-    "name": "M68",
-    "code": "0x7744",
-    "category": "MACRO"
-  },
-  {
-    "name": "M69",
-    "code": "0x7745",
-    "category": "MACRO"
-  },
-  {
-    "name": "M7",
-    "code": "0x7707",
-    "category": "MACRO"
-  },
-  {
-    "name": "M70",
-    "code": "0x7746",
-    "category": "MACRO"
-  },
-  {
-    "name": "M71",
-    "code": "0x7747",
-    "category": "MACRO"
-  },
-  {
-    "name": "M72",
-    "code": "0x7748",
-    "category": "MACRO"
-  },
-  {
-    "name": "M73",
-    "code": "0x7749",
-    "category": "MACRO"
-  },
-  {
-    "name": "M74",
-    "code": "0x774a",
-    "category": "MACRO"
-  },
-  {
-    "name": "M75",
-    "code": "0x774b",
-    "category": "MACRO"
-  },
-  {
-    "name": "M76",
-    "code": "0x774c",
-    "category": "MACRO"
-  },
-  {
-    "name": "M77",
-    "code": "0x774d",
-    "category": "MACRO"
-  },
-  {
-    "name": "M78",
-    "code": "0x774e",
-    "category": "MACRO"
-  },
-  {
-    "name": "M79",
-    "code": "0x774f",
-    "category": "MACRO"
-  },
-  {
-    "name": "M8",
-    "code": "0x7708",
-    "category": "MACRO"
-  },
-  {
-    "name": "M80",
-    "code": "0x7750",
-    "category": "MACRO"
-  },
-  {
-    "name": "M81",
-    "code": "0x7751",
-    "category": "MACRO"
-  },
-  {
-    "name": "M82",
-    "code": "0x7752",
-    "category": "MACRO"
-  },
-  {
-    "name": "M83",
-    "code": "0x7753",
-    "category": "MACRO"
-  },
-  {
-    "name": "M84",
-    "code": "0x7754",
-    "category": "MACRO"
-  },
-  {
-    "name": "M85",
-    "code": "0x7755",
-    "category": "MACRO"
-  },
-  {
-    "name": "M86",
-    "code": "0x7756",
-    "category": "MACRO"
-  },
-  {
-    "name": "M87",
-    "code": "0x7757",
-    "category": "MACRO"
-  },
-  {
-    "name": "M88",
-    "code": "0x7758",
-    "category": "MACRO"
-  },
-  {
-    "name": "M89",
-    "code": "0x7759",
-    "category": "MACRO"
-  },
-  {
-    "name": "M9",
-    "code": "0x7709",
-    "category": "MACRO"
-  },
-  {
-    "name": "M90",
-    "code": "0x775a",
-    "category": "MACRO"
-  },
-  {
-    "name": "M91",
-    "code": "0x775b",
-    "category": "MACRO"
-  },
-  {
-    "name": "M92",
-    "code": "0x775c",
-    "category": "MACRO"
-  },
-  {
-    "name": "M93",
-    "code": "0x775d",
-    "category": "MACRO"
-  },
-  {
-    "name": "M94",
-    "code": "0x775e",
-    "category": "MACRO"
-  },
-  {
-    "name": "M95",
-    "code": "0x775f",
-    "category": "MACRO"
-  },
-  {
-    "name": "M96",
-    "code": "0x7760",
-    "category": "MACRO"
-  },
-  {
-    "name": "M97",
-    "code": "0x7761",
-    "category": "MACRO"
-  },
-  {
-    "name": "M98",
-    "code": "0x7762",
-    "category": "MACRO"
-  },
-  {
-    "name": "M99",
-    "code": "0x7763",
-    "category": "MACRO"
-  },
-  {
-    "name": "QK_MACRO",
-    "code": "0x7700",
-    "category": "MACRO"
-  },
-  {
-    "name": "BRID",
-    "code": "0x00be",
-    "category": "Media"
-  },
-  {
-    "name": "BRIU",
-    "code": "0x00bd",
-    "category": "Media"
-  },
-  {
-    "name": "CALC",
-    "code": "0x00b2",
-    "category": "Media"
-  },
-  {
-    "name": "EJCT",
-    "code": "0x00b0",
-    "category": "Media"
-  },
-  {
-    "name": "MAIL",
-    "code": "0x00b1",
-    "category": "Media"
-  },
-  {
-    "name": "MNXT",
-    "code": "0x00ab",
-    "category": "Media"
-  },
-  {
-    "name": "MPLY",
-    "code": "0x00ae",
-    "category": "Media"
-  },
-  {
-    "name": "MPRV",
-    "code": "0x00ac",
-    "category": "Media"
-  },
-  {
-    "name": "MSTP",
-    "code": "0x00ad",
-    "category": "Media"
-  },
-  {
-    "name": "MUTE",
-    "code": "0x00a8",
-    "category": "Media"
-  },
-  {
-    "name": "MYCM",
-    "code": "0x00b3",
-    "category": "Media"
-  },
-  {
-    "name": "PWR",
-    "code": "0x00a5",
-    "category": "Media"
-  },
-  {
-    "name": "SLEP",
-    "code": "0x00a6",
-    "category": "Media"
-  },
-  {
-    "name": "VOLD",
-    "code": "0x00aa",
-    "category": "Media"
-  },
-  {
-    "name": "VOLU",
-    "code": "0x00a9",
-    "category": "Media"
-  },
-  {
-    "name": "WAKE",
-    "code": "0x00a7",
-    "category": "Media"
-  },
-  {
-    "name": "_VOLDOWN",
-    "code": "0x0081",
-    "category": "Media"
-  },
-  {
-    "name": "_VOLUP",
-    "code": "0x0080",
-    "category": "Media"
-  },
-  {
-    "name": "0",
-    "code": "0x0027",
-    "category": "basic"
-  },
-  {
-    "name": "1",
-    "code": "0x001e",
-    "category": "basic"
-  },
-  {
-    "name": "2",
-    "code": "0x001f",
-    "category": "basic"
-  },
-  {
-    "name": "3",
-    "code": "0x0020",
-    "category": "basic"
-  },
-  {
-    "name": "4",
-    "code": "0x0021",
-    "category": "basic"
-  },
-  {
-    "name": "5",
-    "code": "0x0022",
-    "category": "basic"
-  },
-  {
-    "name": "6",
-    "code": "0x0023",
-    "category": "basic"
-  },
-  {
-    "name": "7",
-    "code": "0x0024",
-    "category": "basic"
-  },
-  {
-    "name": "8",
-    "code": "0x0025",
-    "category": "basic"
-  },
-  {
-    "name": "9",
-    "code": "0x0026",
-    "category": "basic"
-  },
-  {
-    "name": "A",
-    "code": "0x0004",
-    "category": "basic"
-  },
-  {
-    "name": "AGIN",
-    "code": "0x0079",
-    "category": "basic"
-  },
-  {
-    "name": "APPLICATION",
-    "code": "0x0065",
-    "category": "basic"
-  },
-  {
-    "name": "ASDN",
-    "code": "0x7c10",
-    "category": "basic"
-  },
-  {
-    "name": "ASOFF",
-    "code": "0x7c14",
-    "category": "basic"
-  },
-  {
-    "name": "ASON",
-    "code": "0x7c13",
-    "category": "basic"
-  },
-  {
-    "name": "ASRP",
-    "code": "0x7c12",
-    "category": "basic"
-  },
-  {
-    "name": "ASTG",
-    "code": "0x7c15",
-    "category": "basic"
-  },
-  {
-    "name": "ASUP",
-    "code": "0x7c11",
-    "category": "basic"
-  },
-  {
-    "name": "AU_OFF",
-    "code": "0x7481",
-    "category": "basic"
-  },
-  {
-    "name": "AU_ON",
-    "code": "0x7480",
-    "category": "basic"
-  },
-  {
-    "name": "AU_TOG",
-    "code": "0x7482",
-    "category": "basic"
-  },
-  {
-    "name": "B",
-    "code": "0x0005",
-    "category": "basic"
-  },
-  {
-    "name": "BSLASH",
-    "code": "0x0031",
-    "category": "basic"
-  },
-  {
-    "name": "BSPACE",
-    "code": "0x002a",
-    "category": "basic"
-  },
-  {
-    "name": "C",
-    "code": "0x0006",
-    "category": "basic"
-  },
-  {
-    "name": "CAPSLOCK",
-    "code": "0x0039",
-    "category": "basic"
-  },
-  {
-    "name": "CLICKY_DOWN",
-    "code": "0x748e",
-    "category": "basic"
-  },
-  {
-    "name": "CLICKY_RESET",
-    "code": "0x748f",
-    "category": "basic"
-  },
-  {
-    "name": "CLICKY_TOGGLE",
-    "code": "0x748a",
-    "category": "basic"
-  },
-  {
-    "name": "CLICKY_UP",
-    "code": "0x748d",
-    "category": "basic"
-  },
-  {
-    "name": "CMB_OFF",
-    "code": "0x7c51",
-    "category": "basic"
-  },
-  {
-    "name": "CMB_ON",
-    "code": "0x7c50",
-    "category": "basic"
-  },
-  {
-    "name": "CMB_TOG",
-    "code": "0x7c52",
-    "category": "basic"
-  },
-  {
-    "name": "COMMA",
-    "code": "0x0036",
-    "category": "basic"
-  },
-  {
-    "name": "COPY",
-    "code": "0x007c",
-    "category": "basic"
-  },
-  {
-    "name": "CUT",
-    "code": "0x007b",
-    "category": "basic"
-  },
-  {
-    "name": "D",
-    "code": "0x0007",
-    "category": "basic"
-  },
-  {
-    "name": "DELETE",
-    "code": "0x004c",
-    "category": "basic"
-  },
-  {
-    "name": "DOT",
-    "code": "0x0037",
-    "category": "basic"
-  },
-  {
-    "name": "DOWN",
-    "code": "0x0051",
-    "category": "basic"
-  },
-  {
-    "name": "DYN_REC_START1",
-    "code": "0x7c53",
-    "category": "basic"
-  },
-  {
-    "name": "DYN_REC_START2",
-    "code": "0x7c54",
-    "category": "basic"
-  },
-  {
-    "name": "DYN_REC_STOP",
-    "code": "0x7c55",
-    "category": "basic"
-  },
-  {
-    "name": "E",
-    "code": "0x0008",
-    "category": "basic"
-  },
-  {
-    "name": "END",
-    "code": "0x004d",
-    "category": "basic"
-  },
-  {
-    "name": "ENTER",
-    "code": "0x0028",
-    "category": "basic"
-  },
-  {
-    "name": "EQUAL",
-    "code": "0x002e",
-    "category": "basic"
-  },
-  {
-    "name": "ESCAPE",
-    "code": "0x0029",
-    "category": "basic"
-  },
-  {
-    "name": "EXEC",
-    "code": "0x0074",
-    "category": "basic"
-  },
-  {
-    "name": "F",
-    "code": "0x0009",
-    "category": "basic"
-  },
-  {
-    "name": "F1",
-    "code": "0x003a",
-    "category": "basic"
-  },
-  {
-    "name": "F10",
-    "code": "0x0043",
-    "category": "basic"
-  },
-  {
-    "name": "F11",
-    "code": "0x0044",
-    "category": "basic"
-  },
-  {
-    "name": "F12",
-    "code": "0x0045",
-    "category": "basic"
-  },
-  {
-    "name": "F2",
-    "code": "0x003b",
-    "category": "basic"
-  },
-  {
-    "name": "F3",
-    "code": "0x003c",
-    "category": "basic"
-  },
-  {
-    "name": "F4",
-    "code": "0x003d",
-    "category": "basic"
-  },
-  {
-    "name": "F5",
-    "code": "0x003e",
-    "category": "basic"
-  },
-  {
-    "name": "F6",
-    "code": "0x003f",
-    "category": "basic"
-  },
-  {
-    "name": "F7",
-    "code": "0x0040",
-    "category": "basic"
-  },
-  {
-    "name": "F8",
-    "code": "0x0041",
-    "category": "basic"
-  },
-  {
-    "name": "F9",
-    "code": "0x0042",
-    "category": "basic"
-  },
-  {
-    "name": "FIND",
-    "code": "0x007e",
-    "category": "basic"
-  },
-  {
-    "name": "FN_MO13",
-    "code": "0x7c77",
-    "category": "basic"
-  },
-  {
-    "name": "FN_MO23",
-    "code": "0x7c78",
-    "category": "basic"
-  },
-  {
-    "name": "G",
-    "code": "0x000a",
-    "category": "basic"
-  },
-  {
-    "name": "GESC",
-    "code": "0x7c16",
-    "category": "basic"
-  },
-  {
-    "name": "GRAVE",
-    "code": "0x0035",
-    "category": "basic"
-  },
-  {
-    "name": "H",
-    "code": "0x000b",
-    "category": "basic"
-  },
-  {
-    "name": "HELP",
-    "code": "0x0075",
-    "category": "basic"
-  },
-  {
-    "name": "HENK",
-    "code": "0x008a",
-    "category": "basic"
-  },
-  {
-    "name": "HOME",
-    "code": "0x004a",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_BUZ",
-    "code": "0x7c45",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_COND",
-    "code": "0x7c4a",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_CONI",
-    "code": "0x7c49",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_CONT",
-    "code": "0x7c48",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_DWLD",
-    "code": "0x7c4c",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_DWLI",
-    "code": "0x7c4b",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_FBK",
-    "code": "0x7c44",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_MODD",
-    "code": "0x7c47",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_MODI",
-    "code": "0x7c46",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_OFF",
-    "code": "0x7c41",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_ON",
-    "code": "0x7c40",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_RST",
-    "code": "0x7c43",
-    "category": "basic"
-  },
-  {
-    "name": "HPT_TOG",
-    "code": "0x7c42",
-    "category": "basic"
-  },
-  {
-    "name": "I",
-    "code": "0x000c",
-    "category": "basic"
-  },
-  {
-    "name": "INSERT",
-    "code": "0x0049",
-    "category": "basic"
-  },
-  {
-    "name": "J",
-    "code": "0x000d",
-    "category": "basic"
-  },
-  {
-    "name": "JYEN",
-    "code": "0x0089",
-    "category": "basic"
-  },
-  {
-    "name": "K",
-    "code": "0x000e",
-    "category": "basic"
-  },
-  {
-    "name": "KANA",
-    "code": "0x0088",
-    "category": "basic"
-  },
-  {
-    "name": "KP_0",
-    "code": "0x0062",
-    "category": "basic"
-  },
-  {
-    "name": "KP_1",
-    "code": "0x0059",
-    "category": "basic"
-  },
-  {
-    "name": "KP_2",
-    "code": "0x005a",
-    "category": "basic"
-  },
-  {
-    "name": "KP_3",
-    "code": "0x005b",
-    "category": "basic"
-  },
-  {
-    "name": "KP_4",
-    "code": "0x005c",
-    "category": "basic"
-  },
-  {
-    "name": "KP_5",
-    "code": "0x005d",
-    "category": "basic"
-  },
-  {
-    "name": "KP_6",
-    "code": "0x005e",
-    "category": "basic"
-  },
-  {
-    "name": "KP_7",
-    "code": "0x005f",
-    "category": "basic"
-  },
-  {
-    "name": "KP_8",
-    "code": "0x0060",
-    "category": "basic"
-  },
-  {
-    "name": "KP_9",
-    "code": "0x0061",
-    "category": "basic"
-  },
-  {
-    "name": "KP_ASTERISK",
-    "code": "0x0055",
-    "category": "basic"
-  },
-  {
-    "name": "KP_COMMA",
-    "code": "0x0085",
-    "category": "basic"
-  },
-  {
-    "name": "KP_DOT",
-    "code": "0x0063",
-    "category": "basic"
-  },
-  {
-    "name": "KP_ENTER",
-    "code": "0x0058",
-    "category": "basic"
-  },
-  {
-    "name": "KP_EQUAL",
-    "code": "0x0067",
-    "category": "basic"
-  },
-  {
-    "name": "KP_MINUS",
-    "code": "0x0056",
-    "category": "basic"
-  },
-  {
-    "name": "KP_PLUS",
-    "code": "0x0057",
-    "category": "basic"
-  },
-  {
-    "name": "KP_SLASH",
-    "code": "0x0054",
-    "category": "basic"
-  },
-  {
-    "name": "L",
-    "code": "0x000f",
-    "category": "basic"
-  },
-  {
-    "name": "LALT",
-    "code": "0x00e2",
-    "category": "basic"
-  },
-  {
-    "name": "LANG1",
-    "code": "0x0090",
-    "category": "basic"
-  },
-  {
-    "name": "LANG2",
-    "code": "0x0091",
-    "category": "basic"
-  },
-  {
-    "name": "LAPO",
-    "code": "0x7c1c",
-    "category": "basic"
-  },
-  {
-    "name": "LBRACKET",
-    "code": "0x002f",
-    "category": "basic"
-  },
-  {
-    "name": "LCAP",
-    "code": "0x0082",
-    "category": "basic"
-  },
-  {
-    "name": "LCPO",
-    "code": "0x7c18",
-    "category": "basic"
-  },
-  {
-    "name": "LCTRL",
-    "code": "0x00e0",
-    "category": "basic"
-  },
-  {
-    "name": "LEFT",
-    "code": "0x0050",
-    "category": "basic"
-  },
-  {
-    "name": "LGUI",
-    "code": "0x00e3",
-    "category": "basic"
-  },
-  {
-    "name": "LNUM",
-    "code": "0x0083",
-    "category": "basic"
-  },
-  {
-    "name": "LSCR",
-    "code": "0x0084",
-    "category": "basic"
-  },
-  {
-    "name": "LSHIFT",
-    "code": "0x00e1",
-    "category": "basic"
-  },
-  {
-    "name": "LSPO",
-    "code": "0x7c1a",
-    "category": "basic"
-  },
-  {
-    "name": "M",
-    "code": "0x0010",
-    "category": "basic"
-  },
-  {
-    "name": "MFFD",
-    "code": "0x00bb",
-    "category": "basic"
-  },
-  {
-    "name": "MHEN",
-    "code": "0x008b",
-    "category": "basic"
-  },
-  {
-    "name": "MINUS",
-    "code": "0x002d",
-    "category": "basic"
-  },
-  {
-    "name": "MI_A",
-    "code": "0x710c",
-    "category": "basic"
-  },
-  {
-    "name": "MI_ALLOFF",
-    "code": "0x7185",
-    "category": "basic"
-  },
-  {
-    "name": "MI_A_1",
-    "code": "0x7118",
-    "category": "basic"
-  },
-  {
-    "name": "MI_A_2",
-    "code": "0x7124",
-    "category": "basic"
-  },
-  {
-    "name": "MI_A_3",
-    "code": "0x7130",
-    "category": "basic"
-  },
-  {
-    "name": "MI_A_4",
-    "code": "0x713c",
-    "category": "basic"
-  },
-  {
-    "name": "MI_A_5",
-    "code": "0x7148",
-    "category": "basic"
-  },
-  {
-    "name": "MI_As",
-    "code": "0x710d",
-    "category": "basic"
-  },
-  {
-    "name": "MI_As_1",
-    "code": "0x7119",
-    "category": "basic"
-  },
-  {
-    "name": "MI_As_2",
-    "code": "0x7125",
-    "category": "basic"
-  },
-  {
-    "name": "MI_As_3",
-    "code": "0x7131",
-    "category": "basic"
-  },
-  {
-    "name": "MI_As_4",
-    "code": "0x713d",
-    "category": "basic"
-  },
-  {
-    "name": "MI_As_5",
-    "code": "0x7149",
-    "category": "basic"
-  },
-  {
-    "name": "MI_B",
-    "code": "0x710e",
-    "category": "basic"
-  },
-  {
-    "name": "MI_BENDD",
-    "code": "0x718e",
-    "category": "basic"
-  },
-  {
-    "name": "MI_BENDU",
-    "code": "0x718f",
-    "category": "basic"
-  },
-  {
-    "name": "MI_B_1",
-    "code": "0x711a",
-    "category": "basic"
-  },
-  {
-    "name": "MI_B_2",
-    "code": "0x7126",
-    "category": "basic"
-  },
-  {
-    "name": "MI_B_3",
-    "code": "0x7132",
-    "category": "basic"
-  },
-  {
-    "name": "MI_B_4",
-    "code": "0x713e",
-    "category": "basic"
-  },
-  {
-    "name": "MI_B_5",
-    "code": "0x714a",
-    "category": "basic"
-  },
-  {
-    "name": "MI_C",
-    "code": "0x7103",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH1",
-    "code": "0x7173",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH10",
-    "code": "0x717c",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH11",
-    "code": "0x717d",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH12",
-    "code": "0x717e",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH13",
-    "code": "0x717f",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH14",
-    "code": "0x7180",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH15",
-    "code": "0x7181",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH16",
-    "code": "0x7182",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH2",
-    "code": "0x7174",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH3",
-    "code": "0x7175",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH4",
-    "code": "0x7176",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH5",
-    "code": "0x7177",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH6",
-    "code": "0x7178",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH7",
-    "code": "0x7179",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH8",
-    "code": "0x717a",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CH9",
-    "code": "0x717b",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CHD",
-    "code": "0x7183",
-    "category": "basic"
-  },
-  {
-    "name": "MI_CHU",
-    "code": "0x7184",
-    "category": "basic"
-  },
-  {
-    "name": "MI_C_1",
-    "code": "0x710f",
-    "category": "basic"
-  },
-  {
-    "name": "MI_C_2",
-    "code": "0x711b",
-    "category": "basic"
-  },
-  {
-    "name": "MI_C_3",
-    "code": "0x7127",
-    "category": "basic"
-  },
-  {
-    "name": "MI_C_4",
-    "code": "0x7133",
-    "category": "basic"
-  },
-  {
-    "name": "MI_C_5",
-    "code": "0x713f",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Cs",
-    "code": "0x7104",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Cs_1",
-    "code": "0x7110",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Cs_2",
-    "code": "0x711c",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Cs_3",
-    "code": "0x7128",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Cs_4",
-    "code": "0x7134",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Cs_5",
-    "code": "0x7140",
-    "category": "basic"
-  },
-  {
-    "name": "MI_D",
-    "code": "0x7105",
-    "category": "basic"
-  },
-  {
-    "name": "MI_D_1",
-    "code": "0x7111",
-    "category": "basic"
-  },
-  {
-    "name": "MI_D_2",
-    "code": "0x711d",
-    "category": "basic"
-  },
-  {
-    "name": "MI_D_3",
-    "code": "0x7129",
-    "category": "basic"
-  },
-  {
-    "name": "MI_D_4",
-    "code": "0x7135",
-    "category": "basic"
-  },
-  {
-    "name": "MI_D_5",
-    "code": "0x7141",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Ds",
-    "code": "0x7106",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Ds_1",
-    "code": "0x7112",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Ds_2",
-    "code": "0x711e",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Ds_3",
-    "code": "0x712a",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Ds_4",
-    "code": "0x7136",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Ds_5",
-    "code": "0x7142",
-    "category": "basic"
-  },
-  {
-    "name": "MI_E",
-    "code": "0x7107",
-    "category": "basic"
-  },
-  {
-    "name": "MI_E_1",
-    "code": "0x7113",
-    "category": "basic"
-  },
-  {
-    "name": "MI_E_2",
-    "code": "0x711f",
-    "category": "basic"
-  },
-  {
-    "name": "MI_E_3",
-    "code": "0x712b",
-    "category": "basic"
-  },
-  {
-    "name": "MI_E_4",
-    "code": "0x7137",
-    "category": "basic"
-  },
-  {
-    "name": "MI_E_5",
-    "code": "0x7143",
-    "category": "basic"
-  },
-  {
-    "name": "MI_F",
-    "code": "0x7108",
-    "category": "basic"
-  },
-  {
-    "name": "MI_F_1",
-    "code": "0x7114",
-    "category": "basic"
-  },
-  {
-    "name": "MI_F_2",
-    "code": "0x7120",
-    "category": "basic"
-  },
-  {
-    "name": "MI_F_3",
-    "code": "0x712c",
-    "category": "basic"
-  },
-  {
-    "name": "MI_F_4",
-    "code": "0x7138",
-    "category": "basic"
-  },
-  {
-    "name": "MI_F_5",
-    "code": "0x7144",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Fs",
-    "code": "0x7109",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Fs_1",
-    "code": "0x7115",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Fs_2",
-    "code": "0x7121",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Fs_3",
-    "code": "0x712d",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Fs_4",
-    "code": "0x7139",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Fs_5",
-    "code": "0x7145",
-    "category": "basic"
-  },
-  {
-    "name": "MI_G",
-    "code": "0x710a",
-    "category": "basic"
-  },
-  {
-    "name": "MI_G_1",
-    "code": "0x7116",
-    "category": "basic"
-  },
-  {
-    "name": "MI_G_2",
-    "code": "0x7122",
-    "category": "basic"
-  },
-  {
-    "name": "MI_G_3",
-    "code": "0x712e",
-    "category": "basic"
-  },
-  {
-    "name": "MI_G_4",
-    "code": "0x713a",
-    "category": "basic"
-  },
-  {
-    "name": "MI_G_5",
-    "code": "0x7146",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Gs",
-    "code": "0x710b",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Gs_1",
-    "code": "0x7117",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Gs_2",
-    "code": "0x7123",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Gs_3",
-    "code": "0x712f",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Gs_4",
-    "code": "0x713b",
-    "category": "basic"
-  },
-  {
-    "name": "MI_Gs_5",
-    "code": "0x7147",
-    "category": "basic"
-  },
-  {
-    "name": "MI_LEG",
-    "code": "0x718a",
-    "category": "basic"
-  },
-  {
-    "name": "MI_MOD",
-    "code": "0x718b",
-    "category": "basic"
-  },
-  {
-    "name": "MI_MODSD",
-    "code": "0x718c",
-    "category": "basic"
-  },
-  {
-    "name": "MI_MODSU",
-    "code": "0x718d",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCTD",
-    "code": "0x7155",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCTU",
-    "code": "0x7156",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCT_0",
-    "code": "0x714d",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCT_1",
-    "code": "0x714e",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCT_2",
-    "code": "0x714f",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCT_3",
-    "code": "0x7150",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCT_4",
-    "code": "0x7151",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCT_5",
-    "code": "0x7152",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCT_6",
-    "code": "0x7153",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCT_7",
-    "code": "0x7154",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCT_N1",
-    "code": "0x714c",
-    "category": "basic"
-  },
-  {
-    "name": "MI_OCT_N2",
-    "code": "0x714b",
-    "category": "basic"
-  },
-  {
-    "name": "MI_PORT",
-    "code": "0x7187",
-    "category": "basic"
-  },
-  {
-    "name": "MI_SOFT",
-    "code": "0x7189",
-    "category": "basic"
-  },
-  {
-    "name": "MI_SOST",
-    "code": "0x7188",
-    "category": "basic"
-  },
-  {
-    "name": "MI_SUS",
-    "code": "0x7186",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNSD",
-    "code": "0x7164",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNSU",
-    "code": "0x7165",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_0",
-    "code": "0x715d",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_1",
-    "code": "0x715e",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_2",
-    "code": "0x715f",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_3",
-    "code": "0x7160",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_4",
-    "code": "0x7161",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_5",
-    "code": "0x7162",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_6",
-    "code": "0x7163",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_N1",
-    "code": "0x715c",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_N2",
-    "code": "0x715b",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_N3",
-    "code": "0x715a",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_N4",
-    "code": "0x7159",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_N5",
-    "code": "0x7158",
-    "category": "basic"
-  },
-  {
-    "name": "MI_TRNS_N6",
-    "code": "0x7157",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VELD",
-    "code": "0x7171",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VELU",
-    "code": "0x7172",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VEL_1",
-    "code": "0x7167",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VEL_10",
-    "code": "0x7170",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VEL_2",
-    "code": "0x7168",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VEL_3",
-    "code": "0x7169",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VEL_4",
-    "code": "0x716a",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VEL_5",
-    "code": "0x716b",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VEL_6",
-    "code": "0x716c",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VEL_7",
-    "code": "0x716d",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VEL_8",
-    "code": "0x716e",
-    "category": "basic"
-  },
-  {
-    "name": "MI_VEL_9",
-    "code": "0x716f",
-    "category": "basic"
-  },
-  {
-    "name": "MOD_HYPR",
-    "code": "0x000f",
-    "category": "basic"
-  },
-  {
-    "name": "MOD_LALT",
-    "code": "0x0004",
-    "category": "basic"
-  },
-  {
-    "name": "MOD_LCTL",
-    "code": "0x0001",
-    "category": "basic"
-  },
-  {
-    "name": "MOD_LGUI",
-    "code": "0x0008",
-    "category": "basic"
-  },
-  {
-    "name": "MOD_LSFT",
-    "code": "0x0002",
-    "category": "basic"
-  },
-  {
-    "name": "MOD_MEH",
-    "code": "0x0007",
-    "category": "basic"
-  },
-  {
-    "name": "MOD_RALT",
-    "code": "0x0014",
-    "category": "basic"
-  },
-  {
-    "name": "MOD_RCTL",
-    "code": "0x0011",
-    "category": "basic"
-  },
-  {
-    "name": "MOD_RGUI",
-    "code": "0x0018",
-    "category": "basic"
-  },
-  {
-    "name": "MOD_RSFT",
-    "code": "0x0012",
-    "category": "basic"
-  },
-  {
-    "name": "MRWD",
-    "code": "0x00bc",
-    "category": "basic"
-  },
-  {
-    "name": "MSEL",
-    "code": "0x00af",
-    "category": "basic"
-  },
-  {
-    "name": "MU_MOD",
-    "code": "0x7493",
-    "category": "basic"
-  },
-  {
-    "name": "MU_OFF",
-    "code": "0x7491",
-    "category": "basic"
-  },
-  {
-    "name": "MU_ON",
-    "code": "0x7490",
-    "category": "basic"
-  },
-  {
-    "name": "MU_TOG",
-    "code": "0x7492",
-    "category": "basic"
-  },
-  {
-    "name": "N",
-    "code": "0x0011",
-    "category": "basic"
-  },
-  {
-    "name": "NO",
-    "code": "0x0000",
-    "category": "basic"
-  },
-  {
-    "name": "NONUS_BSLASH",
-    "code": "0x0064",
-    "category": "basic"
-  },
-  {
-    "name": "NONUS_HASH",
-    "code": "0x0032",
-    "category": "basic"
-  },
-  {
-    "name": "NUMLOCK",
-    "code": "0x0053",
-    "category": "basic"
-  },
-  {
-    "name": "O",
-    "code": "0x0012",
-    "category": "basic"
-  },
-  {
-    "name": "ON_PRESS",
-    "code": "0x0001",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_HYPR)",
-    "code": "0x52af",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LALT)",
-    "code": "0x52a4",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LALT|MOD_LGUI)",
-    "code": "0x52ac",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LCTL)",
-    "code": "0x52a1",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LCTL|MOD_LALT)",
-    "code": "0x52a5",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LCTL|MOD_LALT|MOD_LGUI)",
-    "code": "0x52ad",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LCTL|MOD_LGUI)",
-    "code": "0x52a9",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LCTL|MOD_LSFT)",
-    "code": "0x52a3",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LCTL|MOD_LSFT|MOD_LGUI)",
-    "code": "0x52ab",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LGUI)",
-    "code": "0x52a8",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LSFT)",
-    "code": "0x52a2",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LSFT|MOD_LALT)",
-    "code": "0x52a6",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LSFT|MOD_LALT|MOD_LGUI)",
-    "code": "0x52ae",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_LSFT|MOD_LGUI)",
-    "code": "0x52aa",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_MEH)",
-    "code": "0x52a7",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RALT)",
-    "code": "0x52b4",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RALT|MOD_RGUI)",
-    "code": "0x52bc",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RCTL)",
-    "code": "0x52b1",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RCTL|MOD_RALT)",
-    "code": "0x52b5",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RCTL|MOD_RALT|MOD_RGUI)",
-    "code": "0x52bd",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RCTL|MOD_RGUI)",
-    "code": "0x52b9",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RCTL|MOD_RSFT)",
-    "code": "0x52b3",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RCTL|MOD_RSFT|MOD_RALT)",
-    "code": "0x52b7",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RCTL|MOD_RSFT|MOD_RALT|MOD_RGUI)",
-    "code": "0x52bf",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RCTL|MOD_RSFT|MOD_RGUI)",
-    "code": "0x52bb",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RGUI)",
-    "code": "0x52b8",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RSFT)",
-    "code": "0x52b2",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RSFT|MOD_RALT)",
-    "code": "0x52b6",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RSFT|MOD_RALT|MOD_RGUI)",
-    "code": "0x52be",
-    "category": "basic"
-  },
-  {
-    "name": "OSM(MOD_RSFT|MOD_RGUI)",
-    "code": "0x52ba",
-    "category": "basic"
-  },
-  {
-    "name": "P",
-    "code": "0x0013",
-    "category": "basic"
-  },
-  {
-    "name": "PAUSE",
-    "code": "0x0048",
-    "category": "basic"
-  },
-  {
-    "name": "PGDOWN",
-    "code": "0x004e",
-    "category": "basic"
-  },
-  {
-    "name": "PGUP",
-    "code": "0x004b",
-    "category": "basic"
-  },
-  {
-    "name": "PSCREEN",
-    "code": "0x0046",
-    "category": "basic"
-  },
-  {
-    "name": "PSTE",
-    "code": "0x007d",
-    "category": "basic"
-  },
-  {
-    "name": "Q",
-    "code": "0x0014",
-    "category": "basic"
-  },
-  {
-    "name": "QK_ALT_REPEAT_KEY",
-    "code": "0x7c7a",
-    "category": "basic"
-  },
-  {
-    "name": "QK_CAPS_WORD_TOGGLE",
-    "code": "0x7c73",
-    "category": "basic"
-  },
-  {
-    "name": "QK_KB",
-    "code": "0x7e00",
-    "category": "basic"
-  },
-  {
-    "name": "QK_LALT",
-    "code": "0x0400",
-    "category": "basic"
-  },
-  {
-    "name": "QK_LCTL",
-    "code": "0x0100",
-    "category": "basic"
-  },
-  {
-    "name": "QK_LGUI",
-    "code": "0x0800",
-    "category": "basic"
-  },
-  {
-    "name": "QK_LSFT",
-    "code": "0x0200",
-    "category": "basic"
-  },
-  {
-    "name": "QK_MOD_TAP",
-    "code": "0x2000",
-    "category": "basic"
-  },
-  {
-    "name": "QK_ONE_SHOT_LAYER",
-    "code": "0x5280",
-    "category": "basic"
-  },
-  {
-    "name": "QK_ONE_SHOT_MOD",
-    "code": "0x52a0",
-    "category": "basic"
-  },
-  {
-    "name": "QK_PERSISTENT_DEF_LAYER",
-    "code": "0x52e0",
-    "category": "basic"
-  },
-  {
-    "name": "QK_RALT",
-    "code": "0x1400",
-    "category": "basic"
-  },
-  {
-    "name": "QK_RCTL",
-    "code": "0x1100",
-    "category": "basic"
-  },
-  {
-    "name": "QK_REBOOT",
-    "code": "0x7c01",
-    "category": "basic"
-  },
-  {
-    "name": "QK_REPEAT_KEY",
-    "code": "0x7c79",
-    "category": "basic"
-  },
-  {
-    "name": "QK_RGUI",
-    "code": "0x1800",
-    "category": "basic"
-  },
-  {
-    "name": "QK_RSFT",
-    "code": "0x1200",
-    "category": "basic"
-  },
-  {
-    "name": "QK_TAP_DANCE",
-    "code": "0x5700",
-    "category": "basic"
-  },
-  {
-    "name": "QMK_LM_MASK",
-    "code": "0x001f",
-    "category": "basic"
-  },
-  {
-    "name": "QMK_LM_SHIFT",
-    "code": "0x0005",
-    "category": "basic"
-  },
-  {
-    "name": "QUOTE",
-    "code": "0x0034",
-    "category": "basic"
-  },
-  {
-    "name": "R",
-    "code": "0x0015",
-    "category": "basic"
-  },
-  {
-    "name": "RALT",
-    "code": "0x00e6",
-    "category": "basic"
-  },
-  {
-    "name": "RAPC",
-    "code": "0x7c1d",
-    "category": "basic"
-  },
-  {
-    "name": "RBRACKET",
-    "code": "0x0030",
-    "category": "basic"
-  },
-  {
-    "name": "RCPC",
-    "code": "0x7c19",
-    "category": "basic"
-  },
-  {
-    "name": "RCTRL",
-    "code": "0x00e4",
-    "category": "basic"
-  },
-  {
-    "name": "RGUI",
-    "code": "0x00e7",
-    "category": "basic"
-  },
-  {
-    "name": "RIGHT",
-    "code": "0x004f",
-    "category": "basic"
-  },
-  {
-    "name": "RO",
-    "code": "0x0087",
-    "category": "basic"
-  },
-  {
-    "name": "RSHIFT",
-    "code": "0x00e5",
-    "category": "basic"
-  },
-  {
-    "name": "RSPC",
-    "code": "0x7c1b",
-    "category": "basic"
-  },
-  {
-    "name": "S",
-    "code": "0x0016",
-    "category": "basic"
-  },
-  {
-    "name": "SCOLON",
-    "code": "0x0033",
-    "category": "basic"
-  },
-  {
-    "name": "SCROLLLOCK",
-    "code": "0x0047",
-    "category": "basic"
-  },
-  {
-    "name": "SFTENT",
-    "code": "0x7c1e",
-    "category": "basic"
-  },
-  {
-    "name": "SLASH",
-    "code": "0x0038",
-    "category": "basic"
-  },
-  {
-    "name": "SLCT",
-    "code": "0x0077",
-    "category": "basic"
-  },
-  {
-    "name": "SPACE",
-    "code": "0x002c",
-    "category": "basic"
-  },
-  {
-    "name": "STOP",
-    "code": "0x0078",
-    "category": "basic"
-  },
-  {
-    "name": "T",
-    "code": "0x0017",
-    "category": "basic"
-  },
-  {
-    "name": "TAB",
-    "code": "0x002b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(0)",
-    "code": "0x5700",
-    "category": "basic"
-  },
-  {
-    "name": "TD(1)",
-    "code": "0x5701",
-    "category": "basic"
-  },
-  {
-    "name": "TD(10)",
-    "code": "0x570a",
-    "category": "basic"
-  },
-  {
-    "name": "TD(100)",
-    "code": "0x5764",
-    "category": "basic"
-  },
-  {
-    "name": "TD(101)",
-    "code": "0x5765",
-    "category": "basic"
-  },
-  {
-    "name": "TD(102)",
-    "code": "0x5766",
-    "category": "basic"
-  },
-  {
-    "name": "TD(103)",
-    "code": "0x5767",
-    "category": "basic"
-  },
-  {
-    "name": "TD(104)",
-    "code": "0x5768",
-    "category": "basic"
-  },
-  {
-    "name": "TD(105)",
-    "code": "0x5769",
-    "category": "basic"
-  },
-  {
-    "name": "TD(106)",
-    "code": "0x576a",
-    "category": "basic"
-  },
-  {
-    "name": "TD(107)",
-    "code": "0x576b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(108)",
-    "code": "0x576c",
-    "category": "basic"
-  },
-  {
-    "name": "TD(109)",
-    "code": "0x576d",
-    "category": "basic"
-  },
-  {
-    "name": "TD(11)",
-    "code": "0x570b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(110)",
-    "code": "0x576e",
-    "category": "basic"
-  },
-  {
-    "name": "TD(111)",
-    "code": "0x576f",
-    "category": "basic"
-  },
-  {
-    "name": "TD(112)",
-    "code": "0x5770",
-    "category": "basic"
-  },
-  {
-    "name": "TD(113)",
-    "code": "0x5771",
-    "category": "basic"
-  },
-  {
-    "name": "TD(114)",
-    "code": "0x5772",
-    "category": "basic"
-  },
-  {
-    "name": "TD(115)",
-    "code": "0x5773",
-    "category": "basic"
-  },
-  {
-    "name": "TD(116)",
-    "code": "0x5774",
-    "category": "basic"
-  },
-  {
-    "name": "TD(117)",
-    "code": "0x5775",
-    "category": "basic"
-  },
-  {
-    "name": "TD(118)",
-    "code": "0x5776",
-    "category": "basic"
-  },
-  {
-    "name": "TD(119)",
-    "code": "0x5777",
-    "category": "basic"
-  },
-  {
-    "name": "TD(12)",
-    "code": "0x570c",
-    "category": "basic"
-  },
-  {
-    "name": "TD(120)",
-    "code": "0x5778",
-    "category": "basic"
-  },
-  {
-    "name": "TD(121)",
-    "code": "0x5779",
-    "category": "basic"
-  },
-  {
-    "name": "TD(122)",
-    "code": "0x577a",
-    "category": "basic"
-  },
-  {
-    "name": "TD(123)",
-    "code": "0x577b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(124)",
-    "code": "0x577c",
-    "category": "basic"
-  },
-  {
-    "name": "TD(125)",
-    "code": "0x577d",
-    "category": "basic"
-  },
-  {
-    "name": "TD(126)",
-    "code": "0x577e",
-    "category": "basic"
-  },
-  {
-    "name": "TD(127)",
-    "code": "0x577f",
-    "category": "basic"
-  },
-  {
-    "name": "TD(128)",
-    "code": "0x5780",
-    "category": "basic"
-  },
-  {
-    "name": "TD(129)",
-    "code": "0x5781",
-    "category": "basic"
-  },
-  {
-    "name": "TD(13)",
-    "code": "0x570d",
-    "category": "basic"
-  },
-  {
-    "name": "TD(130)",
-    "code": "0x5782",
-    "category": "basic"
-  },
-  {
-    "name": "TD(131)",
-    "code": "0x5783",
-    "category": "basic"
-  },
-  {
-    "name": "TD(132)",
-    "code": "0x5784",
-    "category": "basic"
-  },
-  {
-    "name": "TD(133)",
-    "code": "0x5785",
-    "category": "basic"
-  },
-  {
-    "name": "TD(134)",
-    "code": "0x5786",
-    "category": "basic"
-  },
-  {
-    "name": "TD(135)",
-    "code": "0x5787",
-    "category": "basic"
-  },
-  {
-    "name": "TD(136)",
-    "code": "0x5788",
-    "category": "basic"
-  },
-  {
-    "name": "TD(137)",
-    "code": "0x5789",
-    "category": "basic"
-  },
-  {
-    "name": "TD(138)",
-    "code": "0x578a",
-    "category": "basic"
-  },
-  {
-    "name": "TD(139)",
-    "code": "0x578b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(14)",
-    "code": "0x570e",
-    "category": "basic"
-  },
-  {
-    "name": "TD(140)",
-    "code": "0x578c",
-    "category": "basic"
-  },
-  {
-    "name": "TD(141)",
-    "code": "0x578d",
-    "category": "basic"
-  },
-  {
-    "name": "TD(142)",
-    "code": "0x578e",
-    "category": "basic"
-  },
-  {
-    "name": "TD(143)",
-    "code": "0x578f",
-    "category": "basic"
-  },
-  {
-    "name": "TD(144)",
-    "code": "0x5790",
-    "category": "basic"
-  },
-  {
-    "name": "TD(145)",
-    "code": "0x5791",
-    "category": "basic"
-  },
-  {
-    "name": "TD(146)",
-    "code": "0x5792",
-    "category": "basic"
-  },
-  {
-    "name": "TD(147)",
-    "code": "0x5793",
-    "category": "basic"
-  },
-  {
-    "name": "TD(148)",
-    "code": "0x5794",
-    "category": "basic"
-  },
-  {
-    "name": "TD(149)",
-    "code": "0x5795",
-    "category": "basic"
-  },
-  {
-    "name": "TD(15)",
-    "code": "0x570f",
-    "category": "basic"
-  },
-  {
-    "name": "TD(150)",
-    "code": "0x5796",
-    "category": "basic"
-  },
-  {
-    "name": "TD(151)",
-    "code": "0x5797",
-    "category": "basic"
-  },
-  {
-    "name": "TD(152)",
-    "code": "0x5798",
-    "category": "basic"
-  },
-  {
-    "name": "TD(153)",
-    "code": "0x5799",
-    "category": "basic"
-  },
-  {
-    "name": "TD(154)",
-    "code": "0x579a",
-    "category": "basic"
-  },
-  {
-    "name": "TD(155)",
-    "code": "0x579b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(156)",
-    "code": "0x579c",
-    "category": "basic"
-  },
-  {
-    "name": "TD(157)",
-    "code": "0x579d",
-    "category": "basic"
-  },
-  {
-    "name": "TD(158)",
-    "code": "0x579e",
-    "category": "basic"
-  },
-  {
-    "name": "TD(159)",
-    "code": "0x579f",
-    "category": "basic"
-  },
-  {
-    "name": "TD(16)",
-    "code": "0x5710",
-    "category": "basic"
-  },
-  {
-    "name": "TD(160)",
-    "code": "0x57a0",
-    "category": "basic"
-  },
-  {
-    "name": "TD(161)",
-    "code": "0x57a1",
-    "category": "basic"
-  },
-  {
-    "name": "TD(162)",
-    "code": "0x57a2",
-    "category": "basic"
-  },
-  {
-    "name": "TD(163)",
-    "code": "0x57a3",
-    "category": "basic"
-  },
-  {
-    "name": "TD(164)",
-    "code": "0x57a4",
-    "category": "basic"
-  },
-  {
-    "name": "TD(165)",
-    "code": "0x57a5",
-    "category": "basic"
-  },
-  {
-    "name": "TD(166)",
-    "code": "0x57a6",
-    "category": "basic"
-  },
-  {
-    "name": "TD(167)",
-    "code": "0x57a7",
-    "category": "basic"
-  },
-  {
-    "name": "TD(168)",
-    "code": "0x57a8",
-    "category": "basic"
-  },
-  {
-    "name": "TD(169)",
-    "code": "0x57a9",
-    "category": "basic"
-  },
-  {
-    "name": "TD(17)",
-    "code": "0x5711",
-    "category": "basic"
-  },
-  {
-    "name": "TD(170)",
-    "code": "0x57aa",
-    "category": "basic"
-  },
-  {
-    "name": "TD(171)",
-    "code": "0x57ab",
-    "category": "basic"
-  },
-  {
-    "name": "TD(172)",
-    "code": "0x57ac",
-    "category": "basic"
-  },
-  {
-    "name": "TD(173)",
-    "code": "0x57ad",
-    "category": "basic"
-  },
-  {
-    "name": "TD(174)",
-    "code": "0x57ae",
-    "category": "basic"
-  },
-  {
-    "name": "TD(175)",
-    "code": "0x57af",
-    "category": "basic"
-  },
-  {
-    "name": "TD(176)",
-    "code": "0x57b0",
-    "category": "basic"
-  },
-  {
-    "name": "TD(177)",
-    "code": "0x57b1",
-    "category": "basic"
-  },
-  {
-    "name": "TD(178)",
-    "code": "0x57b2",
-    "category": "basic"
-  },
-  {
-    "name": "TD(179)",
-    "code": "0x57b3",
-    "category": "basic"
-  },
-  {
-    "name": "TD(18)",
-    "code": "0x5712",
-    "category": "basic"
-  },
-  {
-    "name": "TD(180)",
-    "code": "0x57b4",
-    "category": "basic"
-  },
-  {
-    "name": "TD(181)",
-    "code": "0x57b5",
-    "category": "basic"
-  },
-  {
-    "name": "TD(182)",
-    "code": "0x57b6",
-    "category": "basic"
-  },
-  {
-    "name": "TD(183)",
-    "code": "0x57b7",
-    "category": "basic"
-  },
-  {
-    "name": "TD(184)",
-    "code": "0x57b8",
-    "category": "basic"
-  },
-  {
-    "name": "TD(185)",
-    "code": "0x57b9",
-    "category": "basic"
-  },
-  {
-    "name": "TD(186)",
-    "code": "0x57ba",
-    "category": "basic"
-  },
-  {
-    "name": "TD(187)",
-    "code": "0x57bb",
-    "category": "basic"
-  },
-  {
-    "name": "TD(188)",
-    "code": "0x57bc",
-    "category": "basic"
-  },
-  {
-    "name": "TD(189)",
-    "code": "0x57bd",
-    "category": "basic"
-  },
-  {
-    "name": "TD(19)",
-    "code": "0x5713",
-    "category": "basic"
-  },
-  {
-    "name": "TD(190)",
-    "code": "0x57be",
-    "category": "basic"
-  },
-  {
-    "name": "TD(191)",
-    "code": "0x57bf",
-    "category": "basic"
-  },
-  {
-    "name": "TD(192)",
-    "code": "0x57c0",
-    "category": "basic"
-  },
-  {
-    "name": "TD(193)",
-    "code": "0x57c1",
-    "category": "basic"
-  },
-  {
-    "name": "TD(194)",
-    "code": "0x57c2",
-    "category": "basic"
-  },
-  {
-    "name": "TD(195)",
-    "code": "0x57c3",
-    "category": "basic"
-  },
-  {
-    "name": "TD(196)",
-    "code": "0x57c4",
-    "category": "basic"
-  },
-  {
-    "name": "TD(197)",
-    "code": "0x57c5",
-    "category": "basic"
-  },
-  {
-    "name": "TD(198)",
-    "code": "0x57c6",
-    "category": "basic"
-  },
-  {
-    "name": "TD(199)",
-    "code": "0x57c7",
-    "category": "basic"
-  },
-  {
-    "name": "TD(2)",
-    "code": "0x5702",
-    "category": "basic"
-  },
-  {
-    "name": "TD(20)",
-    "code": "0x5714",
-    "category": "basic"
-  },
-  {
-    "name": "TD(200)",
-    "code": "0x57c8",
-    "category": "basic"
-  },
-  {
-    "name": "TD(201)",
-    "code": "0x57c9",
-    "category": "basic"
-  },
-  {
-    "name": "TD(202)",
-    "code": "0x57ca",
-    "category": "basic"
-  },
-  {
-    "name": "TD(203)",
-    "code": "0x57cb",
-    "category": "basic"
-  },
-  {
-    "name": "TD(204)",
-    "code": "0x57cc",
-    "category": "basic"
-  },
-  {
-    "name": "TD(205)",
-    "code": "0x57cd",
-    "category": "basic"
-  },
-  {
-    "name": "TD(206)",
-    "code": "0x57ce",
-    "category": "basic"
-  },
-  {
-    "name": "TD(207)",
-    "code": "0x57cf",
-    "category": "basic"
-  },
-  {
-    "name": "TD(208)",
-    "code": "0x57d0",
-    "category": "basic"
-  },
-  {
-    "name": "TD(209)",
-    "code": "0x57d1",
-    "category": "basic"
-  },
-  {
-    "name": "TD(21)",
-    "code": "0x5715",
-    "category": "basic"
-  },
-  {
-    "name": "TD(210)",
-    "code": "0x57d2",
-    "category": "basic"
-  },
-  {
-    "name": "TD(211)",
-    "code": "0x57d3",
-    "category": "basic"
-  },
-  {
-    "name": "TD(212)",
-    "code": "0x57d4",
-    "category": "basic"
-  },
-  {
-    "name": "TD(213)",
-    "code": "0x57d5",
-    "category": "basic"
-  },
-  {
-    "name": "TD(214)",
-    "code": "0x57d6",
-    "category": "basic"
-  },
-  {
-    "name": "TD(215)",
-    "code": "0x57d7",
-    "category": "basic"
-  },
-  {
-    "name": "TD(216)",
-    "code": "0x57d8",
-    "category": "basic"
-  },
-  {
-    "name": "TD(217)",
-    "code": "0x57d9",
-    "category": "basic"
-  },
-  {
-    "name": "TD(218)",
-    "code": "0x57da",
-    "category": "basic"
-  },
-  {
-    "name": "TD(219)",
-    "code": "0x57db",
-    "category": "basic"
-  },
-  {
-    "name": "TD(22)",
-    "code": "0x5716",
-    "category": "basic"
-  },
-  {
-    "name": "TD(220)",
-    "code": "0x57dc",
-    "category": "basic"
-  },
-  {
-    "name": "TD(221)",
-    "code": "0x57dd",
-    "category": "basic"
-  },
-  {
-    "name": "TD(222)",
-    "code": "0x57de",
-    "category": "basic"
-  },
-  {
-    "name": "TD(223)",
-    "code": "0x57df",
-    "category": "basic"
-  },
-  {
-    "name": "TD(224)",
-    "code": "0x57e0",
-    "category": "basic"
-  },
-  {
-    "name": "TD(225)",
-    "code": "0x57e1",
-    "category": "basic"
-  },
-  {
-    "name": "TD(226)",
-    "code": "0x57e2",
-    "category": "basic"
-  },
-  {
-    "name": "TD(227)",
-    "code": "0x57e3",
-    "category": "basic"
-  },
-  {
-    "name": "TD(228)",
-    "code": "0x57e4",
-    "category": "basic"
-  },
-  {
-    "name": "TD(229)",
-    "code": "0x57e5",
-    "category": "basic"
-  },
-  {
-    "name": "TD(23)",
-    "code": "0x5717",
-    "category": "basic"
-  },
-  {
-    "name": "TD(230)",
-    "code": "0x57e6",
-    "category": "basic"
-  },
-  {
-    "name": "TD(231)",
-    "code": "0x57e7",
-    "category": "basic"
-  },
-  {
-    "name": "TD(232)",
-    "code": "0x57e8",
-    "category": "basic"
-  },
-  {
-    "name": "TD(233)",
-    "code": "0x57e9",
-    "category": "basic"
-  },
-  {
-    "name": "TD(234)",
-    "code": "0x57ea",
-    "category": "basic"
-  },
-  {
-    "name": "TD(235)",
-    "code": "0x57eb",
-    "category": "basic"
-  },
-  {
-    "name": "TD(236)",
-    "code": "0x57ec",
-    "category": "basic"
-  },
-  {
-    "name": "TD(237)",
-    "code": "0x57ed",
-    "category": "basic"
-  },
-  {
-    "name": "TD(238)",
-    "code": "0x57ee",
-    "category": "basic"
-  },
-  {
-    "name": "TD(239)",
-    "code": "0x57ef",
-    "category": "basic"
-  },
-  {
-    "name": "TD(24)",
-    "code": "0x5718",
-    "category": "basic"
-  },
-  {
-    "name": "TD(240)",
-    "code": "0x57f0",
-    "category": "basic"
-  },
-  {
-    "name": "TD(241)",
-    "code": "0x57f1",
-    "category": "basic"
-  },
-  {
-    "name": "TD(242)",
-    "code": "0x57f2",
-    "category": "basic"
-  },
-  {
-    "name": "TD(243)",
-    "code": "0x57f3",
-    "category": "basic"
-  },
-  {
-    "name": "TD(244)",
-    "code": "0x57f4",
-    "category": "basic"
-  },
-  {
-    "name": "TD(245)",
-    "code": "0x57f5",
-    "category": "basic"
-  },
-  {
-    "name": "TD(246)",
-    "code": "0x57f6",
-    "category": "basic"
-  },
-  {
-    "name": "TD(247)",
-    "code": "0x57f7",
-    "category": "basic"
-  },
-  {
-    "name": "TD(248)",
-    "code": "0x57f8",
-    "category": "basic"
-  },
-  {
-    "name": "TD(249)",
-    "code": "0x57f9",
-    "category": "basic"
-  },
-  {
-    "name": "TD(25)",
-    "code": "0x5719",
-    "category": "basic"
-  },
-  {
-    "name": "TD(250)",
-    "code": "0x57fa",
-    "category": "basic"
-  },
-  {
-    "name": "TD(251)",
-    "code": "0x57fb",
-    "category": "basic"
-  },
-  {
-    "name": "TD(252)",
-    "code": "0x57fc",
-    "category": "basic"
-  },
-  {
-    "name": "TD(253)",
-    "code": "0x57fd",
-    "category": "basic"
-  },
-  {
-    "name": "TD(254)",
-    "code": "0x57fe",
-    "category": "basic"
-  },
-  {
-    "name": "TD(255)",
-    "code": "0x57ff",
-    "category": "basic"
-  },
-  {
-    "name": "TD(26)",
-    "code": "0x571a",
-    "category": "basic"
-  },
-  {
-    "name": "TD(27)",
-    "code": "0x571b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(28)",
-    "code": "0x571c",
-    "category": "basic"
-  },
-  {
-    "name": "TD(29)",
-    "code": "0x571d",
-    "category": "basic"
-  },
-  {
-    "name": "TD(3)",
-    "code": "0x5703",
-    "category": "basic"
-  },
-  {
-    "name": "TD(30)",
-    "code": "0x571e",
-    "category": "basic"
-  },
-  {
-    "name": "TD(31)",
-    "code": "0x571f",
-    "category": "basic"
-  },
-  {
-    "name": "TD(32)",
-    "code": "0x5720",
-    "category": "basic"
-  },
-  {
-    "name": "TD(33)",
-    "code": "0x5721",
-    "category": "basic"
-  },
-  {
-    "name": "TD(34)",
-    "code": "0x5722",
-    "category": "basic"
-  },
-  {
-    "name": "TD(35)",
-    "code": "0x5723",
-    "category": "basic"
-  },
-  {
-    "name": "TD(36)",
-    "code": "0x5724",
-    "category": "basic"
-  },
-  {
-    "name": "TD(37)",
-    "code": "0x5725",
-    "category": "basic"
-  },
-  {
-    "name": "TD(38)",
-    "code": "0x5726",
-    "category": "basic"
-  },
-  {
-    "name": "TD(39)",
-    "code": "0x5727",
-    "category": "basic"
-  },
-  {
-    "name": "TD(4)",
-    "code": "0x5704",
-    "category": "basic"
-  },
-  {
-    "name": "TD(40)",
-    "code": "0x5728",
-    "category": "basic"
-  },
-  {
-    "name": "TD(41)",
-    "code": "0x5729",
-    "category": "basic"
-  },
-  {
-    "name": "TD(42)",
-    "code": "0x572a",
-    "category": "basic"
-  },
-  {
-    "name": "TD(43)",
-    "code": "0x572b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(44)",
-    "code": "0x572c",
-    "category": "basic"
-  },
-  {
-    "name": "TD(45)",
-    "code": "0x572d",
-    "category": "basic"
-  },
-  {
-    "name": "TD(46)",
-    "code": "0x572e",
-    "category": "basic"
-  },
-  {
-    "name": "TD(47)",
-    "code": "0x572f",
-    "category": "basic"
-  },
-  {
-    "name": "TD(48)",
-    "code": "0x5730",
-    "category": "basic"
-  },
-  {
-    "name": "TD(49)",
-    "code": "0x5731",
-    "category": "basic"
-  },
-  {
-    "name": "TD(5)",
-    "code": "0x5705",
-    "category": "basic"
-  },
-  {
-    "name": "TD(50)",
-    "code": "0x5732",
-    "category": "basic"
-  },
-  {
-    "name": "TD(51)",
-    "code": "0x5733",
-    "category": "basic"
-  },
-  {
-    "name": "TD(52)",
-    "code": "0x5734",
-    "category": "basic"
-  },
-  {
-    "name": "TD(53)",
-    "code": "0x5735",
-    "category": "basic"
-  },
-  {
-    "name": "TD(54)",
-    "code": "0x5736",
-    "category": "basic"
-  },
-  {
-    "name": "TD(55)",
-    "code": "0x5737",
-    "category": "basic"
-  },
-  {
-    "name": "TD(56)",
-    "code": "0x5738",
-    "category": "basic"
-  },
-  {
-    "name": "TD(57)",
-    "code": "0x5739",
-    "category": "basic"
-  },
-  {
-    "name": "TD(58)",
-    "code": "0x573a",
-    "category": "basic"
-  },
-  {
-    "name": "TD(59)",
-    "code": "0x573b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(6)",
-    "code": "0x5706",
-    "category": "basic"
-  },
-  {
-    "name": "TD(60)",
-    "code": "0x573c",
-    "category": "basic"
-  },
-  {
-    "name": "TD(61)",
-    "code": "0x573d",
-    "category": "basic"
-  },
-  {
-    "name": "TD(62)",
-    "code": "0x573e",
-    "category": "basic"
-  },
-  {
-    "name": "TD(63)",
-    "code": "0x573f",
-    "category": "basic"
-  },
-  {
-    "name": "TD(64)",
-    "code": "0x5740",
-    "category": "basic"
-  },
-  {
-    "name": "TD(65)",
-    "code": "0x5741",
-    "category": "basic"
-  },
-  {
-    "name": "TD(66)",
-    "code": "0x5742",
-    "category": "basic"
-  },
-  {
-    "name": "TD(67)",
-    "code": "0x5743",
-    "category": "basic"
-  },
-  {
-    "name": "TD(68)",
-    "code": "0x5744",
-    "category": "basic"
-  },
-  {
-    "name": "TD(69)",
-    "code": "0x5745",
-    "category": "basic"
-  },
-  {
-    "name": "TD(7)",
-    "code": "0x5707",
-    "category": "basic"
-  },
-  {
-    "name": "TD(70)",
-    "code": "0x5746",
-    "category": "basic"
-  },
-  {
-    "name": "TD(71)",
-    "code": "0x5747",
-    "category": "basic"
-  },
-  {
-    "name": "TD(72)",
-    "code": "0x5748",
-    "category": "basic"
-  },
-  {
-    "name": "TD(73)",
-    "code": "0x5749",
-    "category": "basic"
-  },
-  {
-    "name": "TD(74)",
-    "code": "0x574a",
-    "category": "basic"
-  },
-  {
-    "name": "TD(75)",
-    "code": "0x574b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(76)",
-    "code": "0x574c",
-    "category": "basic"
-  },
-  {
-    "name": "TD(77)",
-    "code": "0x574d",
-    "category": "basic"
-  },
-  {
-    "name": "TD(78)",
-    "code": "0x574e",
-    "category": "basic"
-  },
-  {
-    "name": "TD(79)",
-    "code": "0x574f",
-    "category": "basic"
-  },
-  {
-    "name": "TD(8)",
-    "code": "0x5708",
-    "category": "basic"
-  },
-  {
-    "name": "TD(80)",
-    "code": "0x5750",
-    "category": "basic"
-  },
-  {
-    "name": "TD(81)",
-    "code": "0x5751",
-    "category": "basic"
-  },
-  {
-    "name": "TD(82)",
-    "code": "0x5752",
-    "category": "basic"
-  },
-  {
-    "name": "TD(83)",
-    "code": "0x5753",
-    "category": "basic"
-  },
-  {
-    "name": "TD(84)",
-    "code": "0x5754",
-    "category": "basic"
-  },
-  {
-    "name": "TD(85)",
-    "code": "0x5755",
-    "category": "basic"
-  },
-  {
-    "name": "TD(86)",
-    "code": "0x5756",
-    "category": "basic"
-  },
-  {
-    "name": "TD(87)",
-    "code": "0x5757",
-    "category": "basic"
-  },
-  {
-    "name": "TD(88)",
-    "code": "0x5758",
-    "category": "basic"
-  },
-  {
-    "name": "TD(89)",
-    "code": "0x5759",
-    "category": "basic"
-  },
-  {
-    "name": "TD(9)",
-    "code": "0x5709",
-    "category": "basic"
-  },
-  {
-    "name": "TD(90)",
-    "code": "0x575a",
-    "category": "basic"
-  },
-  {
-    "name": "TD(91)",
-    "code": "0x575b",
-    "category": "basic"
-  },
-  {
-    "name": "TD(92)",
-    "code": "0x575c",
-    "category": "basic"
-  },
-  {
-    "name": "TD(93)",
-    "code": "0x575d",
-    "category": "basic"
-  },
-  {
-    "name": "TD(94)",
-    "code": "0x575e",
-    "category": "basic"
-  },
-  {
-    "name": "TD(95)",
-    "code": "0x575f",
-    "category": "basic"
-  },
-  {
-    "name": "TD(96)",
-    "code": "0x5760",
-    "category": "basic"
-  },
-  {
-    "name": "TD(97)",
-    "code": "0x5761",
-    "category": "basic"
-  },
-  {
-    "name": "TD(98)",
-    "code": "0x5762",
-    "category": "basic"
-  },
-  {
-    "name": "TD(99)",
-    "code": "0x5763",
-    "category": "basic"
-  },
-  {
-    "name": "TRNS",
-    "code": "0x0001",
-    "category": "basic"
-  },
-  {
-    "name": "U",
-    "code": "0x0018",
-    "category": "basic"
-  },
-  {
-    "name": "UNDO",
-    "code": "0x007a",
-    "category": "basic"
-  },
-  {
-    "name": "UP",
-    "code": "0x0052",
-    "category": "basic"
-  },
-  {
-    "name": "USER00",
-    "code": "0x7e00",
-    "category": "basic"
-  },
-  {
-    "name": "USER01",
-    "code": "0x7e01",
-    "category": "basic"
-  },
-  {
-    "name": "USER02",
-    "code": "0x7e02",
-    "category": "basic"
-  },
-  {
-    "name": "USER03",
-    "code": "0x7e03",
-    "category": "basic"
-  },
-  {
-    "name": "USER04",
-    "code": "0x7e04",
-    "category": "basic"
-  },
-  {
-    "name": "USER05",
-    "code": "0x7e05",
-    "category": "basic"
-  },
-  {
-    "name": "USER06",
-    "code": "0x7e06",
-    "category": "basic"
-  },
-  {
-    "name": "USER07",
-    "code": "0x7e07",
-    "category": "basic"
-  },
-  {
-    "name": "USER08",
-    "code": "0x7e08",
-    "category": "basic"
-  },
-  {
-    "name": "USER09",
-    "code": "0x7e09",
-    "category": "basic"
-  },
-  {
-    "name": "USER10",
-    "code": "0x7e0a",
-    "category": "basic"
-  },
-  {
-    "name": "USER11",
-    "code": "0x7e0b",
-    "category": "basic"
-  },
-  {
-    "name": "USER12",
-    "code": "0x7e0c",
-    "category": "basic"
-  },
-  {
-    "name": "USER13",
-    "code": "0x7e0d",
-    "category": "basic"
-  },
-  {
-    "name": "USER14",
-    "code": "0x7e0e",
-    "category": "basic"
-  },
-  {
-    "name": "USER15",
-    "code": "0x7e0f",
-    "category": "basic"
-  },
-  {
-    "name": "USER16",
-    "code": "0x7e10",
-    "category": "basic"
-  },
-  {
-    "name": "USER17",
-    "code": "0x7e11",
-    "category": "basic"
-  },
-  {
-    "name": "USER18",
-    "code": "0x7e12",
-    "category": "basic"
-  },
-  {
-    "name": "USER19",
-    "code": "0x7e13",
-    "category": "basic"
-  },
-  {
-    "name": "USER20",
-    "code": "0x7e14",
-    "category": "basic"
-  },
-  {
-    "name": "USER21",
-    "code": "0x7e15",
-    "category": "basic"
-  },
-  {
-    "name": "USER22",
-    "code": "0x7e16",
-    "category": "basic"
-  },
-  {
-    "name": "USER23",
-    "code": "0x7e17",
-    "category": "basic"
-  },
-  {
-    "name": "USER24",
-    "code": "0x7e18",
-    "category": "basic"
-  },
-  {
-    "name": "USER25",
-    "code": "0x7e19",
-    "category": "basic"
-  },
-  {
-    "name": "USER26",
-    "code": "0x7e1a",
-    "category": "basic"
-  },
-  {
-    "name": "USER27",
-    "code": "0x7e1b",
-    "category": "basic"
-  },
-  {
-    "name": "USER28",
-    "code": "0x7e1c",
-    "category": "basic"
-  },
-  {
-    "name": "USER29",
-    "code": "0x7e1d",
-    "category": "basic"
-  },
-  {
-    "name": "USER30",
-    "code": "0x7e1e",
-    "category": "basic"
-  },
-  {
-    "name": "USER31",
-    "code": "0x7e1f",
-    "category": "basic"
-  },
-  {
-    "name": "USER32",
-    "code": "0x7e20",
-    "category": "basic"
-  },
-  {
-    "name": "USER33",
-    "code": "0x7e21",
-    "category": "basic"
-  },
-  {
-    "name": "USER34",
-    "code": "0x7e22",
-    "category": "basic"
-  },
-  {
-    "name": "USER35",
-    "code": "0x7e23",
-    "category": "basic"
-  },
-  {
-    "name": "USER36",
-    "code": "0x7e24",
-    "category": "basic"
-  },
-  {
-    "name": "USER37",
-    "code": "0x7e25",
-    "category": "basic"
-  },
-  {
-    "name": "USER38",
-    "code": "0x7e26",
-    "category": "basic"
-  },
-  {
-    "name": "USER39",
-    "code": "0x7e27",
-    "category": "basic"
-  },
-  {
-    "name": "USER40",
-    "code": "0x7e28",
-    "category": "basic"
-  },
-  {
-    "name": "USER41",
-    "code": "0x7e29",
-    "category": "basic"
-  },
-  {
-    "name": "USER42",
-    "code": "0x7e2a",
-    "category": "basic"
-  },
-  {
-    "name": "USER43",
-    "code": "0x7e2b",
-    "category": "basic"
-  },
-  {
-    "name": "USER44",
-    "code": "0x7e2c",
-    "category": "basic"
-  },
-  {
-    "name": "USER45",
-    "code": "0x7e2d",
-    "category": "basic"
-  },
-  {
-    "name": "USER46",
-    "code": "0x7e2e",
-    "category": "basic"
-  },
-  {
-    "name": "USER47",
-    "code": "0x7e2f",
-    "category": "basic"
-  },
-  {
-    "name": "USER48",
-    "code": "0x7e30",
-    "category": "basic"
-  },
-  {
-    "name": "USER49",
-    "code": "0x7e31",
-    "category": "basic"
-  },
-  {
-    "name": "USER50",
-    "code": "0x7e32",
-    "category": "basic"
-  },
-  {
-    "name": "USER51",
-    "code": "0x7e33",
-    "category": "basic"
-  },
-  {
-    "name": "USER52",
-    "code": "0x7e34",
-    "category": "basic"
-  },
-  {
-    "name": "USER53",
-    "code": "0x7e35",
-    "category": "basic"
-  },
-  {
-    "name": "USER54",
-    "code": "0x7e36",
-    "category": "basic"
-  },
-  {
-    "name": "USER55",
-    "code": "0x7e37",
-    "category": "basic"
-  },
-  {
-    "name": "USER56",
-    "code": "0x7e38",
-    "category": "basic"
-  },
-  {
-    "name": "USER57",
-    "code": "0x7e39",
-    "category": "basic"
-  },
-  {
-    "name": "USER58",
-    "code": "0x7e3a",
-    "category": "basic"
-  },
-  {
-    "name": "USER59",
-    "code": "0x7e3b",
-    "category": "basic"
-  },
-  {
-    "name": "USER60",
-    "code": "0x7e3c",
-    "category": "basic"
-  },
-  {
-    "name": "USER61",
-    "code": "0x7e3d",
-    "category": "basic"
-  },
-  {
-    "name": "USER62",
-    "code": "0x7e3e",
-    "category": "basic"
-  },
-  {
-    "name": "USER63",
-    "code": "0x7e3f",
-    "category": "basic"
-  },
-  {
-    "name": "V",
-    "code": "0x0019",
-    "category": "basic"
-  },
-  {
-    "name": "W",
-    "code": "0x001a",
-    "category": "basic"
-  },
-  {
-    "name": "WBAK",
-    "code": "0x00b6",
-    "category": "basic"
-  },
-  {
-    "name": "WFAV",
-    "code": "0x00ba",
-    "category": "basic"
-  },
-  {
-    "name": "WFWD",
-    "code": "0x00b7",
-    "category": "basic"
-  },
-  {
-    "name": "WHOM",
-    "code": "0x00b5",
-    "category": "basic"
-  },
-  {
-    "name": "WREF",
-    "code": "0x00b9",
-    "category": "basic"
-  },
-  {
-    "name": "WSCH",
-    "code": "0x00b4",
-    "category": "basic"
-  },
-  {
-    "name": "WSTP",
-    "code": "0x00b8",
-    "category": "basic"
-  },
-  {
-    "name": "X",
-    "code": "0x001b",
-    "category": "basic"
-  },
-  {
-    "name": "Y",
-    "code": "0x001c",
-    "category": "basic"
-  },
-  {
-    "name": "Z",
-    "code": "0x001d",
-    "category": "basic"
-  },
-  {
-    "name": "DF(0)",
-    "code": "0x5240",
-    "category": "layers"
-  },
-  {
-    "name": "DF(1)",
-    "code": "0x5241",
-    "category": "layers"
-  },
-  {
-    "name": "DF(10)",
-    "code": "0x524a",
-    "category": "layers"
-  },
-  {
-    "name": "DF(11)",
-    "code": "0x524b",
-    "category": "layers"
-  },
-  {
-    "name": "DF(12)",
-    "code": "0x524c",
-    "category": "layers"
-  },
-  {
-    "name": "DF(13)",
-    "code": "0x524d",
-    "category": "layers"
-  },
-  {
-    "name": "DF(14)",
-    "code": "0x524e",
-    "category": "layers"
-  },
-  {
-    "name": "DF(15)",
-    "code": "0x524f",
-    "category": "layers"
-  },
-  {
-    "name": "DF(16)",
-    "code": "0x5250",
-    "category": "layers"
-  },
-  {
-    "name": "DF(17)",
-    "code": "0x5251",
-    "category": "layers"
-  },
-  {
-    "name": "DF(18)",
-    "code": "0x5252",
-    "category": "layers"
-  },
-  {
-    "name": "DF(19)",
-    "code": "0x5253",
-    "category": "layers"
-  },
-  {
-    "name": "DF(2)",
-    "code": "0x5242",
-    "category": "layers"
-  },
-  {
-    "name": "DF(20)",
-    "code": "0x5254",
-    "category": "layers"
-  },
-  {
-    "name": "DF(21)",
-    "code": "0x5255",
-    "category": "layers"
-  },
-  {
-    "name": "DF(22)",
-    "code": "0x5256",
-    "category": "layers"
-  },
-  {
-    "name": "DF(23)",
-    "code": "0x5257",
-    "category": "layers"
-  },
-  {
-    "name": "DF(24)",
-    "code": "0x5258",
-    "category": "layers"
-  },
-  {
-    "name": "DF(25)",
-    "code": "0x5259",
-    "category": "layers"
-  },
-  {
-    "name": "DF(26)",
-    "code": "0x525a",
-    "category": "layers"
-  },
-  {
-    "name": "DF(27)",
-    "code": "0x525b",
-    "category": "layers"
-  },
-  {
-    "name": "DF(28)",
-    "code": "0x525c",
-    "category": "layers"
-  },
-  {
-    "name": "DF(29)",
-    "code": "0x525d",
-    "category": "layers"
-  },
-  {
-    "name": "DF(3)",
-    "code": "0x5243",
-    "category": "layers"
-  },
-  {
-    "name": "DF(30)",
-    "code": "0x525e",
-    "category": "layers"
-  },
-  {
-    "name": "DF(31)",
-    "code": "0x525f",
-    "category": "layers"
-  },
-  {
-    "name": "DF(4)",
-    "code": "0x5244",
-    "category": "layers"
-  },
-  {
-    "name": "DF(5)",
-    "code": "0x5245",
-    "category": "layers"
-  },
-  {
-    "name": "DF(6)",
-    "code": "0x5246",
-    "category": "layers"
-  },
-  {
-    "name": "DF(7)",
-    "code": "0x5247",
-    "category": "layers"
-  },
-  {
-    "name": "DF(8)",
-    "code": "0x5248",
-    "category": "layers"
-  },
-  {
-    "name": "DF(9)",
-    "code": "0x5249",
-    "category": "layers"
-  },
-  {
-    "name": "MO(0)",
-    "code": "0x5220",
-    "category": "layers"
-  },
-  {
-    "name": "MO(1)",
-    "code": "0x5221",
-    "category": "layers"
-  },
-  {
-    "name": "MO(10)",
-    "code": "0x522a",
-    "category": "layers"
-  },
-  {
-    "name": "MO(11)",
-    "code": "0x522b",
-    "category": "layers"
-  },
-  {
-    "name": "MO(12)",
-    "code": "0x522c",
-    "category": "layers"
-  },
-  {
-    "name": "MO(13)",
-    "code": "0x522d",
-    "category": "layers"
-  },
-  {
-    "name": "MO(14)",
-    "code": "0x522e",
-    "category": "layers"
-  },
-  {
-    "name": "MO(15)",
-    "code": "0x522f",
-    "category": "layers"
-  },
-  {
-    "name": "MO(16)",
-    "code": "0x5230",
-    "category": "layers"
-  },
-  {
-    "name": "MO(17)",
-    "code": "0x5231",
-    "category": "layers"
-  },
-  {
-    "name": "MO(18)",
-    "code": "0x5232",
-    "category": "layers"
-  },
-  {
-    "name": "MO(19)",
-    "code": "0x5233",
-    "category": "layers"
-  },
-  {
-    "name": "MO(2)",
-    "code": "0x5222",
-    "category": "layers"
-  },
-  {
-    "name": "MO(20)",
-    "code": "0x5234",
-    "category": "layers"
-  },
-  {
-    "name": "MO(21)",
-    "code": "0x5235",
-    "category": "layers"
-  },
-  {
-    "name": "MO(22)",
-    "code": "0x5236",
-    "category": "layers"
-  },
-  {
-    "name": "MO(23)",
-    "code": "0x5237",
-    "category": "layers"
-  },
-  {
-    "name": "MO(24)",
-    "code": "0x5238",
-    "category": "layers"
-  },
-  {
-    "name": "MO(25)",
-    "code": "0x5239",
-    "category": "layers"
-  },
-  {
-    "name": "MO(26)",
-    "code": "0x523a",
-    "category": "layers"
-  },
-  {
-    "name": "MO(27)",
-    "code": "0x523b",
-    "category": "layers"
-  },
-  {
-    "name": "MO(28)",
-    "code": "0x523c",
-    "category": "layers"
-  },
-  {
-    "name": "MO(29)",
-    "code": "0x523d",
-    "category": "layers"
-  },
-  {
-    "name": "MO(3)",
-    "code": "0x5223",
-    "category": "layers"
-  },
-  {
-    "name": "MO(30)",
-    "code": "0x523e",
-    "category": "layers"
-  },
-  {
-    "name": "MO(31)",
-    "code": "0x523f",
-    "category": "layers"
-  },
-  {
-    "name": "MO(4)",
-    "code": "0x5224",
-    "category": "layers"
-  },
-  {
-    "name": "MO(5)",
-    "code": "0x5225",
-    "category": "layers"
-  },
-  {
-    "name": "MO(6)",
-    "code": "0x5226",
-    "category": "layers"
-  },
-  {
-    "name": "MO(7)",
-    "code": "0x5227",
-    "category": "layers"
-  },
-  {
-    "name": "MO(8)",
-    "code": "0x5228",
-    "category": "layers"
-  },
-  {
-    "name": "MO(9)",
-    "code": "0x5229",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(0)",
-    "code": "0x5280",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(1)",
-    "code": "0x5281",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(10)",
-    "code": "0x528a",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(11)",
-    "code": "0x528b",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(12)",
-    "code": "0x528c",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(13)",
-    "code": "0x528d",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(14)",
-    "code": "0x528e",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(15)",
-    "code": "0x528f",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(16)",
-    "code": "0x5290",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(17)",
-    "code": "0x5291",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(18)",
-    "code": "0x5292",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(19)",
-    "code": "0x5293",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(2)",
-    "code": "0x5282",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(20)",
-    "code": "0x5294",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(21)",
-    "code": "0x5295",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(22)",
-    "code": "0x5296",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(23)",
-    "code": "0x5297",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(24)",
-    "code": "0x5298",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(25)",
-    "code": "0x5299",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(26)",
-    "code": "0x529a",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(27)",
-    "code": "0x529b",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(28)",
-    "code": "0x529c",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(29)",
-    "code": "0x529d",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(3)",
-    "code": "0x5283",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(30)",
-    "code": "0x529e",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(31)",
-    "code": "0x529f",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(4)",
-    "code": "0x5284",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(5)",
-    "code": "0x5285",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(6)",
-    "code": "0x5286",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(7)",
-    "code": "0x5287",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(8)",
-    "code": "0x5288",
-    "category": "layers"
-  },
-  {
-    "name": "OSL(9)",
-    "code": "0x5289",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(0)",
-    "code": "0x52e0",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(1)",
-    "code": "0x52e1",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(10)",
-    "code": "0x52ea",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(11)",
-    "code": "0x52eb",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(12)",
-    "code": "0x52ec",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(13)",
-    "code": "0x52ed",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(14)",
-    "code": "0x52ee",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(15)",
-    "code": "0x52ef",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(16)",
-    "code": "0x52f0",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(17)",
-    "code": "0x52f1",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(18)",
-    "code": "0x52f2",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(19)",
-    "code": "0x52f3",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(2)",
-    "code": "0x52e2",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(20)",
-    "code": "0x52f4",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(21)",
-    "code": "0x52f5",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(22)",
-    "code": "0x52f6",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(23)",
-    "code": "0x52f7",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(24)",
-    "code": "0x52f8",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(25)",
-    "code": "0x52f9",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(26)",
-    "code": "0x52fa",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(27)",
-    "code": "0x52fb",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(28)",
-    "code": "0x52fc",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(29)",
-    "code": "0x52fd",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(3)",
-    "code": "0x52e3",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(30)",
-    "code": "0x52fe",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(31)",
-    "code": "0x52ff",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(4)",
-    "code": "0x52e4",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(5)",
-    "code": "0x52e5",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(6)",
-    "code": "0x52e6",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(7)",
-    "code": "0x52e7",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(8)",
-    "code": "0x52e8",
-    "category": "layers"
-  },
-  {
-    "name": "PDF(9)",
-    "code": "0x52e9",
-    "category": "layers"
-  },
-  {
-    "name": "QK_DEF_LAYER",
-    "code": "0x5240",
-    "category": "layers"
-  },
-  {
-    "name": "QK_LAYER_LOCK",
-    "code": "0x7c7b",
-    "category": "layers"
-  },
-  {
-    "name": "QK_LAYER_MOD",
-    "code": "0x5000",
-    "category": "layers"
-  },
-  {
-    "name": "QK_LAYER_TAP",
-    "code": "0x4000",
-    "category": "layers"
-  },
-  {
-    "name": "QK_LAYER_TAP_TOGGLE",
-    "code": "0x52c0",
-    "category": "layers"
-  },
-  {
-    "name": "QK_MOMENTARY",
-    "code": "0x5220",
-    "category": "layers"
-  },
-  {
-    "name": "QK_TO",
-    "code": "0x5200",
-    "category": "layers"
-  },
-  {
-    "name": "QK_TOGGLE_LAYER",
-    "code": "0x5260",
-    "category": "layers"
-  },
-  {
-    "name": "TG(0)",
-    "code": "0x5260",
-    "category": "layers"
-  },
-  {
-    "name": "TG(1)",
-    "code": "0x5261",
-    "category": "layers"
-  },
-  {
-    "name": "TG(10)",
-    "code": "0x526a",
-    "category": "layers"
-  },
-  {
-    "name": "TG(11)",
-    "code": "0x526b",
-    "category": "layers"
-  },
-  {
-    "name": "TG(12)",
-    "code": "0x526c",
-    "category": "layers"
-  },
-  {
-    "name": "TG(13)",
-    "code": "0x526d",
-    "category": "layers"
-  },
-  {
-    "name": "TG(14)",
-    "code": "0x526e",
-    "category": "layers"
-  },
-  {
-    "name": "TG(15)",
-    "code": "0x526f",
-    "category": "layers"
-  },
-  {
-    "name": "TG(16)",
-    "code": "0x5270",
-    "category": "layers"
-  },
-  {
-    "name": "TG(17)",
-    "code": "0x5271",
-    "category": "layers"
-  },
-  {
-    "name": "TG(18)",
-    "code": "0x5272",
-    "category": "layers"
-  },
-  {
-    "name": "TG(19)",
-    "code": "0x5273",
-    "category": "layers"
-  },
-  {
-    "name": "TG(2)",
-    "code": "0x5262",
-    "category": "layers"
-  },
-  {
-    "name": "TG(20)",
-    "code": "0x5274",
-    "category": "layers"
-  },
-  {
-    "name": "TG(21)",
-    "code": "0x5275",
-    "category": "layers"
-  },
-  {
-    "name": "TG(22)",
-    "code": "0x5276",
-    "category": "layers"
-  },
-  {
-    "name": "TG(23)",
-    "code": "0x5277",
-    "category": "layers"
-  },
-  {
-    "name": "TG(24)",
-    "code": "0x5278",
-    "category": "layers"
-  },
-  {
-    "name": "TG(25)",
-    "code": "0x5279",
-    "category": "layers"
-  },
-  {
-    "name": "TG(26)",
-    "code": "0x527a",
-    "category": "layers"
-  },
-  {
-    "name": "TG(27)",
-    "code": "0x527b",
-    "category": "layers"
-  },
-  {
-    "name": "TG(28)",
-    "code": "0x527c",
-    "category": "layers"
-  },
-  {
-    "name": "TG(29)",
-    "code": "0x527d",
-    "category": "layers"
-  },
-  {
-    "name": "TG(3)",
-    "code": "0x5263",
-    "category": "layers"
-  },
-  {
-    "name": "TG(30)",
-    "code": "0x527e",
-    "category": "layers"
-  },
-  {
-    "name": "TG(31)",
-    "code": "0x527f",
-    "category": "layers"
-  },
-  {
-    "name": "TG(4)",
-    "code": "0x5264",
-    "category": "layers"
-  },
-  {
-    "name": "TG(5)",
-    "code": "0x5265",
-    "category": "layers"
-  },
-  {
-    "name": "TG(6)",
-    "code": "0x5266",
-    "category": "layers"
-  },
-  {
-    "name": "TG(7)",
-    "code": "0x5267",
-    "category": "layers"
-  },
-  {
-    "name": "TG(8)",
-    "code": "0x5268",
-    "category": "layers"
-  },
-  {
-    "name": "TG(9)",
-    "code": "0x5269",
-    "category": "layers"
-  },
-  {
-    "name": "TO(0)",
-    "code": "0x5200",
-    "category": "layers"
-  },
-  {
-    "name": "TO(1)",
-    "code": "0x5201",
-    "category": "layers"
-  },
-  {
-    "name": "TO(10)",
-    "code": "0x520a",
-    "category": "layers"
-  },
-  {
-    "name": "TO(11)",
-    "code": "0x520b",
-    "category": "layers"
-  },
-  {
-    "name": "TO(12)",
-    "code": "0x520c",
-    "category": "layers"
-  },
-  {
-    "name": "TO(13)",
-    "code": "0x520d",
-    "category": "layers"
-  },
-  {
-    "name": "TO(14)",
-    "code": "0x520e",
-    "category": "layers"
-  },
-  {
-    "name": "TO(15)",
-    "code": "0x520f",
-    "category": "layers"
-  },
-  {
-    "name": "TO(16)",
-    "code": "0x5210",
-    "category": "layers"
-  },
-  {
-    "name": "TO(17)",
-    "code": "0x5211",
-    "category": "layers"
-  },
-  {
-    "name": "TO(18)",
-    "code": "0x5212",
-    "category": "layers"
-  },
-  {
-    "name": "TO(19)",
-    "code": "0x5213",
-    "category": "layers"
-  },
-  {
-    "name": "TO(2)",
-    "code": "0x5202",
-    "category": "layers"
-  },
-  {
-    "name": "TO(20)",
-    "code": "0x5214",
-    "category": "layers"
-  },
-  {
-    "name": "TO(21)",
-    "code": "0x5215",
-    "category": "layers"
-  },
-  {
-    "name": "TO(22)",
-    "code": "0x5216",
-    "category": "layers"
-  },
-  {
-    "name": "TO(23)",
-    "code": "0x5217",
-    "category": "layers"
-  },
-  {
-    "name": "TO(24)",
-    "code": "0x5218",
-    "category": "layers"
-  },
-  {
-    "name": "TO(25)",
-    "code": "0x5219",
-    "category": "layers"
-  },
-  {
-    "name": "TO(26)",
-    "code": "0x521a",
-    "category": "layers"
-  },
-  {
-    "name": "TO(27)",
-    "code": "0x521b",
-    "category": "layers"
-  },
-  {
-    "name": "TO(28)",
-    "code": "0x521c",
-    "category": "layers"
-  },
-  {
-    "name": "TO(29)",
-    "code": "0x521d",
-    "category": "layers"
-  },
-  {
-    "name": "TO(3)",
-    "code": "0x5203",
-    "category": "layers"
-  },
-  {
-    "name": "TO(30)",
-    "code": "0x521e",
-    "category": "layers"
-  },
-  {
-    "name": "TO(31)",
-    "code": "0x521f",
-    "category": "layers"
-  },
-  {
-    "name": "TO(4)",
-    "code": "0x5204",
-    "category": "layers"
-  },
-  {
-    "name": "TO(5)",
-    "code": "0x5205",
-    "category": "layers"
-  },
-  {
-    "name": "TO(6)",
-    "code": "0x5206",
-    "category": "layers"
-  },
-  {
-    "name": "TO(7)",
-    "code": "0x5207",
-    "category": "layers"
-  },
-  {
-    "name": "TO(8)",
-    "code": "0x5208",
-    "category": "layers"
-  },
-  {
-    "name": "TO(9)",
-    "code": "0x5209",
-    "category": "layers"
-  },
-  {
-    "name": "TT(0)",
-    "code": "0x52c0",
-    "category": "layers"
-  },
-  {
-    "name": "TT(1)",
-    "code": "0x52c1",
-    "category": "layers"
-  },
-  {
-    "name": "TT(10)",
-    "code": "0x52ca",
-    "category": "layers"
-  },
-  {
-    "name": "TT(11)",
-    "code": "0x52cb",
-    "category": "layers"
-  },
-  {
-    "name": "TT(12)",
-    "code": "0x52cc",
-    "category": "layers"
-  },
-  {
-    "name": "TT(13)",
-    "code": "0x52cd",
-    "category": "layers"
-  },
-  {
-    "name": "TT(14)",
-    "code": "0x52ce",
-    "category": "layers"
-  },
-  {
-    "name": "TT(15)",
-    "code": "0x52cf",
-    "category": "layers"
-  },
-  {
-    "name": "TT(16)",
-    "code": "0x52d0",
-    "category": "layers"
-  },
-  {
-    "name": "TT(17)",
-    "code": "0x52d1",
-    "category": "layers"
-  },
-  {
-    "name": "TT(18)",
-    "code": "0x52d2",
-    "category": "layers"
-  },
-  {
-    "name": "TT(19)",
-    "code": "0x52d3",
-    "category": "layers"
-  },
-  {
-    "name": "TT(2)",
-    "code": "0x52c2",
-    "category": "layers"
-  },
-  {
-    "name": "TT(20)",
-    "code": "0x52d4",
-    "category": "layers"
-  },
-  {
-    "name": "TT(21)",
-    "code": "0x52d5",
-    "category": "layers"
-  },
-  {
-    "name": "TT(22)",
-    "code": "0x52d6",
-    "category": "layers"
-  },
-  {
-    "name": "TT(23)",
-    "code": "0x52d7",
-    "category": "layers"
-  },
-  {
-    "name": "TT(24)",
-    "code": "0x52d8",
-    "category": "layers"
-  },
-  {
-    "name": "TT(25)",
-    "code": "0x52d9",
-    "category": "layers"
-  },
-  {
-    "name": "TT(26)",
-    "code": "0x52da",
-    "category": "layers"
-  },
-  {
-    "name": "TT(27)",
-    "code": "0x52db",
-    "category": "layers"
-  },
-  {
-    "name": "TT(28)",
-    "code": "0x52dc",
-    "category": "layers"
-  },
-  {
-    "name": "TT(29)",
-    "code": "0x52dd",
-    "category": "layers"
-  },
-  {
-    "name": "TT(3)",
-    "code": "0x52c3",
-    "category": "layers"
-  },
-  {
-    "name": "TT(30)",
-    "code": "0x52de",
-    "category": "layers"
-  },
-  {
-    "name": "TT(31)",
-    "code": "0x52df",
-    "category": "layers"
-  },
-  {
-    "name": "TT(4)",
-    "code": "0x52c4",
-    "category": "layers"
-  },
-  {
-    "name": "TT(5)",
-    "code": "0x52c5",
-    "category": "layers"
-  },
-  {
-    "name": "TT(6)",
-    "code": "0x52c6",
-    "category": "layers"
-  },
-  {
-    "name": "TT(7)",
-    "code": "0x52c7",
-    "category": "layers"
-  },
-  {
-    "name": "TT(8)",
-    "code": "0x52c8",
-    "category": "layers"
-  },
-  {
-    "name": "TT(9)",
-    "code": "0x52c9",
-    "category": "layers"
-  },
-  {
-    "name": "ACL0",
-    "code": "0x00dd",
-    "category": "special"
-  },
-  {
-    "name": "ACL1",
-    "code": "0x00de",
-    "category": "special"
-  },
-  {
-    "name": "ACL2",
-    "code": "0x00df",
-    "category": "special"
-  },
-  {
-    "name": "AMPR",
-    "code": "0x0224",
-    "category": "special"
-  },
-  {
-    "name": "ASTR",
-    "code": "0x0225",
-    "category": "special"
-  },
-  {
-    "name": "AT",
-    "code": "0x021f",
-    "category": "special"
-  },
-  {
-    "name": "BTN1",
-    "code": "0x00d1",
-    "category": "special"
-  },
-  {
-    "name": "BTN2",
-    "code": "0x00d2",
-    "category": "special"
-  },
-  {
-    "name": "BTN3",
-    "code": "0x00d3",
-    "category": "special"
-  },
-  {
-    "name": "BTN4",
-    "code": "0x00d4",
-    "category": "special"
-  },
-  {
-    "name": "BTN5",
-    "code": "0x00d5",
-    "category": "special"
-  },
-  {
-    "name": "CIRC",
-    "code": "0x0223",
-    "category": "special"
-  },
-  {
-    "name": "COLN",
-    "code": "0x0233",
-    "category": "special"
-  },
-  {
-    "name": "DLR",
-    "code": "0x0221",
-    "category": "special"
-  },
-  {
-    "name": "DQUO",
-    "code": "0x0234",
-    "category": "special"
-  },
-  {
-    "name": "EXLM",
-    "code": "0x021e",
-    "category": "special"
-  },
-  {
-    "name": "F13",
-    "code": "0x0068",
-    "category": "special"
-  },
-  {
-    "name": "F14",
-    "code": "0x0069",
-    "category": "special"
-  },
-  {
-    "name": "F15",
-    "code": "0x006a",
-    "category": "special"
-  },
-  {
-    "name": "F16",
-    "code": "0x006b",
-    "category": "special"
-  },
-  {
-    "name": "F17",
-    "code": "0x006c",
-    "category": "special"
-  },
-  {
-    "name": "F18",
-    "code": "0x006d",
-    "category": "special"
-  },
-  {
-    "name": "F19",
-    "code": "0x006e",
-    "category": "special"
-  },
-  {
-    "name": "F20",
-    "code": "0x006f",
-    "category": "special"
-  },
-  {
-    "name": "F21",
-    "code": "0x0070",
-    "category": "special"
-  },
-  {
-    "name": "F22",
-    "code": "0x0071",
-    "category": "special"
-  },
-  {
-    "name": "F23",
-    "code": "0x0072",
-    "category": "special"
-  },
-  {
-    "name": "F24",
-    "code": "0x0073",
-    "category": "special"
-  },
-  {
-    "name": "GT",
-    "code": "0x0237",
-    "category": "special"
-  },
-  {
-    "name": "HASH",
-    "code": "0x0220",
-    "category": "special"
-  },
-  {
-    "name": "LCBR",
-    "code": "0x022f",
-    "category": "special"
-  },
-  {
-    "name": "LPRN",
-    "code": "0x0226",
-    "category": "special"
-  },
-  {
-    "name": "LT",
-    "code": "0x0236",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_CAPSLOCK_TO_CONTROL",
-    "code": "0x7004",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_EE_HANDS_LEFT",
-    "code": "0x701e",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_EE_HANDS_RIGHT",
-    "code": "0x701f",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_HOST_NKRO",
-    "code": "0x7011",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_NO_GUI",
-    "code": "0x700a",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_SWAP_ALT_GUI",
-    "code": "0x7014",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_SWAP_BACKSLASH_BACKSPACE",
-    "code": "0x700e",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_SWAP_CONTROL_CAPSLOCK",
-    "code": "0x7000",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_SWAP_CTL_GUI",
-    "code": "0x701b",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_SWAP_GRAVE_ESC",
-    "code": "0x700c",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_SWAP_LALT_LGUI",
-    "code": "0x7005",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_SWAP_LCTL_LGUI",
-    "code": "0x7017",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_SWAP_RALT_RGUI",
-    "code": "0x7007",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_SWAP_RCTL_RGUI",
-    "code": "0x7019",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_TOGGLE_ALT_GUI",
-    "code": "0x7016",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_TOGGLE_CTL_GUI",
-    "code": "0x701d",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_TOGGLE_GUI",
-    "code": "0x700b",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_TOGGLE_NKRO",
-    "code": "0x7013",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNCAPSLOCK_TO_CONTROL",
-    "code": "0x7003",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNHOST_NKRO",
-    "code": "0x7012",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNNO_GUI",
-    "code": "0x7009",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNSWAP_ALT_GUI",
-    "code": "0x7015",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNSWAP_BACKSLASH_BACKSPACE",
-    "code": "0x700f",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNSWAP_CONTROL_CAPSLOCK",
-    "code": "0x7001",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNSWAP_CTL_GUI",
-    "code": "0x701c",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNSWAP_GRAVE_ESC",
-    "code": "0x700d",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNSWAP_LALT_LGUI",
-    "code": "0x7006",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNSWAP_LCTL_LGUI",
-    "code": "0x7018",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNSWAP_RALT_RGUI",
-    "code": "0x7008",
-    "category": "special"
-  },
-  {
-    "name": "MAGIC_UNSWAP_RCTL_RGUI",
-    "code": "0x701a",
-    "category": "special"
-  },
-  {
-    "name": "MS_D",
-    "code": "0x00ce",
-    "category": "special"
-  },
-  {
-    "name": "MS_L",
-    "code": "0x00cf",
-    "category": "special"
-  },
-  {
-    "name": "MS_R",
-    "code": "0x00d0",
-    "category": "special"
-  },
-  {
-    "name": "MS_U",
-    "code": "0x00cd",
-    "category": "special"
-  },
-  {
-    "name": "PERC",
-    "code": "0x0222",
-    "category": "special"
-  },
-  {
-    "name": "PIPE",
-    "code": "0x0231",
-    "category": "special"
-  },
-  {
-    "name": "PLUS",
-    "code": "0x022e",
-    "category": "special"
-  },
-  {
-    "name": "QK_BOOT",
-    "code": "0x7c00",
-    "category": "special"
-  },
-  {
-    "name": "QK_CLEAR_EEPROM",
-    "code": "0x7c03",
-    "category": "special"
-  },
-  {
-    "name": "QUES",
-    "code": "0x0238",
-    "category": "special"
-  },
-  {
-    "name": "RCBR",
-    "code": "0x0230",
-    "category": "special"
-  },
-  {
-    "name": "RPRN",
-    "code": "0x0227",
-    "category": "special"
-  },
-  {
-    "name": "TILD",
-    "code": "0x0235",
-    "category": "special"
-  },
-  {
-    "name": "UNDS",
-    "code": "0x022d",
-    "category": "special"
-  },
-  {
-    "name": "WH_D",
-    "code": "0x00da",
-    "category": "special"
-  },
-  {
-    "name": "WH_L",
-    "code": "0x00db",
-    "category": "special"
-  },
-  {
-    "name": "WH_R",
-    "code": "0x00dc",
-    "category": "special"
-  },
-  {
-    "name": "WH_U",
-    "code": "0x00d9",
-    "category": "special"
-  }
+    {
+        "name": "A",
+        "code": "0x4",
+        "category": "basic"
+    },
+    {
+        "name": "B",
+        "code": "0x5",
+        "category": "basic"
+    },
+    {
+        "name": "C",
+        "code": "0x6",
+        "category": "basic"
+    },
+    {
+        "name": "D",
+        "code": "0x7",
+        "category": "basic"
+    },
+    {
+        "name": "E",
+        "code": "0x8",
+        "category": "basic"
+    },
+    {
+        "name": "F",
+        "code": "0x9",
+        "category": "basic"
+    },
+    {
+        "name": "G",
+        "code": "0xa",
+        "category": "basic"
+    },
+    {
+        "name": "H",
+        "code": "0xb",
+        "category": "basic"
+    },
+    {
+        "name": "I",
+        "code": "0xc",
+        "category": "basic"
+    },
+    {
+        "name": "J",
+        "code": "0xd",
+        "category": "basic"
+    },
+    {
+        "name": "K",
+        "code": "0xe",
+        "category": "basic"
+    },
+    {
+        "name": "L",
+        "code": "0xf",
+        "category": "basic"
+    },
+    {
+        "name": "M",
+        "code": "0x10",
+        "category": "basic"
+    },
+    {
+        "name": "N",
+        "code": "0x11",
+        "category": "basic"
+    },
+    {
+        "name": "O",
+        "code": "0x12",
+        "category": "basic"
+    },
+    {
+        "name": "P",
+        "code": "0x13",
+        "category": "basic"
+    },
+    {
+        "name": "Q",
+        "code": "0x14",
+        "category": "basic"
+    },
+    {
+        "name": "R",
+        "code": "0x15",
+        "category": "basic"
+    },
+    {
+        "name": "S",
+        "code": "0x16",
+        "category": "basic"
+    },
+    {
+        "name": "T",
+        "code": "0x17",
+        "category": "basic"
+    },
+    {
+        "name": "U",
+        "code": "0x18",
+        "category": "basic"
+    },
+    {
+        "name": "V",
+        "code": "0x19",
+        "category": "basic"
+    },
+    {
+        "name": "W",
+        "code": "0x1a",
+        "category": "basic"
+    },
+    {
+        "name": "X",
+        "code": "0x1b",
+        "category": "basic"
+    },
+    {
+        "name": "Y",
+        "code": "0x1c",
+        "category": "basic"
+    },
+    {
+        "name": "Z",
+        "code": "0x1d",
+        "category": "basic"
+    },
+    {
+        "name": "1",
+        "code": "0x1e",
+        "category": "basic"
+    },
+    {
+        "name": "2",
+        "code": "0x1f",
+        "category": "basic"
+    },
+    {
+        "name": "3",
+        "code": "0x20",
+        "category": "basic"
+    },
+    {
+        "name": "4",
+        "code": "0x21",
+        "category": "basic"
+    },
+    {
+        "name": "5",
+        "code": "0x22",
+        "category": "basic"
+    },
+    {
+        "name": "6",
+        "code": "0x23",
+        "category": "basic"
+    },
+    {
+        "name": "7",
+        "code": "0x24",
+        "category": "basic"
+    },
+    {
+        "name": "8",
+        "code": "0x25",
+        "category": "basic"
+    },
+    {
+        "name": "9",
+        "code": "0x26",
+        "category": "basic"
+    },
+    {
+        "name": "0",
+        "code": "0x27",
+        "category": "basic"
+    },
+    {
+        "name": "F1",
+        "code": "0x3a",
+        "category": "basic"
+    },
+    {
+        "name": "F2",
+        "code": "0x3b",
+        "category": "basic"
+    },
+    {
+        "name": "F3",
+        "code": "0x3c",
+        "category": "basic"
+    },
+    {
+        "name": "F4",
+        "code": "0x3d",
+        "category": "basic"
+    },
+    {
+        "name": "F5",
+        "code": "0x3e",
+        "category": "basic"
+    },
+    {
+        "name": "F6",
+        "code": "0x3f",
+        "category": "basic"
+    },
+    {
+        "name": "F7",
+        "code": "0x40",
+        "category": "basic"
+    },
+    {
+        "name": "F8",
+        "code": "0x41",
+        "category": "basic"
+    },
+    {
+        "name": "F9",
+        "code": "0x42",
+        "category": "basic"
+    },
+    {
+        "name": "F10",
+        "code": "0x43",
+        "category": "basic"
+    },
+    {
+        "name": "F11",
+        "code": "0x44",
+        "category": "basic"
+    },
+    {
+        "name": "F12",
+        "code": "0x45",
+        "category": "basic"
+    },
+    {
+        "name": "ESCAPE",
+        "code": "0x29",
+        "category": "basic"
+    },
+    {
+        "name": "TAB",
+        "code": "0x2b",
+        "category": "basic"
+    },
+    {
+        "name": "BSPACE",
+        "code": "0x2a",
+        "category": "basic"
+    },
+    {
+        "name": "ENTER",
+        "code": "0x28",
+        "category": "basic"
+    },
+    {
+        "name": "INSERT",
+        "code": "0x49",
+        "category": "basic"
+    },
+    {
+        "name": "DELETE",
+        "code": "0x4c",
+        "category": "basic"
+    },
+    {
+        "name": "HOME",
+        "code": "0x4a",
+        "category": "basic"
+    },
+    {
+        "name": "END",
+        "code": "0x4d",
+        "category": "basic"
+    },
+    {
+        "name": "PGUP",
+        "code": "0x4b",
+        "category": "basic"
+    },
+    {
+        "name": "NUMLOCK",
+        "code": "0x53",
+        "category": "basic"
+    },
+    {
+        "name": "CAPSLOCK",
+        "code": "0x39",
+        "category": "basic"
+    },
+    {
+        "name": "PSCREEN",
+        "code": "0x46",
+        "category": "basic"
+    },
+    {
+        "name": "SCROLLLOCK",
+        "code": "0x47",
+        "category": "basic"
+    },
+    {
+        "name": "PAUSE",
+        "code": "0x48",
+        "category": "basic"
+    },
+    {
+        "name": "KP_0",
+        "code": "0x62",
+        "category": "basic"
+    },
+    {
+        "name": "KP_1",
+        "code": "0x59",
+        "category": "basic"
+    },
+    {
+        "name": "KP_2",
+        "code": "0x5a",
+        "category": "basic"
+    },
+    {
+        "name": "KP_3",
+        "code": "0x5b",
+        "category": "basic"
+    },
+    {
+        "name": "KP_4",
+        "code": "0x5c",
+        "category": "basic"
+    },
+    {
+        "name": "KP_5",
+        "code": "0x5d",
+        "category": "basic"
+    },
+    {
+        "name": "KP_6",
+        "code": "0x5e",
+        "category": "basic"
+    },
+    {
+        "name": "KP_7",
+        "code": "0x5f",
+        "category": "basic"
+    },
+    {
+        "name": "KP_8",
+        "code": "0x60",
+        "category": "basic"
+    },
+    {
+        "name": "KP_9",
+        "code": "0x61",
+        "category": "basic"
+    },
+    {
+        "name": "KP_SLASH",
+        "code": "0x54",
+        "category": "basic"
+    },
+    {
+        "name": "KP_ASTERISK",
+        "code": "0x55",
+        "category": "basic"
+    },
+    {
+        "name": "KP_MINUS",
+        "code": "0x56",
+        "category": "basic"
+    },
+    {
+        "name": "KP_PLUS",
+        "code": "0x57",
+        "category": "basic"
+    },
+    {
+        "name": "KP_DOT",
+        "code": "0x63",
+        "category": "basic"
+    },
+    {
+        "name": "KP_ENTER",
+        "code": "0x58",
+        "category": "basic"
+    },
+    {
+        "name": "KP_EQUAL",
+        "code": "0x67",
+        "category": "basic"
+    },
+    {
+        "name": "LSHIFT",
+        "code": "0xe1",
+        "category": "basic"
+    },
+    {
+        "name": "RSHIFT",
+        "code": "0xe5",
+        "category": "basic"
+    },
+    {
+        "name": "LCTRL",
+        "code": "0xe0",
+        "category": "basic"
+    },
+    {
+        "name": "RCTRL",
+        "code": "0xe4",
+        "category": "basic"
+    },
+    {
+        "name": "LGUI",
+        "code": "0xe3",
+        "category": "basic"
+    },
+    {
+        "name": "RGUI",
+        "code": "0xe7",
+        "category": "basic"
+    },
+    {
+        "name": "LALT",
+        "code": "0xe2",
+        "category": "basic"
+    },
+    {
+        "name": "RALT",
+        "code": "0xe6",
+        "category": "basic"
+    },
+    {
+        "name": "APPLICATION",
+        "code": "0x65",
+        "category": "basic"
+    },
+    {
+        "name": "LEFT",
+        "code": "0x50",
+        "category": "basic"
+    },
+    {
+        "name": "DOWN",
+        "code": "0x51",
+        "category": "basic"
+    },
+    {
+        "name": "UP",
+        "code": "0x52",
+        "category": "basic"
+    },
+    {
+        "name": "RIGHT",
+        "code": "0x4f",
+        "category": "basic"
+    },
+    {
+        "name": "SPACE",
+        "code": "0x2c",
+        "category": "basic"
+    },
+    {
+        "name": "MINUS",
+        "code": "0x2d",
+        "category": "basic"
+    },
+    {
+        "name": "EQUAL",
+        "code": "0x2e",
+        "category": "basic"
+    },
+    {
+        "name": "LBRACKET",
+        "code": "0x2f",
+        "category": "basic"
+    },
+    {
+        "name": "RBRACKET",
+        "code": "0x30",
+        "category": "basic"
+    },
+    {
+        "name": "BSLASH",
+        "code": "0x31",
+        "category": "basic"
+    },
+    {
+        "name": "NONUS_HASH",
+        "code": "0x32",
+        "category": "basic"
+    },
+    {
+        "name": "SCOLON",
+        "code": "0x33",
+        "category": "basic"
+    },
+    {
+        "name": "QUOTE",
+        "code": "0x34",
+        "category": "basic"
+    },
+    {
+        "name": "GRAVE",
+        "code": "0x35",
+        "category": "basic"
+    },
+    {
+        "name": "COMMA",
+        "code": "0x36",
+        "category": "basic"
+    },
+    {
+        "name": "DOT",
+        "code": "0x37",
+        "category": "basic"
+    },
+    {
+        "name": "SLASH",
+        "code": "0x38",
+        "category": "basic"
+    },
+    {
+        "name": "NONUS_BSLASH",
+        "code": "0x64",
+        "category": "basic"
+    },
+    {
+        "name": "VOLD",
+        "code": "0xaa",
+        "category": "Media"
+    },
+    {
+        "name": "VOLU",
+        "code": "0xa9",
+        "category": "Media"
+    },
+    {
+        "name": "MUTE",
+        "code": "0xa8",
+        "category": "Media"
+    },
+    {
+        "name": "MPLY",
+        "code": "0xae",
+        "category": "Media"
+    },
+    {
+        "name": "MSTP",
+        "code": "0xad",
+        "category": "Media"
+    },
+    {
+        "name": "MPRV",
+        "code": "0xac",
+        "category": "Media"
+    },
+    {
+        "name": "MNXT",
+        "code": "0xab",
+        "category": "Media"
+    },
+    {
+        "name": "MRWD",
+        "code": "0xbc",
+        "category": "Media"
+    },
+    {
+        "name": "MFFD",
+        "code": "0xbb",
+        "category": "Media"
+    },
+    {
+        "name": "MSEL",
+        "code": "0xaf",
+        "category": "Media"
+    },
+    {
+        "name": "EJCT",
+        "code": "0xb0",
+        "category": "Media"
+    },
+    {
+        "name": "M0",
+        "code": "0x7700",
+        "category": "MACRO"
+    },
+    {
+        "name": "M1",
+        "code": "0x7701",
+        "category": "MACRO"
+    },
+    {
+        "name": "M2",
+        "code": "0x7702",
+        "category": "MACRO"
+    },
+    {
+        "name": "M3",
+        "code": "0x7703",
+        "category": "MACRO"
+    },
+    {
+        "name": "M4",
+        "code": "0x7704",
+        "category": "MACRO"
+    },
+    {
+        "name": "M5",
+        "code": "0x7705",
+        "category": "MACRO"
+    },
+    {
+        "name": "M6",
+        "code": "0x7706",
+        "category": "MACRO"
+    },
+    {
+        "name": "M7",
+        "code": "0x7707",
+        "category": "MACRO"
+    },
+    {
+        "name": "M8",
+        "code": "0x7708",
+        "category": "MACRO"
+    },
+    {
+        "name": "M9",
+        "code": "0x7709",
+        "category": "MACRO"
+    },
+    {
+        "name": "M10",
+        "code": "0x770a",
+        "category": "MACRO"
+    },
+    {
+        "name": "M11",
+        "code": "0x770b",
+        "category": "MACRO"
+    },
+    {
+        "name": "M12",
+        "code": "0x770c",
+        "category": "MACRO"
+    },
+    {
+        "name": "M13",
+        "code": "0x770d",
+        "category": "MACRO"
+    },
+    {
+        "name": "M14",
+        "code": "0x770e",
+        "category": "MACRO"
+    },
+    {
+        "name": "M15",
+        "code": "0x770f",
+        "category": "MACRO"
+    },
+    {
+        "name": "RO",
+        "code": "0x87",
+        "category": "special"
+    },
+    {
+        "name": "JYEN",
+        "code": "0x89",
+        "category": "special"
+    },
+    {
+        "name": "MHEN",
+        "code": "0x8b",
+        "category": "special"
+    },
+    {
+        "name": "HENK",
+        "code": "0x8a",
+        "category": "special"
+    },
+    {
+        "name": "KANA",
+        "code": "0x88",
+        "category": "special"
+    },
+    {
+        "name": "NKRO_TG",
+        "code": "0x7013",
+        "category": "special"
+    },
+    {
+        "name": "LCAP",
+        "code": "0x82",
+        "category": "special"
+    },
+    {
+        "name": "LNUM",
+        "code": "0x83",
+        "category": "special"
+    },
+    {
+        "name": "LSCR",
+        "code": "0x84",
+        "category": "special"
+    },
+    {
+        "name": "PWR",
+        "code": "0xa5",
+        "category": "special"
+    },
+    {
+        "name": "SLEP",
+        "code": "0xa6",
+        "category": "special"
+    },
+    {
+        "name": "WAKE",
+        "code": "0xa7",
+        "category": "special"
+    },
+    {
+        "name": "CALC",
+        "code": "0xb2",
+        "category": "special"
+    },
+    {
+        "name": "MAIL",
+        "code": "0xb1",
+        "category": "special"
+    },
+    {
+        "name": "HELP",
+        "code": "0x75",
+        "category": "special"
+    },
+    {
+        "name": "STOP",
+        "code": "0x78",
+        "category": "special"
+    },
+    {
+        "name": "AGIN",
+        "code": "0x79",
+        "category": "special"
+    },
+    {
+        "name": "UNDO",
+        "code": "0x7a",
+        "category": "special"
+    },
+    {
+        "name": "CUT",
+        "code": "0x7b",
+        "category": "special"
+    },
+    {
+        "name": "COPY",
+        "code": "0x7c",
+        "category": "special"
+    },
+    {
+        "name": "PSTE",
+        "code": "0x7d",
+        "category": "special"
+    },
+    {
+        "name": "FIND",
+        "code": "0x7e",
+        "category": "special"
+    },
+    {
+        "name": "MYCM",
+        "code": "0xb3",
+        "category": "special"
+    },
+    {
+        "name": "WBAK",
+        "code": "0xb6",
+        "category": "special"
+    },
+    {
+        "name": "WFWD",
+        "code": "0xb7",
+        "category": "special"
+    },
+    {
+        "name": "WREF",
+        "code": "0xb9",
+        "category": "special"
+    },
+    {
+        "name": "WFAV",
+        "code": "0xba",
+        "category": "special"
+    },
+    {
+        "name": "WSCH",
+        "code": "0xb4",
+        "category": "special"
+    },
+    {
+        "name": "F13",
+        "code": "0x68",
+        "category": "special"
+    },
+    {
+        "name": "F14",
+        "code": "0x69",
+        "category": "special"
+    },
+    {
+        "name": "F15",
+        "code": "0x6a",
+        "category": "special"
+    },
+    {
+        "name": "F16",
+        "code": "0x6b",
+        "category": "special"
+    },
+    {
+        "name": "F17",
+        "code": "0x6c",
+        "category": "special"
+    },
+    {
+        "name": "F18",
+        "code": "0x6d",
+        "category": "special"
+    },
+    {
+        "name": "F19",
+        "code": "0x6e",
+        "category": "special"
+    },
+    {
+        "name": "F20",
+        "code": "0x6f",
+        "category": "special"
+    },
+    {
+        "name": "F21",
+        "code": "0x70",
+        "category": "special"
+    },
+    {
+        "name": "F22",
+        "code": "0x71",
+        "category": "special"
+    },
+    {
+        "name": "F23",
+        "code": "0x72",
+        "category": "special"
+    },
+    {
+        "name": "F24",
+        "code": "0x73",
+        "category": "special"
+    },
+    {
+        "name": "MS_U",
+        "code": "0xcd",
+        "category": "special"
+    },
+    {
+        "name": "MS_D",
+        "code": "0xce",
+        "category": "special"
+    },
+    {
+        "name": "MS_L",
+        "code": "0xcf",
+        "category": "special"
+    },
+    {
+        "name": "MS_R",
+        "code": "0xd0",
+        "category": "special"
+    },
+    {
+        "name": "BTN1",
+        "code": "0xd1",
+        "category": "special"
+    },
+    {
+        "name": "BTN2",
+        "code": "0xd2",
+        "category": "special"
+    },
+    {
+        "name": "BTN3",
+        "code": "0xd3",
+        "category": "special"
+    },
+    {
+        "name": "BTN4",
+        "code": "0xd4",
+        "category": "special"
+    },
+    {
+        "name": "BTN5",
+        "code": "0xd5",
+        "category": "special"
+    },
+    {
+        "name": "WH_U",
+        "code": "0xd9",
+        "category": "special"
+    },
+    {
+        "name": "WH_D",
+        "code": "0xda",
+        "category": "special"
+    },
+    {
+        "name": "WH_L",
+        "code": "0xdb",
+        "category": "special"
+    },
+    {
+        "name": "WH_R",
+        "code": "0xdc",
+        "category": "special"
+    },
+    {
+        "name": "ACL0",
+        "code": "0xdd",
+        "category": "special"
+    },
+    {
+        "name": "ACL1",
+        "code": "0xde",
+        "category": "special"
+    },
+    {
+        "name": "ACL2",
+        "code": "0xdf",
+        "category": "special"
+    },
+    {
+        "name": "AU_ON",
+        "code": "0x7480",
+        "category": "special"
+    },
+    {
+        "name": "AU_OFF",
+        "code": "0x7481",
+        "category": "special"
+    },
+    {
+        "name": "AU_TOG",
+        "code": "0x7482",
+        "category": "special"
+    },
+    {
+        "name": "CLICKY_TOGGLE",
+        "code": "0x748a",
+        "category": "special"
+    },
+    {
+        "name": "CLICKY_UP",
+        "code": "0x748d",
+        "category": "special"
+    },
+    {
+        "name": "CLICKY_DOWN",
+        "code": "0x748e",
+        "category": "special"
+    },
+    {
+        "name": "CLICKY_RESET",
+        "code": "0x748f",
+        "category": "special"
+    },
+    {
+        "name": "MU_ON",
+        "code": "0x7490",
+        "category": "special"
+    },
+    {
+        "name": "MU_OFF",
+        "code": "0x7491",
+        "category": "special"
+    },
+    {
+        "name": "MU_TOG",
+        "code": "0x7492",
+        "category": "special"
+    },
+    {
+        "name": "MU_MOD",
+        "code": "0x7493",
+        "category": "special"
+    },
+    {
+        "name": "ANY",
+        "code": "0x7e00",
+        "category": "special"
+    },
+    {
+        "name": "LS(",
+        "code": "0x7c1a",
+        "category": "special"
+    },
+    {
+        "name": "RS)",
+        "code": "0x7c1b",
+        "category": "special"
+    },
+    {
+        "name": "LC(",
+        "code": "0x7c18",
+        "category": "special"
+    },
+    {
+        "name": "RC)",
+        "code": "0x7c19",
+        "category": "special"
+    },
+    {
+        "name": "LA(",
+        "code": "0x7c1c",
+        "category": "special"
+    },
+    {
+        "name": "RA)",
+        "code": "0x7c1d",
+        "category": "special"
+    },
+    {
+        "name": "SftEnt",
+        "code": "0x7c1e",
+        "category": "special"
+    },
+    {
+        "name": "RGB_TOG",
+        "code": "0x7820",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_MOD",
+        "code": "0x7821",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_RMOD",
+        "code": "0x7822",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_HUI",
+        "code": "0x7823",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_HUD",
+        "code": "0x7824",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_SAI",
+        "code": "0x7825",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_SAD",
+        "code": "0x7826",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_VAI",
+        "code": "0x7827",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_VAD",
+        "code": "0x7828",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_SPI",
+        "code": "0x7829",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_SPD",
+        "code": "0x782a",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_M_P",
+        "code": "0x782b",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_M_B",
+        "code": "0x782c",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_M_R",
+        "code": "0x782d",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_M_SW",
+        "code": "0x782e",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_M_SN",
+        "code": "0x782f",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_M_K",
+        "code": "0x7830",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_M_X",
+        "code": "0x7831",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_M_G",
+        "code": "0x7832",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB_M_T",
+        "code": "0x7833",
+        "category": "Lighting"
+    },
+    {
+        "name": "BL_ON",
+        "code": "0x7800",
+        "category": "Lighting"
+    },
+    {
+        "name": "BL_OFF",
+        "code": "0x7801",
+        "category": "Lighting"
+    },
+    {
+        "name": "BL_TOGG",
+        "code": "0x7802",
+        "category": "Lighting"
+    },
+    {
+        "name": "BL_DEC",
+        "code": "0x7803",
+        "category": "Lighting"
+    },
+    {
+        "name": "BL_INC",
+        "code": "0x7804",
+        "category": "Lighting"
+    },
+    {
+        "name": "BL_STEP",
+        "code": "0x7805",
+        "category": "Lighting"
+    },
+    {
+        "name": "BL_BRTG",
+        "code": "0x7806",
+        "category": "Lighting"
+    },
+    {
+        "name": "RM_NEXT",
+        "code": "0x7843",
+        "category": "Lighting"
+    },
+    {
+        "name": "RM_PREV",
+        "code": "0x7844",
+        "category": "Lighting"
+    },
+    {
+        "name": "RM_HUEU",
+        "code": "0x7845",
+        "category": "Lighting"
+    },
+    {
+        "name": "RM_HUED",
+        "code": "0x7846",
+        "category": "Lighting"
+    },
+    {
+        "name": "RM_SATU",
+        "code": "0x7847",
+        "category": "Lighting"
+    },
+    {
+        "name": "RM_SATD",
+        "code": "0x7848",
+        "category": "Lighting"
+    },
+    {
+        "name": "RM_VALU",
+        "code": "0x7849",
+        "category": "Lighting"
+    },
+    {
+        "name": "RM_VALD",
+        "code": "0x784a",
+        "category": "Lighting"
+    },
+    {
+        "name": "RM_SPDU",
+        "code": "0x784b",
+        "category": "Lighting"
+    },
+    {
+        "name": "RM_SPDD",
+        "code": "0x784c",
+        "category": "Lighting"
+    },
+    {
+        "name": "MO(0)",
+        "code": "0x5220",
+        "category": "layers"
+    },
+    {
+        "name": "TG(0)",
+        "code": "0x5260",
+        "category": "layers"
+    },
+    {
+        "name": "TT(0)",
+        "code": "0x52c0",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(0)",
+        "code": "0x5280",
+        "category": "layers"
+    },
+    {
+        "name": "TO(0)",
+        "code": "0x5200",
+        "category": "layers"
+    },
+    {
+        "name": "DF(0)",
+        "code": "0x5240",
+        "category": "layers"
+    },
+    {
+        "name": "MO(1)",
+        "code": "0x5221",
+        "category": "layers"
+    },
+    {
+        "name": "TG(1)",
+        "code": "0x5261",
+        "category": "layers"
+    },
+    {
+        "name": "TT(1)",
+        "code": "0x52c1",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(1)",
+        "code": "0x5281",
+        "category": "layers"
+    },
+    {
+        "name": "TO(1)",
+        "code": "0x5201",
+        "category": "layers"
+    },
+    {
+        "name": "DF(1)",
+        "code": "0x5241",
+        "category": "layers"
+    },
+    {
+        "name": "MO(2)",
+        "code": "0x5222",
+        "category": "layers"
+    },
+    {
+        "name": "TG(2)",
+        "code": "0x5262",
+        "category": "layers"
+    },
+    {
+        "name": "TT(2)",
+        "code": "0x52c2",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(2)",
+        "code": "0x5282",
+        "category": "layers"
+    },
+    {
+        "name": "TO(2)",
+        "code": "0x5202",
+        "category": "layers"
+    },
+    {
+        "name": "DF(2)",
+        "code": "0x5242",
+        "category": "layers"
+    },
+    {
+        "name": "MO(3)",
+        "code": "0x5223",
+        "category": "layers"
+    },
+    {
+        "name": "TG(3)",
+        "code": "0x5263",
+        "category": "layers"
+    },
+    {
+        "name": "TT(3)",
+        "code": "0x52c3",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(3)",
+        "code": "0x5283",
+        "category": "layers"
+    },
+    {
+        "name": "TO(3)",
+        "code": "0x5203",
+        "category": "layers"
+    },
+    {
+        "name": "DF(3)",
+        "code": "0x5243",
+        "category": "layers"
+    },
+    {
+        "name": "MO(4)",
+        "code": "0x5224",
+        "category": "layers"
+    },
+    {
+        "name": "TG(4)",
+        "code": "0x5264",
+        "category": "layers"
+    },
+    {
+        "name": "TT(4)",
+        "code": "0x52c4",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(4)",
+        "code": "0x5284",
+        "category": "layers"
+    },
+    {
+        "name": "TO(4)",
+        "code": "0x5204",
+        "category": "layers"
+    },
+    {
+        "name": "DF(4)",
+        "code": "0x5244",
+        "category": "layers"
+    },
+    {
+        "name": "MO(5)",
+        "code": "0x5225",
+        "category": "layers"
+    },
+    {
+        "name": "TG(5)",
+        "code": "0x5265",
+        "category": "layers"
+    },
+    {
+        "name": "TT(5)",
+        "code": "0x52c5",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(5)",
+        "code": "0x5285",
+        "category": "layers"
+    },
+    {
+        "name": "TO(5)",
+        "code": "0x5205",
+        "category": "layers"
+    },
+    {
+        "name": "DF(5)",
+        "code": "0x5245",
+        "category": "layers"
+    },
+    {
+        "name": "MO(6)",
+        "code": "0x5226",
+        "category": "layers"
+    },
+    {
+        "name": "TG(6)",
+        "code": "0x5266",
+        "category": "layers"
+    },
+    {
+        "name": "TT(6)",
+        "code": "0x52c6",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(6)",
+        "code": "0x5286",
+        "category": "layers"
+    },
+    {
+        "name": "TO(6)",
+        "code": "0x5206",
+        "category": "layers"
+    },
+    {
+        "name": "DF(6)",
+        "code": "0x5246",
+        "category": "layers"
+    },
+    {
+        "name": "MO(7)",
+        "code": "0x5227",
+        "category": "layers"
+    },
+    {
+        "name": "TG(7)",
+        "code": "0x5267",
+        "category": "layers"
+    },
+    {
+        "name": "TT(7)",
+        "code": "0x52c7",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(7)",
+        "code": "0x5287",
+        "category": "layers"
+    },
+    {
+        "name": "TO(7)",
+        "code": "0x5207",
+        "category": "layers"
+    },
+    {
+        "name": "DF(7)",
+        "code": "0x5247",
+        "category": "layers"
+    },
+    {
+        "name": "MO(8)",
+        "code": "0x5228",
+        "category": "layers"
+    },
+    {
+        "name": "TG(8)",
+        "code": "0x5268",
+        "category": "layers"
+    },
+    {
+        "name": "TT(8)",
+        "code": "0x52c8",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(8)",
+        "code": "0x5288",
+        "category": "layers"
+    },
+    {
+        "name": "TO(8)",
+        "code": "0x5208",
+        "category": "layers"
+    },
+    {
+        "name": "DF(8)",
+        "code": "0x5248",
+        "category": "layers"
+    },
+    {
+        "name": "MO(9)",
+        "code": "0x5229",
+        "category": "layers"
+    },
+    {
+        "name": "TG(9)",
+        "code": "0x5269",
+        "category": "layers"
+    },
+    {
+        "name": "TT(9)",
+        "code": "0x52c9",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(9)",
+        "code": "0x5289",
+        "category": "layers"
+    },
+    {
+        "name": "TO(9)",
+        "code": "0x5209",
+        "category": "layers"
+    },
+    {
+        "name": "DF(9)",
+        "code": "0x5249",
+        "category": "layers"
+    },
+    {
+        "name": "MO(10)",
+        "code": "0x522a",
+        "category": "layers"
+    },
+    {
+        "name": "TG(10)",
+        "code": "0x526a",
+        "category": "layers"
+    },
+    {
+        "name": "TT(10)",
+        "code": "0x52ca",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(10)",
+        "code": "0x528a",
+        "category": "layers"
+    },
+    {
+        "name": "TO(10)",
+        "code": "0x520a",
+        "category": "layers"
+    },
+    {
+        "name": "DF(10)",
+        "code": "0x524a",
+        "category": "layers"
+    },
+    {
+        "name": "MO(11)",
+        "code": "0x522b",
+        "category": "layers"
+    },
+    {
+        "name": "TG(11)",
+        "code": "0x526b",
+        "category": "layers"
+    },
+    {
+        "name": "TT(11)",
+        "code": "0x52cb",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(11)",
+        "code": "0x528b",
+        "category": "layers"
+    },
+    {
+        "name": "TO(11)",
+        "code": "0x520b",
+        "category": "layers"
+    },
+    {
+        "name": "DF(11)",
+        "code": "0x524b",
+        "category": "layers"
+    },
+    {
+        "name": "MO(12)",
+        "code": "0x522c",
+        "category": "layers"
+    },
+    {
+        "name": "TG(12)",
+        "code": "0x526c",
+        "category": "layers"
+    },
+    {
+        "name": "TT(12)",
+        "code": "0x52cc",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(12)",
+        "code": "0x528c",
+        "category": "layers"
+    },
+    {
+        "name": "TO(12)",
+        "code": "0x520c",
+        "category": "layers"
+    },
+    {
+        "name": "DF(12)",
+        "code": "0x524c",
+        "category": "layers"
+    },
+    {
+        "name": "MO(13)",
+        "code": "0x522d",
+        "category": "layers"
+    },
+    {
+        "name": "TG(13)",
+        "code": "0x526d",
+        "category": "layers"
+    },
+    {
+        "name": "TT(13)",
+        "code": "0x52cd",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(13)",
+        "code": "0x528d",
+        "category": "layers"
+    },
+    {
+        "name": "TO(13)",
+        "code": "0x520d",
+        "category": "layers"
+    },
+    {
+        "name": "DF(13)",
+        "code": "0x524d",
+        "category": "layers"
+    },
+    {
+        "name": "MO(14)",
+        "code": "0x522e",
+        "category": "layers"
+    },
+    {
+        "name": "TG(14)",
+        "code": "0x526e",
+        "category": "layers"
+    },
+    {
+        "name": "TT(14)",
+        "code": "0x52ce",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(14)",
+        "code": "0x528e",
+        "category": "layers"
+    },
+    {
+        "name": "TO(14)",
+        "code": "0x520e",
+        "category": "layers"
+    },
+    {
+        "name": "DF(14)",
+        "code": "0x524e",
+        "category": "layers"
+    },
+    {
+        "name": "MO(15)",
+        "code": "0x522f",
+        "category": "layers"
+    },
+    {
+        "name": "TG(15)",
+        "code": "0x526f",
+        "category": "layers"
+    },
+    {
+        "name": "TT(15)",
+        "code": "0x52cf",
+        "category": "layers"
+    },
+    {
+        "name": "OSL(15)",
+        "code": "0x528f",
+        "category": "layers"
+    },
+    {
+        "name": "TO(15)",
+        "code": "0x520f",
+        "category": "layers"
+    },
+    {
+        "name": "DF(15)",
+        "code": "0x524f",
+        "category": "layers"
+    }
 ]

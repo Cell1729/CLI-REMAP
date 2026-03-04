@@ -36,11 +36,17 @@ class KeycodeSelectModal(ModalScreen):
             
             with TabbedContent():
                 for cat_name, keys in self.categories.items():
-                    with TabPane(cat_name):
+                    # 表示用に整形 (basic -> Basic, layers -> Layers)
+                    display_cat = cat_name if cat_name.isupper() else cat_name.capitalize()
+                    with TabPane(display_cat):
                         with Container(classes="scroll-grid-container"):
                             with Container(classes="scroll-grid"):
                                 for kc in keys:
-                                    yield Button(kc['name'], id=f"kc-{kc['code']}", variant="primary")
+                                    # ID は一意である必要があるため、名前とコードを組み合わせる
+                                    # Textual の ID は制限（英数字、アンダースコア、ハイフンのみ）があるため特殊文字を置換
+                                    safe_name = "".join([c if c.isalnum() or c in "_-" else "_" for c in kc['name']])
+                                    btn_id = f"id_{kc['code']}_{safe_name}"
+                                    yield Button(kc['name'], id=btn_id, variant="primary")
             
             with Horizontal(id="modal-footer"):
                 yield Button("Cancel", id="cancel-btn", variant="error")
@@ -48,11 +54,16 @@ class KeycodeSelectModal(ModalScreen):
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "cancel-btn":
             self.dismiss(None)
-        elif event.button.id and event.button.id.startswith("kc-"):
-            # ボタン ID から 0xXXXX を抽出
-            keycode_hex = event.button.id.split("kc-")[1]
-            keycode_int = int(keycode_hex, 16)
-            self.dismiss(keycode_int)
+        elif event.button.id and event.button.id.startswith("id_0x"):
+            # ボタン ID (id_0xXXXX_NAME) から 0xXXXX を抽出
+            parts = event.button.id.split("_")
+            if len(parts) >= 2:
+                keycode_hex = parts[1]
+                try:
+                    keycode_int = int(keycode_hex, 16)
+                    self.dismiss(keycode_int)
+                except ValueError:
+                    pass
 
 class KeyButton(Button):
     """個別のキーを表すウィジェット"""
