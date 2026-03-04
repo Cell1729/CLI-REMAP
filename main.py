@@ -97,6 +97,13 @@ class KeyButton(Button):
         super().__init__(label, **kwargs)
         self.key_info = key_info
         self.classes = "key-box"
+        
+        # 1u = 幅10, 高さ3 を基準にサイズと位置を設定
+        self.styles.width = int(key_info.w * 10)
+        self.styles.height = int(key_info.h * 3)
+        # 絶対座標で配置
+        self.styles.position = "absolute"
+        self.styles.offset = (int(key_info.x * 10), int(key_info.y * 3))
 
 class KeyboardRemapApp(App):
     """lazygit風のキーボード・リマップ TUI アプリ"""
@@ -109,11 +116,11 @@ class KeyboardRemapApp(App):
         height: 1fr;
     }
     #sidebar {
-        width: 25%;
+        width: 10%;
         border: solid green;
     }
     #layout-area {
-        width: 75%;
+        width: 90%;
         border: solid blue;
         padding: 1;
         overflow: scroll;
@@ -123,15 +130,25 @@ class KeyboardRemapApp(App):
         border: solid yellow;
         padding: 1;
     }
+    #key-canvas {
+        /* サイズは Python 側で動的に設定される */
+    }
     .row {
         height: auto;
         align: center middle;
     }
     .key-box {
-        min-width: 10;
-        height: 3;
         text-style: bold;
         content-align: center middle;
+        padding: 0;
+        margin: 0;
+        min-width: 0;
+        border: solid white;
+        background: $surface;
+    }
+    .key-box:hover {
+        border: solid $accent;
+        background: $accent 20%;
     }
     KeycodeSelectModal {
         align: center middle;
@@ -284,8 +301,21 @@ class KeyboardRemapApp(App):
                 
                 with Vertical(id="layout-area"):
                     if self.kb_config:
+                        # 全てのキーを絶対位置で配置するためのコンテナ
+                        # 全体サイズを計算
+                        max_w = 0
+                        max_h = 0
                         for row in self.kb_config.layouts.keymap:
-                            with Horizontal(classes="row"):
+                            for k in row:
+                                max_w = max(max_w, k.x + k.w)
+                                max_h = max(max_h, k.y + k.h)
+                        
+                        canvas = Container(id="key-canvas")
+                        canvas.styles.width = int(max_w * 10)
+                        canvas.styles.height = int(max_h * 3)
+                        
+                        with canvas:
+                            for row in self.kb_config.layouts.keymap:
                                 for key_info in row:
                                     yield KeyButton(key_info)
                     else:

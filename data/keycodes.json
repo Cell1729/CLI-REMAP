@@ -1,5 +1,25 @@
 [
     {
+        "name": "",
+        "code": "0x0000",
+        "category": "basic"
+    },
+    {
+        "name": "TRNS",
+        "code": "0x0001",
+        "category": "basic"
+    },
+    {
+        "name": "Fn1(Fn3)",
+        "code": "0x7c77",
+        "category": "layers"
+    },
+    {
+        "name": "Fn2(Fn3)",
+        "code": "0x7c78",
+        "category": "layers"
+    },
+    {
         "name": "A",
         "code": "0x4",
         "category": "basic"
@@ -240,7 +260,7 @@
         "category": "basic"
     },
     {
-        "name": "ESCAPE",
+        "name": "ESC",
         "code": "0x29",
         "category": "basic"
     },
@@ -360,37 +380,37 @@
         "category": "basic"
     },
     {
-        "name": "KP_SLASH",
+        "name": "/",
         "code": "0x54",
         "category": "basic"
     },
     {
-        "name": "KP_ASTERISK",
+        "name": "*",
         "code": "0x55",
         "category": "basic"
     },
     {
-        "name": "KP_MINUS",
+        "name": "-",
         "code": "0x56",
         "category": "basic"
     },
     {
-        "name": "KP_PLUS",
+        "name": "+",
         "code": "0x57",
         "category": "basic"
     },
     {
-        "name": "KP_DOT",
+        "name": ".",
         "code": "0x63",
         "category": "basic"
     },
     {
-        "name": "KP_ENTER",
+        "name": "ENTER",
         "code": "0x58",
         "category": "basic"
     },
     {
-        "name": "KP_EQUAL",
+        "name": "=",
         "code": "0x67",
         "category": "basic"
     },
@@ -415,12 +435,12 @@
         "category": "basic"
     },
     {
-        "name": "LGUI",
+        "name": "LWIN",
         "code": "0xe3",
         "category": "basic"
     },
     {
-        "name": "RGUI",
+        "name": "RWIN",
         "code": "0xe7",
         "category": "basic"
     },
@@ -435,7 +455,7 @@
         "category": "basic"
     },
     {
-        "name": "APPLICATION",
+        "name": "APP",
         "code": "0x65",
         "category": "basic"
     },
@@ -465,42 +485,47 @@
         "category": "basic"
     },
     {
-        "name": "MINUS",
+        "name": "-",
         "code": "0x2d",
         "category": "basic"
     },
     {
-        "name": "EQUAL",
+        "name": "=",
         "code": "0x2e",
         "category": "basic"
     },
     {
-        "name": "LBRACKET",
+        "name": "[",
         "code": "0x2f",
         "category": "basic"
     },
     {
-        "name": "RBRACKET",
+        "name": "]",
         "code": "0x30",
         "category": "basic"
     },
     {
-        "name": "BSLASH",
+        "name": "\\",
         "code": "0x31",
         "category": "basic"
     },
     {
-        "name": "NONUS_HASH",
+        "name": "#",
         "code": "0x32",
         "category": "basic"
     },
     {
-        "name": "SCOLON",
+        "name": ";",
         "code": "0x33",
         "category": "basic"
     },
     {
-        "name": "QUOTE",
+        "name": "'",
+        "code": "0x34",
+        "category": "basic"
+    },
+    {
+        "name": "`",
         "code": "0x34",
         "category": "basic"
     },
@@ -510,22 +535,22 @@
         "category": "basic"
     },
     {
-        "name": "COMMA",
+        "name": ",",
         "code": "0x36",
         "category": "basic"
     },
     {
-        "name": "DOT",
+        "name": ".",
         "code": "0x37",
         "category": "basic"
     },
     {
-        "name": "SLASH",
+        "name": "/",
         "code": "0x38",
         "category": "basic"
     },
     {
-        "name": "NONUS_BSLASH",
+        "name": "\\",
         "code": "0x64",
         "category": "basic"
     },
