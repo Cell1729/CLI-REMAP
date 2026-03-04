@@ -1,0 +1,138 @@
+[
+    {
+        "name": "A",
+        "code": "0x0004"
+    },
+    {
+        "name": "B",
+        "code": "0x0005"
+    },
+    {
+        "name": "C",
+        "code": "0x0006"
+    },
+    {
+        "name": "D",
+        "code": "0x0007"
+    },
+    {
+        "name": "E",
+        "code": "0x0008"
+    },
+    {
+        "name": "F",
+        "code": "0x0009"
+    },
+    {
+        "name": "G",
+        "code": "0x000a"
+    },
+    {
+        "name": "H",
+        "code": "0x000b"
+    },
+    {
+        "name": "I",
+        "code": "0x000c"
+    },
+    {
+        "name": "J",
+        "code": "0x000d"
+    },
+    {
+        "name": "K",
+        "code": "0x000e"
+    },
+    {
+        "name": "L",
+        "code": "0x000f"
+    },
+    {
+        "name": "M",
+        "code": "0x0010"
+    },
+    {
+        "name": "N",
+        "code": "0x0011"
+    },
+    {
+        "name": "O",
+        "code": "0x0012"
+    },
+    {
+        "name": "P",
+        "code": "0x0013"
+    },
+    {
+        "name": "Q",
+        "code": "0x0014"
+    },
+    {
+        "name": "R",
+        "code": "0x0015"
+    },
+    {
+        "name": "S",
+        "code": "0x0016"
+    },
+    {
+        "name": "T",
+        "code": "0x0017"
+    },
+    {
+        "name": "U",
+        "code": "0x0018"
+    },
+    {
+        "name": "V",
+        "code": "0x0019"
+    },
+    {
+        "name": "W",
+        "code": "0x001a"
+    },
+    {
+        "name": "X",
+        "code": "0x001b"
+    },
+    {
+        "name": "Y",
+        "code": "0x001c"
+    },
+    {
+        "name": "Z",
+        "code": "0x001d"
+    },
+    {
+        "name": "1",
+        "code": "0x001e"
+    },
+    {
+        "name": "2",
+        "code": "0x001f"
+    },
+    {
+        "name": "3",
+        "code": "0x0020"
+    },
+    {
+        "name": "ENTER",
+        "code": "0x0028"
+    },
+    {
+        "name": "ESC",
+        "code": "0x0029"
+    },
+    {
+        "name": "BSPC",
+        "code": "0x002a"
+    },
+    {
+        "name": "TAB",
+        "code": "0x002b"
+    },
+    {
+        "name": "SPACE",
+        "code": "0x002c"
+    }
+]
