@@ -1,31 +1,67 @@
 Screen {
     layout: vertical;
 }
+
 #main-container {
     height: 1fr;
 }
+
 #sidebar {
     width: 10%;
-    border: solid green;
 }
+
+#sidebar-layers-label {
+    color: green;
+    text-align: center;
+    text-style: bold;
+    width: 100%;
+}
+
+#layer-list {
+    background: $surface;
+    color: green;
+    border: tall green;
+    margin-bottom: 1;
+    height: 1fr;
+}
+
+#sidebar-macros-label {
+    color: magenta;
+    text-align: center;
+    text-style: bold;
+    width: 100%;
+    margin-top: 1;
+}
+
+#macro-list {
+    background: $surface;
+    color: magenta;
+    border: tall magenta;
+    height: 1fr;
+}
+
 #layout-area {
-    width: 90%;
+    width: 100%;
     border: solid blue;
     padding: 1;
     overflow: scroll;
 }
+
 #info-panel {
     height: 10;
     border: solid yellow;
     padding: 1;
 }
+
 #key-canvas {
     /* サイズは Python 側で動的に設定される */
 }
+
 .row {
     height: auto;
     align: center middle;
 }
+
 .key-box {
     text-style: bold;
     content-align: center middle;
@@ -35,14 +71,17 @@ Screen {
     border: solid white;
     background: $surface;
 }
+
 .key-box:hover {
     border: solid $accent;
     background: $accent 20%;
 }
+
 KeycodeSelectModal {
     align: center middle;
     background: rgba(0, 0, 0, 0.5);
 }
+
 #keycode-modal-container {
     width: 90%;
     height: 85%;
@@ -50,6 +89,7 @@ KeycodeSelectModal {
     background: $surface;
     padding: 0;
 }
+
 #modal-title {
     text-align: center;
     background: $primary;
@@ -58,24 +98,29 @@ KeycodeSelectModal {
     padding: 1;
     text-style: bold;
 }
+
 /* タブコンテンツの調整 */
 TabbedContent {
     height: 1fr;
 }
+
 TabPane {
     padding: 0;
 }
+
 .scroll-grid-container {
     height: 1fr;
     overflow-y: scroll;
     padding: 1;
 }
+
 .scroll-grid {
     layout: grid;
     grid-size: 6;
     grid-gutter: 1;
     height: auto;
 }
+
 .scroll-grid Button {
     height: 3;
     background: blue;
@@ -83,36 +128,44 @@ TabPane {
     content-align: center middle;
     text-style: bold;
 }
+
 .scroll-grid Button:hover {
     background: $accent;
 }
+
 #modal-footer {
     height: auto;
     align: center middle;
     padding: 1;
     border-top: solid $primary;
 }
+
 #cancel-btn {
     width: 20%;
     height: 3;
 }
+
 #keyboard-select-container {
     width: 60%;
     height: 50%;
     border: thick $primary;
     background: $surface;
 }
+
 #config-list {
     height: 1fr;
 }
+
 #macro-editor-area {
     padding: 1;
     border: solid magenta;
 }
+
 #macro-text-area {
     height: 1fr;
     margin-bottom: 1;
 }
+
 .macro-info-label {
     margin-bottom: 1;
     text-style: bold;

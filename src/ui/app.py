@@ -103,19 +103,21 @@ class KeyboardRemapApp(App):
         with Container(id="main-container"):
             with Horizontal():
                 with Vertical(id="sidebar"):
-                    yield Label(" LAYERS ")
+                    yield Label(" LAYERS ", id="sidebar-layers-label")
                     with ListView(id="layer-list"):
                         num_layers = info['layers'] if info else 4
                         for i in range(num_layers):
                             yield ListItem(Label(f"Layer {i}"), id=f"layer-{i}")
                     
-                    yield Label(" MACROS ")
+                    yield Label(" MACROS ", id="sidebar-macros-label")
                     with ListView(id="macro-list"):
                         for i in range(16):
                             yield ListItem(Label(f"Macro {i}"), id=f"macro-{i}")
                 
                 with ContentSwitcher(initial="layout-area"):
-                    with Vertical(id="layout-area"):
+                    layout_area = Vertical(id="layout-area")
+                    layout_area.styles.align = ("center", "middle")
+                    with layout_area:
                         if self.kb_config:
                             # 全てのキーを絶対位置で配置するためのコンテナ
                             # 全体サイズを計算
