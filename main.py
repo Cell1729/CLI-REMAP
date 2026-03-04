@@ -1,27 +1,47 @@
 import json
 from pathlib import Path
 from textual.app import App, ComposeResult
-from textual.widgets import Header, Footer, Static, ListView, ListItem, Label, Button
+from textual.widgets import Header, Footer, Static, ListView, ListItem, Label, Button, TabbedContent, TabPane
 from textual.containers import Container, Horizontal, Vertical, Grid
 from textual.screen import ModalScreen
 from src.models.keyboard_config import KeyboardConfig
 from src.keyboard_hid import KeyboardBackend
 
 class KeycodeSelectModal(ModalScreen):
-    """キーコードを選択するためのモーダル画面"""
+    """キーコードを選択するためのモーダル画面（カテゴリ別タブ表示）"""
     
     def __init__(self, keycodes):
         super().__init__()
         self.keycodes = keycodes
+        # カテゴリごとにキーを分類
+        self.categories = {
+            "basic": [],
+            "Media": [],
+            "MACRO": [],
+            "layers": [],
+            "special": [],
+            "Lighting": []
+        }
+        for kc in keycodes:
+            cat = kc.get("category", "basic")
+            if cat in self.categories:
+                self.categories[cat].append(kc)
+            else:
+                # 定義外のカテゴリは special へ
+                self.categories["special"].append(kc)
 
     def compose(self) -> ComposeResult:
         with Vertical(id="keycode-modal-container"):
             yield Label("Select New Keycode", id="modal-title")
-            # VerticalScroll を使用することでスクロールを確実にする
-            with Container(id="scroll-area-wrapper"):
-                with Container(id="scroll-grid"):
-                    for kc in self.keycodes:
-                        yield Button(kc['name'], id=f"kc-{kc['code']}", variant="primary")
+            
+            with TabbedContent():
+                for cat_name, keys in self.categories.items():
+                    with TabPane(cat_name):
+                        with Container(classes="scroll-grid-container"):
+                            with Container(classes="scroll-grid"):
+                                for kc in keys:
+                                    yield Button(kc['name'], id=f"kc-{kc['code']}", variant="primary")
+            
             with Horizontal(id="modal-footer"):
                 yield Button("Cancel", id="cancel-btn", variant="error")
 
@@ -83,8 +103,8 @@ class KeyboardRemapApp(App):
         background: rgba(0, 0, 0, 0.5);
     }
     #keycode-modal-container {
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 85%;
         border: thick $primary;
         background: $surface;
         padding: 0;
@@ -97,25 +117,32 @@ class KeyboardRemapApp(App):
         padding: 1;
         text-style: bold;
     }
-    #scroll-area-wrapper {
+    /* タブコンテンツの調整 */
+    TabbedContent {
+        height: 1fr;
+    }
+    TabPane {
+        padding: 0;
+    }
+    .scroll-grid-container {
         height: 1fr;
         overflow-y: scroll;
         padding: 1;
     }
-    #scroll-grid {
+    .scroll-grid {
         layout: grid;
         grid-size: 6;
         grid-gutter: 1;
         height: auto;
     }
-    #scroll-grid Button {
+    .scroll-grid Button {
         height: 3;
         background: blue;
         color: white;
         content-align: center middle;
         text-style: bold;
     }
-    #scroll-grid Button:hover {
+    .scroll-grid Button:hover {
         background: $accent;
     }
     #modal-footer {

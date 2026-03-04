@@ -1,138 +1,317 @@
 [
     {
         "name": "A",
-        "code": "0x0004"
+        "code": "0x0004",
+        "category": "basic"
     },
     {
         "name": "B",
-        "code": "0x0005"
+        "code": "0x0005",
+        "category": "basic"
     },
     {
         "name": "C",
-        "code": "0x0006"
+        "code": "0x0006",
+        "category": "basic"
     },
     {
         "name": "D",
-        "code": "0x0007"
+        "code": "0x0007",
+        "category": "basic"
     },
     {
         "name": "E",
-        "code": "0x0008"
+        "code": "0x0008",
+        "category": "basic"
     },
     {
         "name": "F",
-        "code": "0x0009"
+        "code": "0x0009",
+        "category": "basic"
     },
     {
         "name": "G",
-        "code": "0x000a"
+        "code": "0x000a",
+        "category": "basic"
     },
     {
         "name": "H",
-        "code": "0x000b"
+        "code": "0x000b",
+        "category": "basic"
     },
     {
         "name": "I",
-        "code": "0x000c"
+        "code": "0x000c",
+        "category": "basic"
     },
     {
         "name": "J",
-        "code": "0x000d"
+        "code": "0x000d",
+        "category": "basic"
     },
     {
         "name": "K",
-        "code": "0x000e"
+        "code": "0x000e",
+        "category": "basic"
     },
     {
         "name": "L",
-        "code": "0x000f"
+        "code": "0x000f",
+        "category": "basic"
     },
     {
         "name": "M",
-        "code": "0x0010"
+        "code": "0x0010",
+        "category": "basic"
     },
     {
         "name": "N",
-        "code": "0x0011"
+        "code": "0x0011",
+        "category": "basic"
     },
     {
         "name": "O",
-        "code": "0x0012"
+        "code": "0x0012",
+        "category": "basic"
     },
     {
         "name": "P",
-        "code": "0x0013"
+        "code": "0x0013",
+        "category": "basic"
     },
     {
         "name": "Q",
-        "code": "0x0014"
+        "code": "0x0014",
+        "category": "basic"
     },
     {
         "name": "R",
-        "code": "0x0015"
+        "code": "0x0015",
+        "category": "basic"
     },
     {
         "name": "S",
-        "code": "0x0016"
+        "code": "0x0016",
+        "category": "basic"
     },
     {
         "name": "T",
-        "code": "0x0017"
+        "code": "0x0017",
+        "category": "basic"
     },
     {
         "name": "U",
-        "code": "0x0018"
+        "code": "0x0018",
+        "category": "basic"
     },
     {
         "name": "V",
-        "code": "0x0019"
+        "code": "0x0019",
+        "category": "basic"
     },
     {
         "name": "W",
-        "code": "0x001a"
+        "code": "0x001a",
+        "category": "basic"
     },
     {
         "name": "X",
-        "code": "0x001b"
+        "code": "0x001b",
+        "category": "basic"
     },
     {
         "name": "Y",
-        "code": "0x001c"
+        "code": "0x001c",
+        "category": "basic"
     },
     {
         "name": "Z",
-        "code": "0x001d"
+        "code": "0x001d",
+        "category": "basic"
     },
     {
         "name": "1",
-        "code": "0x001e"
+        "code": "0x001e",
+        "category": "basic"
     },
     {
         "name": "2",
-        "code": "0x001f"
+        "code": "0x001f",
+        "category": "basic"
     },
     {
         "name": "3",
-        "code": "0x0020"
+        "code": "0x0020",
+        "category": "basic"
     },
     {
         "name": "ENTER",
-        "code": "0x0028"
+        "code": "0x0028",
+        "category": "basic"
     },
     {
         "name": "ESC",
-        "code": "0x0029"
+        "code": "0x0029",
+        "category": "basic"
     },
     {
         "name": "BSPC",
-        "code": "0x002a"
+        "code": "0x002a",
+        "category": "basic"
     },
     {
         "name": "TAB",
-        "code": "0x002b"
+        "code": "0x002b",
+        "category": "basic"
     },
     {
         "name": "SPACE",
-        "code": "0x002c"
+        "code": "0x002c",
+        "category": "basic"
+    },
+    {
+        "name": "LEFT",
+        "code": "0x0050",
+        "category": "basic"
+    },
+    {
+        "name": "DOWN",
+        "code": "0x0051",
+        "category": "basic"
+    },
+    {
+        "name": "UP",
+        "code": "0x0052",
+        "category": "basic"
+    },
+    {
+        "name": "RIGHT",
+        "code": "0x004f",
+        "category": "basic"
+    },
+    {
+        "name": "Vol+",
+        "code": "0x0080",
+        "category": "Media"
+    },
+    {
+        "name": "Vol-",
+        "code": "0x0081",
+        "category": "Media"
+    },
+    {
+        "name": "Mute",
+        "code": "0x007f",
+        "category": "Media"
+    },
+    {
+        "name": "Play",
+        "code": "0x00cd",
+        "category": "Media"
+    },
+    {
+        "name": "Next",
+        "code": "0x00b5",
+        "category": "Media"
+    },
+    {
+        "name": "Prev",
+        "code": "0x00b6",
+        "category": "Media"
+    },
+    {
+        "name": "Macro 0",
+        "code": "0x7700",
+        "category": "MACRO"
+    },
+    {
+        "name": "Macro 1",
+        "code": "0x7701",
+        "category": "MACRO"
+    },
+    {
+        "name": "Macro 2",
+        "code": "0x7702",
+        "category": "MACRO"
+    },
+    {
+        "name": "MO(0)",
+        "code": "0x5200",
+        "category": "layers"
+    },
+    {
+        "name": "MO(1)",
+        "code": "0x5201",
+        "category": "layers"
+    },
+    {
+        "name": "MO(2)",
+        "code": "0x5202",
+        "category": "layers"
+    },
+    {
+        "name": "TO(0)",
+        "code": "0x5220",
+        "category": "layers"
+    },
+    {
+        "name": "TO(1)",
+        "code": "0x5221",
+        "category": "layers"
+    },
+    {
+        "name": "MS Up",
+        "code": "0x00f0",
+        "category": "special"
+    },
+    {
+        "name": "MS Dn",
+        "code": "0x00f1",
+        "category": "special"
+    },
+    {
+        "name": "MS L",
+        "code": "0x00f2",
+        "category": "special"
+    },
+    {
+        "name": "MS R",
+        "code": "0x00f3",
+        "category": "special"
+    },
+    {
+        "name": "BTN1",
+        "code": "0x00f4",
+        "category": "special"
+    },
+    {
+        "name": "F13",
+        "code": "0x0068",
+        "category": "special"
+    },
+    {
+        "name": "!",
+        "code": "0x001e",
+        "category": "special"
+    },
+    {
+        "name": "RGB On",
+        "code": "0x5d00",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB Off",
+        "code": "0x5d01",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB Mode+",
+        "code": "0x5d02",
+        "category": "Lighting"
+    },
+    {
+        "name": "RGB Hue+",
+        "code": "0x5d03",
+        "category": "Lighting"
     }
 ]
