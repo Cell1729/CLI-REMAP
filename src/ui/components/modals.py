@@ -37,11 +37,11 @@ class KeycodeSelectModal(ModalScreen):
                     with TabPane(display_cat):
                         with Container(classes="scroll-grid-container"):
                             with Container(classes="scroll-grid"):
-                                for kc in keys:
+                                for idx, kc in enumerate(keys):
                                     # ID は一意である必要があるため、名前とコードを組み合わせる
-                                    # Textual の ID は制限（英数字、アンダースコア、ハイフンのみ）があるため特殊文字を置換
+                                    # さらに同じキーコードが複数ある場合に備えてインデックスを付加
                                     safe_name = "".join([c if c.isalnum() or c in "_-" else "_" for c in kc['name']])
-                                    btn_id = f"id_{kc['code']}_{safe_name}"
+                                    btn_id = f"id_{idx}_{kc['code']}_{safe_name}"
                                     yield Button(kc['name'], id=btn_id, variant="primary")
             
             with Horizontal(id="modal-footer"):
@@ -50,11 +50,11 @@ class KeycodeSelectModal(ModalScreen):
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "cancel-btn":
             self.dismiss(None)
-        elif event.button.id and event.button.id.startswith("id_0x"):
-            # ボタン ID (id_0xXXXX_NAME) から 0xXXXX を抽出
+        elif event.button.id and event.button.id.startswith("id_"):
+            # ボタン ID (id_INDEX_0xXXXX_NAME) から 0xXXXX を抽出
             parts = event.button.id.split("_")
-            if len(parts) >= 2:
-                keycode_hex = parts[1]
+            if len(parts) >= 3:
+                keycode_hex = parts[2]
                 try:
                     keycode_int = int(keycode_hex, 16)
                     self.dismiss(keycode_int)

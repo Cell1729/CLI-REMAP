@@ -123,8 +123,9 @@ TabPane {
 
 .scroll-grid Button {
     height: 3;
-    background: blue;
-    color: white;
+    border: solid blue;
+    background: $surface;
+    color: $text;
     content-align: center middle;
     text-style: bold;
 }
