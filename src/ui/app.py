@@ -1,13 +1,14 @@
 import json
 from pathlib import Path
 from textual.app import App, ComposeResult
-from textual.widgets import Header, Footer, Static, ListView, ListItem, Label, Button, TextArea, ContentSwitcher
+from textual.widgets import Header, Footer, Static, ListView, ListItem, Label, Button, ContentSwitcher
 from textual.containers import Container, Horizontal, Vertical
 
 from src.models.keyboard_config import KeyboardConfig
 from src.keyboard_hid import KeyboardBackend
 from src.ui.components.key_button import KeyButton
 from src.ui.components.modals import KeycodeSelectModal, KeyboardSelectModal
+from src.ui.components.macro_editor import MacroEditorPanel
 
 def find_matching_config(vid: int, pid: int) -> KeyboardConfig | None:
     kb_dir = Path("data/keyboards")
@@ -140,11 +141,7 @@ class KeyboardRemapApp(App):
                             yield Label("No Keyboard Layout Loaded. Press 'L' to load JSON.", id="no-config-label")
                     
                     with Vertical(id="macro-editor-area"):
-                        yield Label("Macro Editor", classes="macro-info-label")
-                        yield TextArea(id="macro-text-area")
-                        with Horizontal():
-                            yield Button("Save Macro", id="save-macro-btn", variant="primary")
-                            yield Button("Back to Layout", id="back-to-layout-btn")
+                        yield MacroEditorPanel(id="macro-editor-panel", keycode_map=self.keycode_map)
             
             with Container(id="info-panel"):
                 yield Label("Key Info:", id="key-title")
@@ -154,9 +151,16 @@ class KeyboardRemapApp(App):
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "save-macro-btn":
             if self.current_macro_index != -1:
-                text = self.query_one("#macro-text-area").text
                 try:
-                    self.backend.set_macro(self.current_macro_index, text)
+                    panel = self.query_one("#macro-editor-panel", MacroEditorPanel)
+                    actions = panel.get_actions()
+                    mm = self.backend.get_macro_manager()
+                    if mm:
+                        mm.set_macro_from_actions(self.current_macro_index, actions)
+                    else:
+                        # フォールバック: テキストのみ書き込み
+                        text = " ".join(a.to_text() for a in actions)
+                        self.backend.set_macro(self.current_macro_index, text)
                     self.notify(f"Macro {self.current_macro_index} saved!")
                 except Exception as e:
                     self.notify(f"Error saving macro: {e}", severity="error")
@@ -191,10 +195,14 @@ class KeyboardRemapApp(App):
             if idx is not None:
                 self.current_macro_index = idx
                 try:
-                    text = self.backend.get_macro(idx)
-                    self.query_one("#macro-text-area").text = text
+                    mm = self.backend.get_macro_manager()
+                    if mm:
+                        actions = mm.get_macro_actions(idx)
+                    else:
+                        actions = []
+                    panel = self.query_one("#macro-editor-panel", MacroEditorPanel)
+                    panel.load_actions(idx, actions)
                     self.query_one(ContentSwitcher).current = "macro-editor-area"
-                    self.query_one(".macro-info-label").update(f"Editing Macro {idx}")
-                    self.notify(f"Loaded Macro {idx}")
+                    self.notify(f"Loaded Macro {idx} ({len(actions)} actions)")
                 except Exception as e:
                     self.notify(f"Error loading macro: {e}", severity="error")

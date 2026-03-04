@@ -1,6 +1,7 @@
 import qmk_via_api
 from qmk_via_api import scan_keyboards
 from src.models.keyboard_config import KeyboardConfig
+from src.protocol.macro import VialMacroManager
 
 class KeyboardBackend:
     """qmk-via-api を使用したキーボード操作のバックエンド"""
@@ -8,6 +9,7 @@ class KeyboardBackend:
     def __init__(self):
         self.device = None
         self.api = None
+        self.macro_manager: VialMacroManager | None = None
 
     def find_and_connect(self, vid: int = None, pid: int = None):
         """デバイスをスキャンして接続する"""
@@ -15,18 +17,23 @@ class KeyboardBackend:
         if not devices:
             return False
         
-        # 特定の VID/PID が指定されている場合はフィルタリング
         if vid and pid:
             for d in devices:
                 if d.vendor_id == vid and d.product_id == pid:
                     self.device = d
                     break
         else:
-            # 指定がなければ最初に見つかったデバイスを使用
             self.device = devices[0]
         
         if self.device:
             self.api = qmk_via_api.KeyboardApi.from_device(self.device)
+            # Vial プロトコルバージョンを取得してマクロマネージャを初期化
+            try:
+                vial_protocol = self.api.get_protocol_version()
+            except Exception:
+                vial_protocol = 0
+            self.macro_manager = VialMacroManager(self.api, vial_protocol)
+            self.macro_manager.load()
             return True
         return False
 
@@ -50,57 +57,34 @@ class KeyboardBackend:
 
     def get_macro_count(self) -> int:
         """マクロの総数を取得"""
-        if not self.api:
-            return 0
-        return self.api.get_macro_count()
+        if self.macro_manager:
+            return self.macro_manager.macro_count
+        return 0
 
     def get_macro(self, index: int) -> str:
-        """指定されたインデックスのマクロ文字列を取得"""
-        if not self.api:
+        """
+        指定インデックスのマクロをテキスト表現で返す。
+        Vial プロトコルに従って v1/v2 を自動判別。
+        """
+        if not self.macro_manager:
             return ""
-        # qmk-via-api の get_macro_bytes() はバッファ全体を返す
-        buffer = self.api.get_macro_bytes()
-        if not buffer:
+        try:
+            return self.macro_manager.get_macro_text(index)
+        except Exception:
             return ""
-        
-        # マクロはヌル文字 (0x00) で区切られている
-        macros = buffer.split(b'\x00')
-        if index < len(macros):
-            try:
-                return macros[index].decode('utf-8', errors='ignore')
-            except UnicodeDecodeError:
-                return str(macros[index])
-        return ""
 
     def set_macro(self, index: int, text: str):
-        """指定されたインデックスにマクロ文字列を書き込み"""
-        if not self.api:
+        """
+        テキストをマクロとして書き込む（ActionText として扱う）。
+        キーボードを接続していない場合は何もしない。
+        """
+        if not self.macro_manager:
             return
-        
-        # 現在のバッファ全体を取得
-        buffer = bytearray(self.api.get_macro_bytes())
-        macros = buffer.split(b'\x00')
-        
-        # 指定インデックスのマクロを更新
-        new_text_bytes = text.encode('utf-8')
-        if index < len(macros):
-            macros[index] = new_text_bytes
-        else:
-            # インデックスが足りない場合は空で埋める
-            while len(macros) <= index:
-                macros.append(b'')
-            macros[index] = new_text_bytes
-            
-        # バッファを再構築
-        new_buffer = b'\x00'.join(macros) + b'\x00'
-        
-        # バッファサイズを調整 (パディング)
-        target_size = self.api.get_macro_buffer_size()
-        if len(new_buffer) > target_size:
-            # サイズオーバーの場合は切り詰め (本来はエラーにすべきだが簡易化)
-            new_buffer = new_buffer[:target_size]
-        else:
-            # 残りを 0x00 で埋める
-            new_buffer = new_buffer.ljust(target_size, b'\x00')
-            
-        self.api.set_macro_bytes(new_buffer)
+        try:
+            self.macro_manager.set_macro_text(index, text)
+        except Exception as e:
+            raise RuntimeError(f"マクロの書き込みに失敗しました: {e}")
+
+    def get_macro_manager(self) -> VialMacroManager | None:
+        """より高度なマクロ操作（ActionTap 等）が必要な場合に VialMacroManager を返す"""
+        return self.macro_manager
