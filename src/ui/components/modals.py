@@ -9,43 +9,66 @@ class KeycodeSelectModal(ModalScreen):
     def __init__(self, keycodes):
         super().__init__()
         self.keycodes = keycodes
-        # カテゴリごとにキーを分類
-        self.categories = {
-            "basic": [],
-            "Media": [],
-            "MACRO": [],
-            "layers": [],
-            "special": [],
-            "Lighting": []
-        }
+        # Remap 準拠のカテゴリ定義（表示順）
+        self.CATEGORY_ORDER = [
+            ("basic",        "Basic"),
+            ("numpad",       "Numpad"),
+            ("Media",        "Media"),
+            ("MACRO",        "Macro"),
+            ("layers",       "Layers"),
+            ("language",     "Language"),
+            ("lock",         "Lock"),
+            ("grave_escape", "Grave ESC"),
+            ("space_cadet",  "Space Cadet"),
+            ("one_shot",     "One Shot"),
+            ("mouse",        "Mouse"),
+            ("device",       "Device"),
+            ("keyboard",     "Keyboard"),
+            ("Lighting",     "Lighting"),
+            ("magic",        "Magic"),
+            ("combo",        "Combo"),
+            ("auto_shift",   "Auto Shift"),
+            ("dynamic_macro","Dyn Macro"),
+            ("leader",       "Leader"),
+            ("swap_hands",   "Swap Hands"),
+            ("key_override", "Key Override"),
+            ("tapping_term", "Tapping Term"),
+            ("auto_correct", "Auto Correct"),
+            ("repeat_key",   "Repeat Key"),
+            ("key_lock",     "Key Lock"),
+            ("caps_word",    "Caps Word"),
+            ("midi",         "MIDI"),
+            ("sequencer",    "Sequencer"),
+            ("special",      "Special"),
+        ]
+        self.categories = {key: [] for key, _ in self.CATEGORY_ORDER}
         for kc in keycodes:
             cat = kc.get("category", "basic")
             if cat in self.categories:
                 self.categories[cat].append(kc)
             else:
-                # 定義外のカテゴリは special へ
                 self.categories["special"].append(kc)
-            
+
     def compose(self) -> ComposeResult:
         with Vertical(id="keycode-modal-container"):
             yield Label("Select New Keycode", id="modal-title")
             
             with TabbedContent():
-                for cat_name, keys in self.categories.items():
-                    # 表示用に整形 (basic -> Basic, layers -> Layers)
-                    display_cat = cat_name if cat_name.isupper() else cat_name.capitalize()
-                    with TabPane(display_cat):
+                for cat_key, cat_display in self.CATEGORY_ORDER:
+                    keys = self.categories.get(cat_key, [])
+                    if not keys:
+                        continue  # 空のタブは表示しない
+                    with TabPane(cat_display):
                         with Container(classes="scroll-grid-container"):
                             with Container(classes="scroll-grid"):
                                 for idx, kc in enumerate(keys):
-                                    # ID は一意である必要があるため、名前とコードを組み合わせる
-                                    # さらに同じキーコードが複数ある場合に備えてインデックスを付加
                                     safe_name = "".join([c if c.isalnum() or c in "_-" else "_" for c in kc['name']])
                                     btn_id = f"id_{idx}_{kc['code']}_{safe_name}"
                                     yield Button(kc['name'], id=btn_id, variant="primary")
             
             with Horizontal(id="modal-footer"):
                 yield Button("Cancel", id="cancel-btn", variant="error")
+
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == "cancel-btn":

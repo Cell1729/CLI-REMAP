@@ -332,87 +332,87 @@
     {
         "name": "KP_0",
         "code": "0x62",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "KP_1",
         "code": "0x59",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "KP_2",
         "code": "0x5a",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "KP_3",
         "code": "0x5b",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "KP_4",
         "code": "0x5c",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "KP_5",
         "code": "0x5d",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "KP_6",
         "code": "0x5e",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "KP_7",
         "code": "0x5f",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "KP_8",
         "code": "0x60",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "KP_9",
         "code": "0x61",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "/",
         "code": "0x54",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "*",
         "code": "0x55",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "-",
         "code": "0x56",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "+",
         "code": "0x57",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": ".",
         "code": "0x63",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "ENTER",
         "code": "0x58",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "=",
         "code": "0x67",
-        "category": "basic"
+        "category": "numpad"
     },
     {
         "name": "LSHIFT",
@@ -1728,5 +1728,1340 @@
         "name": "DF(15)",
         "code": "0x524f",
         "category": "layers"
+    },
+    {
+        "name": "LM(0)",
+        "code": "0x5200",
+        "category": "layers"
+    },
+    {
+        "name": "LM(1)",
+        "code": "0x5201",
+        "category": "layers"
+    },
+    {
+        "name": "LM(2)",
+        "code": "0x5202",
+        "category": "layers"
+    },
+    {
+        "name": "LM(3)",
+        "code": "0x5203",
+        "category": "layers"
+    },
+    {
+        "name": "Bootloader",
+        "code": "0x7c00",
+        "category": "keyboard"
+    },
+    {
+        "name": "Reboot",
+        "code": "0x7c01",
+        "category": "keyboard"
+    },
+    {
+        "name": "Debug Tog",
+        "code": "0x7c02",
+        "category": "keyboard"
+    },
+    {
+        "name": "Clear EE",
+        "code": "0x7c03",
+        "category": "keyboard"
+    },
+    {
+        "name": "Make",
+        "code": "0x7c04",
+        "category": "keyboard"
+    },
+    {
+        "name": "Lang 1",
+        "code": "0x90",
+        "category": "language"
+    },
+    {
+        "name": "Lang 2",
+        "code": "0x91",
+        "category": "language"
+    },
+    {
+        "name": "Lang 3",
+        "code": "0x92",
+        "category": "language"
+    },
+    {
+        "name": "Lang 4",
+        "code": "0x93",
+        "category": "language"
+    },
+    {
+        "name": "Lang 5",
+        "code": "0x94",
+        "category": "language"
+    },
+    {
+        "name": "Lang 6",
+        "code": "0x95",
+        "category": "language"
+    },
+    {
+        "name": "Lang 7",
+        "code": "0x96",
+        "category": "language"
+    },
+    {
+        "name": "Lang 8",
+        "code": "0x97",
+        "category": "language"
+    },
+    {
+        "name": "Lang 9",
+        "code": "0x98",
+        "category": "language"
+    },
+    {
+        "name": "Locking CL",
+        "code": "0x82",
+        "category": "lock"
+    },
+    {
+        "name": "Locking NL",
+        "code": "0x83",
+        "category": "lock"
+    },
+    {
+        "name": "Locking SL",
+        "code": "0x84",
+        "category": "lock"
+    },
+    {
+        "name": "Combo On",
+        "code": "0x7200",
+        "category": "combo"
+    },
+    {
+        "name": "Combo Off",
+        "code": "0x7201",
+        "category": "combo"
+    },
+    {
+        "name": "Combo Tog",
+        "code": "0x7202",
+        "category": "combo"
+    },
+    {
+        "name": "AS Down",
+        "code": "0x7400",
+        "category": "auto_shift"
+    },
+    {
+        "name": "AS Up",
+        "code": "0x7401",
+        "category": "auto_shift"
+    },
+    {
+        "name": "AS Report",
+        "code": "0x7402",
+        "category": "auto_shift"
+    },
+    {
+        "name": "AS On",
+        "code": "0x7403",
+        "category": "auto_shift"
+    },
+    {
+        "name": "AS Off",
+        "code": "0x7404",
+        "category": "auto_shift"
+    },
+    {
+        "name": "AS Tog",
+        "code": "0x7405",
+        "category": "auto_shift"
+    },
+    {
+        "name": "BTN6",
+        "code": "0xd6",
+        "category": "mouse"
+    },
+    {
+        "name": "BTN7",
+        "code": "0xd7",
+        "category": "mouse"
+    },
+    {
+        "name": "BTN8",
+        "code": "0xd8",
+        "category": "mouse"
+    },
+    {
+        "name": "Mouse Up",
+        "code": "0xcd",
+        "category": "mouse"
+    },
+    {
+        "name": "Mouse Down",
+        "code": "0xce",
+        "category": "mouse"
+    },
+    {
+        "name": "Mouse Left",
+        "code": "0xcf",
+        "category": "mouse"
+    },
+    {
+        "name": "Mouse Right",
+        "code": "0xd0",
+        "category": "mouse"
+    },
+    {
+        "name": "MBtn1",
+        "code": "0xd1",
+        "category": "mouse"
+    },
+    {
+        "name": "MBtn2",
+        "code": "0xd2",
+        "category": "mouse"
+    },
+    {
+        "name": "MBtn3",
+        "code": "0xd3",
+        "category": "mouse"
+    },
+    {
+        "name": "MBtn4",
+        "code": "0xd4",
+        "category": "mouse"
+    },
+    {
+        "name": "MBtn5",
+        "code": "0xd5",
+        "category": "mouse"
+    },
+    {
+        "name": "WH Up",
+        "code": "0xd9",
+        "category": "mouse"
+    },
+    {
+        "name": "WH Down",
+        "code": "0xda",
+        "category": "mouse"
+    },
+    {
+        "name": "WH Left",
+        "code": "0xdb",
+        "category": "mouse"
+    },
+    {
+        "name": "WH Right",
+        "code": "0xdc",
+        "category": "mouse"
+    },
+    {
+        "name": "MAccel0",
+        "code": "0xdd",
+        "category": "mouse"
+    },
+    {
+        "name": "MAccel1",
+        "code": "0xde",
+        "category": "mouse"
+    },
+    {
+        "name": "MAccel2",
+        "code": "0xdf",
+        "category": "mouse"
+    },
+    {
+        "name": "Power",
+        "code": "0xa5",
+        "category": "device"
+    },
+    {
+        "name": "Sleep",
+        "code": "0xa6",
+        "category": "device"
+    },
+    {
+        "name": "Wake",
+        "code": "0xa7",
+        "category": "device"
+    },
+    {
+        "name": "Swap C/CL",
+        "code": "0x7010",
+        "category": "magic"
+    },
+    {
+        "name": "Unswp C/CL",
+        "code": "0x7011",
+        "category": "magic"
+    },
+    {
+        "name": "Tog C/CL",
+        "code": "0x7012",
+        "category": "magic"
+    },
+    {
+        "name": "NKRO Tog",
+        "code": "0x7013",
+        "category": "magic"
+    },
+    {
+        "name": "GUI On",
+        "code": "0x7014",
+        "category": "magic"
+    },
+    {
+        "name": "GUI Off",
+        "code": "0x7015",
+        "category": "magic"
+    },
+    {
+        "name": "Tog GUI",
+        "code": "0x7016",
+        "category": "magic"
+    },
+    {
+        "name": "Swap ESC",
+        "code": "0x7017",
+        "category": "magic"
+    },
+    {
+        "name": "Unswap ESC",
+        "code": "0x7018",
+        "category": "magic"
+    },
+    {
+        "name": "Swap BS",
+        "code": "0x7019",
+        "category": "magic"
+    },
+    {
+        "name": "Unswap BS",
+        "code": "0x701a",
+        "category": "magic"
+    },
+    {
+        "name": "Tog BS",
+        "code": "0x701b",
+        "category": "magic"
+    },
+    {
+        "name": "Swap C/CL  On",
+        "code": "0x701c",
+        "category": "magic"
+    },
+    {
+        "name": "DM RStart1",
+        "code": "0x7250",
+        "category": "dynamic_macro"
+    },
+    {
+        "name": "DM RStart2",
+        "code": "0x7251",
+        "category": "dynamic_macro"
+    },
+    {
+        "name": "DM RStop",
+        "code": "0x7252",
+        "category": "dynamic_macro"
+    },
+    {
+        "name": "DM Play1",
+        "code": "0x7253",
+        "category": "dynamic_macro"
+    },
+    {
+        "name": "DM Play2",
+        "code": "0x7254",
+        "category": "dynamic_macro"
+    },
+    {
+        "name": "Leader",
+        "code": "0x7700",
+        "category": "leader"
+    },
+    {
+        "name": "*Ctrl(",
+        "code": "0x7c60",
+        "category": "space_cadet"
+    },
+    {
+        "name": "Ctrl*)",
+        "code": "0x7c62",
+        "category": "space_cadet"
+    },
+    {
+        "name": "*Shift(",
+        "code": "0x7c50",
+        "category": "space_cadet"
+    },
+    {
+        "name": "Shift*)",
+        "code": "0x7c58",
+        "category": "space_cadet"
+    },
+    {
+        "name": "*Alt(",
+        "code": "0x7c64",
+        "category": "space_cadet"
+    },
+    {
+        "name": "Alt*)",
+        "code": "0x7c66",
+        "category": "space_cadet"
+    },
+    {
+        "name": "*Ctrl",
+        "code": "0x5501",
+        "category": "one_shot"
+    },
+    {
+        "name": "*Shift",
+        "code": "0x5502",
+        "category": "one_shot"
+    },
+    {
+        "name": "*Alt",
+        "code": "0x5504",
+        "category": "one_shot"
+    },
+    {
+        "name": "*Win",
+        "code": "0x5508",
+        "category": "one_shot"
+    },
+    {
+        "name": "Ctrl*",
+        "code": "0x5510",
+        "category": "one_shot"
+    },
+    {
+        "name": "Shift*",
+        "code": "0x5520",
+        "category": "one_shot"
+    },
+    {
+        "name": "Alt*",
+        "code": "0x5540",
+        "category": "one_shot"
+    },
+    {
+        "name": "Win*",
+        "code": "0x5580",
+        "category": "one_shot"
+    },
+    {
+        "name": "OS On",
+        "code": "0x7260",
+        "category": "one_shot"
+    },
+    {
+        "name": "OS Off",
+        "code": "0x7261",
+        "category": "one_shot"
+    },
+    {
+        "name": "OS Tog",
+        "code": "0x7262",
+        "category": "one_shot"
+    },
+    {
+        "name": "SH TG",
+        "code": "0x5696",
+        "category": "swap_hands"
+    },
+    {
+        "name": "SH TT",
+        "code": "0x5697",
+        "category": "swap_hands"
+    },
+    {
+        "name": "SH_MON",
+        "code": "0x5698",
+        "category": "swap_hands"
+    },
+    {
+        "name": "SH_MOFF",
+        "code": "0x5699",
+        "category": "swap_hands"
+    },
+    {
+        "name": "SH OFF",
+        "code": "0x569a",
+        "category": "swap_hands"
+    },
+    {
+        "name": "SH ON",
+        "code": "0x569b",
+        "category": "swap_hands"
+    },
+    {
+        "name": "KO Tog",
+        "code": "0x7270",
+        "category": "key_override"
+    },
+    {
+        "name": "KO On",
+        "code": "0x7271",
+        "category": "key_override"
+    },
+    {
+        "name": "KO Off",
+        "code": "0x7272",
+        "category": "key_override"
+    },
+    {
+        "name": "DT Print",
+        "code": "0x7280",
+        "category": "tapping_term"
+    },
+    {
+        "name": "DT Up",
+        "code": "0x7281",
+        "category": "tapping_term"
+    },
+    {
+        "name": "DT Down",
+        "code": "0x7282",
+        "category": "tapping_term"
+    },
+    {
+        "name": "AC On",
+        "code": "0x7290",
+        "category": "auto_correct"
+    },
+    {
+        "name": "AC Off",
+        "code": "0x7291",
+        "category": "auto_correct"
+    },
+    {
+        "name": "AC Tog",
+        "code": "0x7292",
+        "category": "auto_correct"
+    },
+    {
+        "name": "Rep Key",
+        "code": "0x7220",
+        "category": "repeat_key"
+    },
+    {
+        "name": "Alt Rep",
+        "code": "0x7221",
+        "category": "repeat_key"
+    },
+    {
+        "name": "Key Lock",
+        "code": "0x7230",
+        "category": "key_lock"
+    },
+    {
+        "name": "CW Tog",
+        "code": "0x7240",
+        "category": "caps_word"
+    },
+    {
+        "name": "PGDN",
+        "code": "0x4e",
+        "category": "basic"
+    },
+    {
+        "name": "Execute",
+        "code": "0x74",
+        "category": "special"
+    },
+    {
+        "name": "Select",
+        "code": "0x77",
+        "category": "special"
+    },
+    {
+        "name": "Cancel",
+        "code": "0x9b",
+        "category": "special"
+    },
+    {
+        "name": "Clear",
+        "code": "0x9c",
+        "category": "special"
+    },
+    {
+        "name": "SysReq",
+        "code": "0x9a",
+        "category": "special"
+    },
+    {
+        "name": "Prior",
+        "code": "0x8d",
+        "category": "special"
+    },
+    {
+        "name": "Menu",
+        "code": "0x76",
+        "category": "special"
+    },
+    {
+        "name": "Alt Erase",
+        "code": "0x99",
+        "category": "special"
+    },
+    {
+        "name": "ExSel",
+        "code": "0xa4",
+        "category": "special"
+    },
+    {
+        "name": "Midi C0",
+        "code": "0x7103",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C#0",
+        "code": "0x7104",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D0",
+        "code": "0x7105",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D#0",
+        "code": "0x7106",
+        "category": "midi"
+    },
+    {
+        "name": "Midi E0",
+        "code": "0x7107",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F0",
+        "code": "0x7108",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F#0",
+        "code": "0x7109",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G0",
+        "code": "0x710a",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G#0",
+        "code": "0x710b",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A0",
+        "code": "0x710c",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A#0",
+        "code": "0x710d",
+        "category": "midi"
+    },
+    {
+        "name": "Midi B0",
+        "code": "0x710e",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C1",
+        "code": "0x710f",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C#1",
+        "code": "0x7110",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D1",
+        "code": "0x7111",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D#1",
+        "code": "0x7112",
+        "category": "midi"
+    },
+    {
+        "name": "Midi E1",
+        "code": "0x7113",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F1",
+        "code": "0x7114",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F#1",
+        "code": "0x7115",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G1",
+        "code": "0x7116",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G#1",
+        "code": "0x7117",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A1",
+        "code": "0x7118",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A#1",
+        "code": "0x7119",
+        "category": "midi"
+    },
+    {
+        "name": "Midi B1",
+        "code": "0x711a",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C2",
+        "code": "0x711b",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C#2",
+        "code": "0x711c",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D2",
+        "code": "0x711d",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D#2",
+        "code": "0x711e",
+        "category": "midi"
+    },
+    {
+        "name": "Midi E2",
+        "code": "0x711f",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F2",
+        "code": "0x7120",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F#2",
+        "code": "0x7121",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G2",
+        "code": "0x7122",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G#2",
+        "code": "0x7123",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A2",
+        "code": "0x7124",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A#2",
+        "code": "0x7125",
+        "category": "midi"
+    },
+    {
+        "name": "Midi B2",
+        "code": "0x7126",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C3",
+        "code": "0x7127",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C#3",
+        "code": "0x7128",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D3",
+        "code": "0x7129",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D#3",
+        "code": "0x712a",
+        "category": "midi"
+    },
+    {
+        "name": "Midi E3",
+        "code": "0x712b",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F3",
+        "code": "0x712c",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F#3",
+        "code": "0x712d",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G3",
+        "code": "0x712e",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G#3",
+        "code": "0x712f",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A3",
+        "code": "0x7130",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A#3",
+        "code": "0x7131",
+        "category": "midi"
+    },
+    {
+        "name": "Midi B3",
+        "code": "0x7132",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C4",
+        "code": "0x7133",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C#4",
+        "code": "0x7134",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D4",
+        "code": "0x7135",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D#4",
+        "code": "0x7136",
+        "category": "midi"
+    },
+    {
+        "name": "Midi E4",
+        "code": "0x7137",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F4",
+        "code": "0x7138",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F#4",
+        "code": "0x7139",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G4",
+        "code": "0x713a",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G#4",
+        "code": "0x713b",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A4",
+        "code": "0x713c",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A#4",
+        "code": "0x713d",
+        "category": "midi"
+    },
+    {
+        "name": "Midi B4",
+        "code": "0x713e",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C5",
+        "code": "0x713f",
+        "category": "midi"
+    },
+    {
+        "name": "Midi C#5",
+        "code": "0x7140",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D5",
+        "code": "0x7141",
+        "category": "midi"
+    },
+    {
+        "name": "Midi D#5",
+        "code": "0x7142",
+        "category": "midi"
+    },
+    {
+        "name": "Midi E5",
+        "code": "0x7143",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F5",
+        "code": "0x7144",
+        "category": "midi"
+    },
+    {
+        "name": "Midi F#5",
+        "code": "0x7145",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G5",
+        "code": "0x7146",
+        "category": "midi"
+    },
+    {
+        "name": "Midi G#5",
+        "code": "0x7147",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A5",
+        "code": "0x7148",
+        "category": "midi"
+    },
+    {
+        "name": "Midi A#5",
+        "code": "0x7149",
+        "category": "midi"
+    },
+    {
+        "name": "Midi B5",
+        "code": "0x714a",
+        "category": "midi"
+    },
+    {
+        "name": "Oct N2",
+        "code": "0x7183",
+        "category": "midi"
+    },
+    {
+        "name": "Oct N1",
+        "code": "0x7184",
+        "category": "midi"
+    },
+    {
+        "name": "Oct 0",
+        "code": "0x7185",
+        "category": "midi"
+    },
+    {
+        "name": "Oct 1",
+        "code": "0x7186",
+        "category": "midi"
+    },
+    {
+        "name": "Oct 2",
+        "code": "0x7187",
+        "category": "midi"
+    },
+    {
+        "name": "Oct 3",
+        "code": "0x7188",
+        "category": "midi"
+    },
+    {
+        "name": "Oct 4",
+        "code": "0x7189",
+        "category": "midi"
+    },
+    {
+        "name": "Oct 5",
+        "code": "0x718a",
+        "category": "midi"
+    },
+    {
+        "name": "Oct 6",
+        "code": "0x718b",
+        "category": "midi"
+    },
+    {
+        "name": "Oct 7",
+        "code": "0x718c",
+        "category": "midi"
+    },
+    {
+        "name": "Oct Down",
+        "code": "0x718d",
+        "category": "midi"
+    },
+    {
+        "name": "Oct Up",
+        "code": "0x718e",
+        "category": "midi"
+    },
+    {
+        "name": "Trans N6",
+        "code": "0x718f",
+        "category": "midi"
+    },
+    {
+        "name": "Trans N5",
+        "code": "0x7190",
+        "category": "midi"
+    },
+    {
+        "name": "Trans N4",
+        "code": "0x7191",
+        "category": "midi"
+    },
+    {
+        "name": "Trans N3",
+        "code": "0x7192",
+        "category": "midi"
+    },
+    {
+        "name": "Trans N2",
+        "code": "0x7193",
+        "category": "midi"
+    },
+    {
+        "name": "Trans N1",
+        "code": "0x7194",
+        "category": "midi"
+    },
+    {
+        "name": "Trans 0",
+        "code": "0x7195",
+        "category": "midi"
+    },
+    {
+        "name": "Trans 1",
+        "code": "0x7196",
+        "category": "midi"
+    },
+    {
+        "name": "Trans 2",
+        "code": "0x7197",
+        "category": "midi"
+    },
+    {
+        "name": "Trans 3",
+        "code": "0x7198",
+        "category": "midi"
+    },
+    {
+        "name": "Trans 4",
+        "code": "0x7199",
+        "category": "midi"
+    },
+    {
+        "name": "Trans 5",
+        "code": "0x719a",
+        "category": "midi"
+    },
+    {
+        "name": "Trans 6",
+        "code": "0x719b",
+        "category": "midi"
+    },
+    {
+        "name": "Trans Down",
+        "code": "0x719d",
+        "category": "midi"
+    },
+    {
+        "name": "Trans Up",
+        "code": "0x719e",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 0",
+        "code": "0x719f",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 1",
+        "code": "0x71a0",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 2",
+        "code": "0x71a1",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 3",
+        "code": "0x71a2",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 4",
+        "code": "0x71a3",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 5",
+        "code": "0x71a4",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 6",
+        "code": "0x71a5",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 7",
+        "code": "0x71a6",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 8",
+        "code": "0x71a7",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 9",
+        "code": "0x71a8",
+        "category": "midi"
+    },
+    {
+        "name": "Vel 10",
+        "code": "0x71a9",
+        "category": "midi"
+    },
+    {
+        "name": "Vel Down",
+        "code": "0x71aa",
+        "category": "midi"
+    },
+    {
+        "name": "Vel Up",
+        "code": "0x71ab",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 1",
+        "code": "0x71ac",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 2",
+        "code": "0x71ad",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 3",
+        "code": "0x71ae",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 4",
+        "code": "0x71af",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 5",
+        "code": "0x71b0",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 6",
+        "code": "0x71b1",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 7",
+        "code": "0x71b2",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 8",
+        "code": "0x71b3",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 9",
+        "code": "0x71b4",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 10",
+        "code": "0x71b5",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 11",
+        "code": "0x71b6",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 12",
+        "code": "0x71b7",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 13",
+        "code": "0x71b8",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 14",
+        "code": "0x71b9",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 15",
+        "code": "0x71ba",
+        "category": "midi"
+    },
+    {
+        "name": "Ch 16",
+        "code": "0x71bb",
+        "category": "midi"
+    },
+    {
+        "name": "Ch Down",
+        "code": "0x71bc",
+        "category": "midi"
+    },
+    {
+        "name": "Ch Up",
+        "code": "0x71bd",
+        "category": "midi"
+    },
+    {
+        "name": "Midi On",
+        "code": "0x7100",
+        "category": "midi"
+    },
+    {
+        "name": "Midi Off",
+        "code": "0x7101",
+        "category": "midi"
+    },
+    {
+        "name": "Midi Tog",
+        "code": "0x7102",
+        "category": "midi"
+    },
+    {
+        "name": "All Notes Off",
+        "code": "0x71be",
+        "category": "midi"
+    },
+    {
+        "name": "Sustain",
+        "code": "0x71bf",
+        "category": "midi"
+    },
+    {
+        "name": "Portamento",
+        "code": "0x71c0",
+        "category": "midi"
+    },
+    {
+        "name": "Sostenuto",
+        "code": "0x71c1",
+        "category": "midi"
+    },
+    {
+        "name": "Soft",
+        "code": "0x71c2",
+        "category": "midi"
+    },
+    {
+        "name": "Legato",
+        "code": "0x71c3",
+        "category": "midi"
+    },
+    {
+        "name": "Modulation",
+        "code": "0x71c4",
+        "category": "midi"
+    },
+    {
+        "name": "Mod Spd Down",
+        "code": "0x71c5",
+        "category": "midi"
+    },
+    {
+        "name": "Mod Spd Up",
+        "code": "0x71c6",
+        "category": "midi"
+    },
+    {
+        "name": "PB Down",
+        "code": "0x71c7",
+        "category": "midi"
+    },
+    {
+        "name": "PB Up",
+        "code": "0x71c8",
+        "category": "midi"
+    },
+    {
+        "name": "Seq Tmp Down",
+        "code": "0x7203",
+        "category": "sequencer"
+    },
+    {
+        "name": "Seq Tmp Up",
+        "code": "0x7204",
+        "category": "sequencer"
+    },
+    {
+        "name": "Seq Res Down",
+        "code": "0x7205",
+        "category": "sequencer"
+    },
+    {
+        "name": "Seq Res Up",
+        "code": "0x7206",
+        "category": "sequencer"
+    },
+    {
+        "name": "Seq Steps All",
+        "code": "0x7207",
+        "category": "sequencer"
+    },
+    {
+        "name": "Seq Steps Clr",
+        "code": "0x7208",
+        "category": "sequencer"
     }
 ]
