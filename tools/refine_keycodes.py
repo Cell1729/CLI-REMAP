@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+BASE_DIR = Path(r"c:\Users\sabax\Repositories\CLI-REMAP")
+
 # 画像から特定したキーのリストと、それに対応する QMK 名称（またはパターン）
 TARGET_KEYS = {
     "basic": [
@@ -66,8 +68,7 @@ ALIAS_MAP = {
 
 def load_raw_keycodes():
     import sys
-    base_dir = Path(r"c:\Users\sabax\Repositories\CLI-REMAP")
-    sys.path.append(str(base_dir / "data"))
+    sys.path.append(str(BASE_DIR / "data"))
     
     # v6 を優先
     from keycodes_v6 import keycodes_v6
@@ -90,8 +91,7 @@ def load_raw_keycodes():
     return combined
 
 def refine():
-    base_dir = Path(r"c:\Users\sabax\Repositories\CLI-REMAP")
-    json_path = base_dir / "data" / "keycodes.json"
+    json_path = BASE_DIR / "data" / "keycodes.json"
     
     all_raw = load_raw_keycodes()
     refined_list = []

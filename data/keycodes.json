@@ -5,7 +5,7 @@
         "category": "basic"
     },
     {
-        "name": "TRNS",
+        "name": "▽",
         "code": "0x0001",
         "category": "basic"
     },
@@ -3063,5 +3063,10 @@
         "name": "Seq Steps Clr",
         "code": "0x7208",
         "category": "sequencer"
+    },
+    {
+        "name": "Grave ESC",
+        "code": "0x7c16",
+        "category": "grave_escape"
     }
 ]
